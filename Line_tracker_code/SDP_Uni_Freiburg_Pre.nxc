@@ -1,0 +1,184 @@
+/*
+*Define Thresholds here
+*/
+#define sOnBlack 40
+#define sOnWhite 60
+#define speedState0 10
+#define speedState2 30
+#define speedState4 50
+
+
+/*
+* Move robot FWD.....
+*It's reversed because the robot build that way!
+*/
+void moveForward () {
+
+     // Movement with automated sync of motors
+     OnRevReg(OUT_AC, 30, OUT_REGMODE_SPEED);
+
+}//endFuncMoveForward ()
+
+/*
+* Move robot BWD.....
+*It's reversed bcause the robot build that way!
+*/
+void moveBackwards () {
+
+     // Movement with automated sync of motors
+     OnFwdReg(OUT_AC, 30, OUT_REGMODE_SPEED);
+
+}//endFuncMoveBackwards()
+
+/*
+* Machines to full stop!!!
+*/
+void fullStop () {
+
+     //Full stop of the Robot
+     Off(OUT_AC);
+
+}//endFuncFullStop
+
+/*
+* Turn left ....
+*/
+void turnLeft () {
+
+     //Two motors (OUT_AC) offline
+     Off (OUT_AC);
+     
+     //Wait 3 seconds till
+     Wait (3000);
+     
+     //Right motor moves forward @ 30%. Left motor is offline
+     OnRev (OUT_C, 30);
+     
+     //Dooing that for 3 seconds
+     Wait (3000);
+     
+     //Set motor (OUT_C) offline
+     Off (OUT_C);
+
+     //Something needs to happen here to stop the turning!
+     //Kind of a checking where the Black line is?
+     //Or checking if sensor 1 and 4 are on white while 2 is back on black!
+     
+
+}//endFuncTurnLeft
+
+/*
+* Turn rght ....
+*/
+void turnRight () {
+
+     //Two motors (OUT_AC) offline
+     Off (OUT_AC);
+     
+     //Wait 3 seconds till
+     Wait (3000);
+     
+     //Left motor moves forward @ 30%.
+     OnRev (OUT_A, 30);
+     
+     //Dooing that for 3 seconds
+     Wait (3000);
+
+     //Set motor (OUT_A) offline
+     Off (OUT_A);
+     
+     //Something needs to happen here to stop the turning!
+     //Kind of a checking where the Black line is?
+     //Or checking if sensor 1 and 4 are on white while 2 is back on black!
+
+
+}//endFuncTurnRight
+
+void softOf () {
+
+     //Lets the Motor cast out softly
+     Coast(OUT_AC);
+
+}//endFuncSoftOf
+
+/*
+* Initialize all sensors
+*/
+void init () {
+
+     //Lightsensor on port 1. Left sensor
+     SetSensorLight (IN_1);
+
+     //Lightsensor on port 2. Middle sensor
+     SetSensorLight (IN_2);
+     
+     //Lightsensor on port 4. Right sensor
+     SetSensorLight (IN_4);
+
+}//endFuncInit
+
+void refreshDisplay () {
+
+string sLeft = "_L_";
+string sRight = "_R_";
+string sMiddle = "_M_";
+
+       //Clear the screen....
+       ClearScreen ();
+
+       while (true) {
+
+             //Display value of left sensor (IN_1)
+             TextOut (0, LCD_LINE1, sLeft);
+             NumOut (0, LCD_LINE2, Sensor (IN_1));
+
+             //Display value of middle sensor (IN_2)
+             TextOut (40, LCD_LINE1, sMiddle);
+             NumOut (40, LCD_LINE2, Sensor (IN_2));
+
+             //Display value of right sensor (IN_4)
+             TextOut (80, LCD_LINE1, sRight);
+             NumOut (80, LCD_LINE2, Sensor (IN_4));
+
+       }//endWhile1
+
+}//endFuncRefreshDisplay
+
+/*
+* All the magic goes here.....
+*/
+void driveLogic () {
+
+     refreshDisplay ();
+
+     while (true) {
+
+           if ( Sensor (IN_1) >= sOnWhite ) {
+          
+              if ( Sensor (IN_4) >= sOnWhite ) {
+
+                 moveForward ();
+
+              }//endIf2
+
+           }//endIf1
+
+          else {
+
+               fullStop ();
+
+          }//endElse1
+
+     }//endWhile1
+    
+}//endFuncDriveLogic
+
+/*
+*Main task. Only fuction calling here!....
+*/
+task main () {
+
+     init ();
+     driveLogic ();
+
+}//endMain
