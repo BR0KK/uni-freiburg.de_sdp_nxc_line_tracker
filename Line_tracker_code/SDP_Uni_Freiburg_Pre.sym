@@ -1,8 +1,8 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0refreshDisplay	6	1	0	4	11
+0	__D0refreshDisplay	6	1	0	4	7
 1	__D0SetSensorLight_inline_init	6	1	4	4	9
-2	__D0driveLogic	6	1	8	4	9
+2	__D0driveLogic	6	1	8	4	8
 3	__D0moveForward	6	1	12	4	2
 4	__DU0SetSensorLight_inline_init	5	1	16	4	6
 5	__signed_stack_001refreshDisplay	6	1	20	4	12
@@ -26,91 +26,90 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 23	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init	1	1	54	1	6
 24	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init	1	1	55	1	6
 25	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init	1	1	56	1	6
-26	__OnRev_Tmp	2	1	57	1	2
-27	__zfdriveLogic	1	1	58	1	8
-28	__ResetSensorPort	1	1	59	1	5
-29	__constVal3	2	0	60	1	3
-30	__ResetSensorTmp	1	1	61	1	2
-31	____ResetSensorSubroutine_return	1	1	62	1	5
-32	__PFTmp	1	1	63	1	1
-33	__constVal7	2	0	64	1	1
-34	__constVal1	2	0	65	1	6
-35	__zfSetSensorLight_inline_init	1	1	66	1	6
-36	__constVal32	2	0	67	1	6
-37	__zfrefreshDisplay	1	1	68	1	2
-38	__constVal0	2	1	69	1	8
-39	__TextOutArgs	8	0	4	16	31
-40	__TextOutArgs.Result	2	1	72	1	31
-41	__TextOutArgs.Location	8	0	2	4	31
-42	__TextOutArgs.Location.X	4	1	76	2	31
-43	__TextOutArgs.Location.Y	4	1	78	2	31
-44	__TextOutArgs.Text	7	0	80	4	31
-45	__TextOutArgs.Text.Text_type	1	0	0	1	0
-46	__TextOutArgs.Options	5	1	84	4	31
-47	__PointOutArgs	8	0	3	12	4
-48	__PointOutArgs.Result	2	1	88	1	4
-49	__PointOutArgs.Location	8	0	2	4	4
-50	__PointOutArgs.Location.X	4	1	92	2	4
-51	__PointOutArgs.Location.Y	4	1	94	2	4
-52	__PointOutArgs.Options	5	1	96	4	4
-53	__refreshDisplay_7qG2_sMiddle_7qG2_000	7	0	100	4	2
-54	__refreshDisplay_7qG2_sMiddle_7qG2_000.__refreshDisplay_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
-55	__constStr0011	7	0	102	4	1
-56	__constStr0011.__constStr0011_type	1	1	0	1	0
-57	__OUT_AC	7	0	104	4	2
-58	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-59	__constStr0010	7	0	106	4	1
-60	__constStr0010.__constStr0010_type	1	1	0	1	0
-61	__refreshDisplay_7qG2_sLeft_7qG2_000	7	0	108	4	2
-62	__refreshDisplay_7qG2_sLeft_7qG2_000.__refreshDisplay_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
-63	__strbufrefreshDisplay	7	0	110	4	12
-64	__strbufrefreshDisplay.__strbufrefreshDisplay_type	1	0	0	1	0
-65	__refreshDisplay_7qG2_sRight_7qG2_000	7	0	112	4	2
-66	__refreshDisplay_7qG2_sRight_7qG2_000.__refreshDisplay_7qG2_sRight_7qG2_000_type	1	0	0	1	0
-67	__constStr0009	7	0	114	4	1
-68	__constStr0009.__constStr0009_type	1	1	0	1	0
+26	__zfdriveLogic	1	1	57	1	8
+27	__ResetSensorPort	1	1	58	1	5
+28	__constVal3	2	0	59	1	3
+29	__ResetSensorTmp	1	1	60	1	2
+30	____ResetSensorSubroutine_return	1	1	61	1	5
+31	__PFTmp	1	1	62	1	1
+32	__constVal7	2	0	63	1	1
+33	__zfSetSensorLight_inline_init	1	1	64	1	6
+34	__constVal32	2	0	65	1	6
+35	__OnRev_Tmp	2	1	66	1	2
+36	__constVal0	2	1	67	1	8
+37	__constVal1	2	0	68	1	6
+38	__TextOutArgs	8	0	4	16	31
+39	__TextOutArgs.Result	2	1	72	1	31
+40	__TextOutArgs.Location	8	0	2	4	31
+41	__TextOutArgs.Location.X	4	1	76	2	31
+42	__TextOutArgs.Location.Y	4	1	78	2	31
+43	__TextOutArgs.Text	7	0	80	4	31
+44	__TextOutArgs.Text.Text_type	1	0	0	1	0
+45	__TextOutArgs.Options	5	1	84	4	31
+46	__PointOutArgs	8	0	3	12	4
+47	__PointOutArgs.Result	2	1	88	1	4
+48	__PointOutArgs.Location	8	0	2	4	4
+49	__PointOutArgs.Location.X	4	1	92	2	4
+50	__PointOutArgs.Location.Y	4	1	94	2	4
+51	__PointOutArgs.Options	5	1	96	4	4
+52	__refreshDisplay_7qG2_sMiddle_7qG2_000	7	0	100	4	2
+53	__refreshDisplay_7qG2_sMiddle_7qG2_000.__refreshDisplay_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
+54	__constStr0011	7	0	102	4	1
+55	__constStr0011.__constStr0011_type	1	1	0	1	0
+56	__OUT_AC	7	0	104	4	2
+57	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+58	__constStr0010	7	0	106	4	1
+59	__constStr0010.__constStr0010_type	1	1	0	1	0
+60	__refreshDisplay_7qG2_sLeft_7qG2_000	7	0	108	4	2
+61	__refreshDisplay_7qG2_sLeft_7qG2_000.__refreshDisplay_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
+62	__strbufrefreshDisplay	7	0	110	4	12
+63	__strbufrefreshDisplay.__strbufrefreshDisplay_type	1	0	0	1	0
+64	__refreshDisplay_7qG2_sRight_7qG2_000	7	0	112	4	2
+65	__refreshDisplay_7qG2_sRight_7qG2_000.__refreshDisplay_7qG2_sRight_7qG2_000_type	1	0	0	1	0
+66	__constStr0009	7	0	114	4	1
+67	__constStr0009.__constStr0009_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	182	0	#line 182 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	183	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	182	2	#line 182 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	183	2	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	184	2		subcall init, __init_return
-0	183	4	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	185	4	#line 185 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	186	4		subcall driveLogic, __driveLogic_return
-0	185	6	#line 185 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-0	186	6		exit -1, -1
+0	178	0	#line 178 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	179	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	178	2	#line 178 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	179	2	#line 179 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	180	2		subcall init, __init_return
+0	179	4	#line 179 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	181	4	#line 181 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	182	4		subcall driveLogic, __driveLogic_return
+0	181	6	#line 181 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	182	6		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	17	0	#line 17 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+2	17	0	#line 17 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	18	0		set __signed_stack_001moveForward, 30
-2	17	3	#line 17 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-2	17	3	#line 17 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+2	17	3	#line 17 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	17	3	#line 17 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	18	3		set __D0moveForward, 1
-2	19	6	#line 19 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+2	19	6	#line 19 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	20	6	#pragma macro 10
 2	20	6		acquire __OnRevMutex
 2	20	7		neg __OnRev_Tmp, __signed_stack_001moveForward
 2	20	10		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0moveForward, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 2	20	33		release __OnRevMutex
-2	4033	34	#line 4033 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-2	19	34	#line 19 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-2	25	34	#line 25 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+2	4033	34	#line 4033 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	19	34	#line 19 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	25	34	#line 25 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	26	34		subret __moveForward_return
-3	40	0	#line 40 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+3	40	0	#line 40 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 3	41	0	#pragma macro 7
 3	41	0		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	4059	23	#line 4059 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-3	40	23	#line 40 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-3	45	23	#line 45 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+3	4059	23	#line 4059 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	40	23	#line 40 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	45	23	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 3	46	23		subret __fullStop_return
-4	109	0	#line 109 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	109	0	#line 109 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	110	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 0
-4	109	3	#line 109 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	112	3	#line 112 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	109	3	#line 109 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	112	3	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	113	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
 4	3729	5	#line 3729 "NXCDefs.h"
 4	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
@@ -153,11 +152,11 @@ Clump	Line	PC	Source
 4	4249	44	#line 4249 "NXCDefs.h"
 4	3694	44	#line 3694 "NXCDefs.h"
 4	3732	44	#line 3732 "NXCDefs.h"
-4	112	44	#line 112 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	112	44	#line 112 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	112	44	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	112	44	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	113	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 1
-4	112	47	#line 112 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	115	47	#line 115 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	112	47	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	115	47	#line 115 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	116	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
 4	3729	49	#line 3729 "NXCDefs.h"
 4	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
@@ -200,11 +199,11 @@ Clump	Line	PC	Source
 4	4316	88	#line 4316 "NXCDefs.h"
 4	3694	88	#line 3694 "NXCDefs.h"
 4	3732	88	#line 3732 "NXCDefs.h"
-4	115	88	#line 115 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	115	88	#line 115 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	115	88	#line 115 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	115	88	#line 115 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	116	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 3
-4	115	91	#line 115 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	117	91	#line 117 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	115	91	#line 115 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	117	91	#line 117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	118	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
 4	3729	93	#line 3729 "NXCDefs.h"
 4	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
@@ -247,20 +246,20 @@ Clump	Line	PC	Source
 4	4383	132	#line 4383 "NXCDefs.h"
 4	3694	132	#line 3694 "NXCDefs.h"
 4	3732	132	#line 3732 "NXCDefs.h"
-4	117	132	#line 117 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-4	119	132	#line 119 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+4	117	132	#line 117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	119	132	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 4	120	132		subret __init_return
-5	122	0	#line 122 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	122	0	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	123	0		strcat __strbufrefreshDisplay, __constStr0009
-5	122	4	#line 122 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	122	4	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	123	4		mov __refreshDisplay_7qG2_sLeft_7qG2_000, __strbufrefreshDisplay
-5	123	6	#line 123 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	123	6	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	124	6		strcat __strbufrefreshDisplay, __constStr0010
-5	123	10	#line 123 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	123	10	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	124	10		mov __refreshDisplay_7qG2_sRight_7qG2_000, __strbufrefreshDisplay
-5	126	12	#line 126 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	126	12	#line 126 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	127	12		strcat __strbufrefreshDisplay, __constStr0011
-5	126	16	#line 126 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
+5	126	16	#line 126 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 5	127	16		mov __refreshDisplay_7qG2_sMiddle_7qG2_000, __strbufrefreshDisplay
 5	6069	18	#line 6069 "NXCDefs.h"
 5	6070	18	#pragma macro 6
@@ -270,216 +269,203 @@ Clump	Line	PC	Source
 5	6070	24		syscall 14, __PointOutArgs
 5	4417	27	#line 4417 "NXCDefs.h"
 5	6069	27	#line 6069 "NXCDefs.h"
-5	128	27	#line 128 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	128	27	#line 128 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	129	27		set __D0refreshDisplay, 1
-5	131	30	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	30		tst 5, __zfrefreshDisplay, __D0refreshDisplay
-5	131	33	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	33		brtst 4, __NXC_Label_516, __zfrefreshDisplay
-5	131	36	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	36		set __signed_stack_001refreshDisplay, 0
-5	131	39	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	131	39	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	39		set __signed_stack_002refreshDisplay, 56
-5	131	42	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	131	42	#line 131 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	42		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sLeft_7qG2_000
-5	132	46	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	46	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	46		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	132	48	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	48		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	132	50	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	50		set __TextOutArgs.Options, 0
-5	132	53	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	53		mov __TextOutArgs.Text, __strbufrefreshDisplay
-5	132	55	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	55		syscall 13, __TextOutArgs
-5	132	58	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	58	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	58	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	58	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	58		set __signed_stack_001refreshDisplay, 0
-5	132	61	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	61	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	61		set __signed_stack_002refreshDisplay, 48
-5	132	64	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	132	64	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	133	64		getin __D0refreshDisplay, __constVal0, 4
-5	135	68	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	68	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	68		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	135	70	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	70		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	135	72	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	72		set __TextOutArgs.Options, 0
-5	135	75	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	75		numtostr __TextOutArgs.Text, __D0refreshDisplay
-5	135	78	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	78		syscall 13, __TextOutArgs
-5	135	81	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	81	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	81	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	81	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	81	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	81		set __signed_stack_001refreshDisplay, 40
-5	135	84	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	84	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	84		set __signed_stack_002refreshDisplay, 56
-5	135	87	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	135	87	#line 135 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	87		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sMiddle_7qG2_000
-5	136	91	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	91	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	91		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	136	93	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	93		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	136	95	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	95		set __TextOutArgs.Options, 0
-5	136	98	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	98		mov __TextOutArgs.Text, __strbufrefreshDisplay
-5	136	100	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	100		syscall 13, __TextOutArgs
-5	136	103	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	103	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	103	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	103	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	103		set __signed_stack_001refreshDisplay, 40
-5	136	106	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	106	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	106		set __signed_stack_002refreshDisplay, 48
-5	136	109	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	136	109	#line 136 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	137	109		getin __D0refreshDisplay, __constVal1, 4
-5	139	113	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	113	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	113		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	139	115	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	115		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	139	117	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	117		set __TextOutArgs.Options, 0
-5	139	120	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	120		numtostr __TextOutArgs.Text, __D0refreshDisplay
-5	139	123	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	123		syscall 13, __TextOutArgs
-5	139	126	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	126	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	126	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	126	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	126	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	126		set __signed_stack_001refreshDisplay, 80
-5	139	129	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	129	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	129		set __signed_stack_002refreshDisplay, 56
-5	139	132	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	139	132	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	132		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sRight_7qG2_000
-5	140	136	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	136	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	136		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	140	138	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	138		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	140	140	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	140		set __TextOutArgs.Options, 0
-5	140	143	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	143		mov __TextOutArgs.Text, __strbufrefreshDisplay
-5	140	145	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	145		syscall 13, __TextOutArgs
-5	140	148	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	148	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	148	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	148	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	148		set __signed_stack_001refreshDisplay, 80
-5	140	151	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	151	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	151		set __signed_stack_002refreshDisplay, 48
-5	140	154	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	140	154	#line 140 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	141	154		getin __D0refreshDisplay, __constVal3, 4
-5	142	158	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	142	158	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	158		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
-5	142	160	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	160		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
-5	142	162	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	162		set __TextOutArgs.Options, 0
-5	142	165	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	165		numtostr __TextOutArgs.Text, __D0refreshDisplay
-5	142	168	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	168		syscall 13, __TextOutArgs
-5	142	171	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	143	171		mov __D0refreshDisplay, __TextOutArgs.Result
-5	142	173	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	142	173	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	142	173	#line 142 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	144	173	#line 144 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	145	173		jmp __NXC_Label_515
-5	144	175	#line 144 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	146	175	#line 146 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	147	175		set __D0refreshDisplay, 1
-5	146	178	#line 146 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	147	178		subret __refreshDisplay_return
-5	146	180	#line 146 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	151	180	#line 151 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-5	152	180		subret __refreshDisplay_return
-6	155	0	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	156	0		subcall refreshDisplay, __refreshDisplay_return
-6	155	2	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	156	2		mov __D0driveLogic, __D0refreshDisplay
-6	155	4	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	155	4	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	156	4		set __D0driveLogic, 1
-6	157	7	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	7		tst 5, __zfdriveLogic, __D0driveLogic
-6	157	10	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	10		brtst 4, __NXC_Label_552, __zfdriveLogic
-6	157	13	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	13		getin __signed_stack_001driveLogic, __constVal0, 4
-6	157	17	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	157	17	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	17		set __D0driveLogic, 60
-6	157	20	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	20		cmp 3, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
-6	157	24	#line 157 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	158	24		mov __D0driveLogic, __zfdriveLogic
-6	159	26	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	160	26		brtst 4, __NXC_Label_557, __zfdriveLogic
-6	159	29	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	160	29		getin __signed_stack_001driveLogic, __constVal3, 4
-6	159	33	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	159	33	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	160	33		set __D0driveLogic, 60
-6	159	36	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	160	36		cmp 3, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
-6	159	40	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	160	40		mov __D0driveLogic, __zfdriveLogic
-6	161	42	#line 161 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	162	42		brtst 4, __NXC_Label_560, __zfdriveLogic
-6	163	45	#line 163 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	164	45		subcall moveForward, __moveForward_return
-6	163	47	#line 163 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	167	47	#line 167 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	169	47	#line 169 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	170	47		jmp __NXC_Label_561
-6	171	49	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	172	49		subcall fullStop, __fullStop_return
-6	171	51	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	175	51	#line 175 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	180	51	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	181	51		jmp __NXC_Label_551
-6	180	53	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	180	53	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-6	181	53		subret __driveLogic_return
-7	188	0	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc"
-7	189	0		subret ____initialize_global_data_return
+5	129	27	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	129	27	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	27		set __signed_stack_001refreshDisplay, 0
+5	129	30	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	129	30	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	30		set __signed_stack_002refreshDisplay, 56
+5	129	33	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	129	33	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	33		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sLeft_7qG2_000
+5	130	37	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	37	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	37		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	130	39	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	39		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	130	41	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	41		set __TextOutArgs.Options, 0
+5	130	44	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	44		mov __TextOutArgs.Text, __strbufrefreshDisplay
+5	130	46	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	46		syscall 13, __TextOutArgs
+5	130	49	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	49	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	49	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	49	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	49		set __signed_stack_001refreshDisplay, 0
+5	130	52	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	52	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	52		set __signed_stack_002refreshDisplay, 48
+5	130	55	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	130	55	#line 130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	131	55		getin __D0refreshDisplay, __constVal0, 4
+5	133	59	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	59	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	59		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	133	61	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	61		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	133	63	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	63		set __TextOutArgs.Options, 0
+5	133	66	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	66		numtostr __TextOutArgs.Text, __D0refreshDisplay
+5	133	69	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	69		syscall 13, __TextOutArgs
+5	133	72	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	72	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	72	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	72	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	72	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	72		set __signed_stack_001refreshDisplay, 40
+5	133	75	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	75	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	75		set __signed_stack_002refreshDisplay, 56
+5	133	78	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	78	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	78		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sMiddle_7qG2_000
+5	134	82	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	82	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	82		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	134	84	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	84		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	134	86	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	86		set __TextOutArgs.Options, 0
+5	134	89	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	89		mov __TextOutArgs.Text, __strbufrefreshDisplay
+5	134	91	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	91		syscall 13, __TextOutArgs
+5	134	94	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	94	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	94	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	94	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	94		set __signed_stack_001refreshDisplay, 40
+5	134	97	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	97	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	97		set __signed_stack_002refreshDisplay, 48
+5	134	100	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	100	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	135	100		getin __D0refreshDisplay, __constVal1, 4
+5	137	104	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	104	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	104		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	137	106	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	106		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	137	108	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	108		set __TextOutArgs.Options, 0
+5	137	111	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	111		numtostr __TextOutArgs.Text, __D0refreshDisplay
+5	137	114	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	114		syscall 13, __TextOutArgs
+5	137	117	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	117	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	117	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	117	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	117	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	117		set __signed_stack_001refreshDisplay, 80
+5	137	120	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	120	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	120		set __signed_stack_002refreshDisplay, 56
+5	137	123	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	123	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	123		strcat __strbufrefreshDisplay, __refreshDisplay_7qG2_sRight_7qG2_000
+5	138	127	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	127	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	127		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	138	129	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	129		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	138	131	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	131		set __TextOutArgs.Options, 0
+5	138	134	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	134		mov __TextOutArgs.Text, __strbufrefreshDisplay
+5	138	136	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	136		syscall 13, __TextOutArgs
+5	138	139	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	139	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	139	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	139	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	139		set __signed_stack_001refreshDisplay, 80
+5	138	142	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	142	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	142		set __signed_stack_002refreshDisplay, 48
+5	138	145	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	145	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	145		getin __D0refreshDisplay, __constVal3, 4
+5	140	149	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	140	149	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	149		mov __TextOutArgs.Location.X, __signed_stack_001refreshDisplay
+5	140	151	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	151		mov __TextOutArgs.Location.Y, __signed_stack_002refreshDisplay
+5	140	153	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	153		set __TextOutArgs.Options, 0
+5	140	156	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	156		numtostr __TextOutArgs.Text, __D0refreshDisplay
+5	140	159	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	159		syscall 13, __TextOutArgs
+5	140	162	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	141	162		mov __D0refreshDisplay, __TextOutArgs.Result
+5	140	164	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	140	164	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	140	164	#line 140 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	145	164	#line 145 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	146	164		subret __refreshDisplay_return
+6	149	0	#line 149 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	150	0		subcall refreshDisplay, __refreshDisplay_return
+6	149	2	#line 149 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	149	2	#line 149 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	150	2		set __D0driveLogic, 1
+6	151	5	#line 151 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	152	5		tst 5, __zfdriveLogic, __D0driveLogic
+6	151	8	#line 151 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	152	8		brtst 4, __NXC_Label_546, __zfdriveLogic
+6	153	11	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	154	11		subcall refreshDisplay, __refreshDisplay_return
+6	153	13	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	153	13	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	154	13		getin __signed_stack_001driveLogic, __constVal0, 4
+6	153	17	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	153	17	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	154	17		set __D0driveLogic, 60
+6	153	20	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	154	20		cmp 3, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
+6	153	24	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	154	24		mov __D0driveLogic, __zfdriveLogic
+6	155	26	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	26		brtst 4, __NXC_Label_551, __zfdriveLogic
+6	155	29	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	29		getin __signed_stack_001driveLogic, __constVal3, 4
+6	155	33	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	155	33	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	33		set __D0driveLogic, 60
+6	155	36	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	36		cmp 3, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
+6	155	40	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	40		mov __D0driveLogic, __zfdriveLogic
+6	157	42	#line 157 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	158	42		brtst 4, __NXC_Label_554, __zfdriveLogic
+6	159	45	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	160	45		subcall moveForward, __moveForward_return
+6	159	47	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	163	47	#line 163 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	165	47	#line 165 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	166	47		jmp __NXC_Label_555
+6	167	49	#line 167 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	168	49		subcall fullStop, __fullStop_return
+6	167	51	#line 167 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	171	51	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	176	51	#line 176 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	177	51		jmp __NXC_Label_545
+6	176	53	#line 176 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	176	53	#line 176 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	177	53		subret __driveLogic_return
+7	184	0	#line 184 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	185	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
+0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	9	NXTDefs.h
-2	moveForward	22	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
-3	fullStop	58	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
-4	init	83	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
-5	refreshDisplay	217	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
-6	driveLogic	399	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
-7	__initialize_global_data	454	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Pre.nxc
+2	moveForward	22	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+3	fullStop	58	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+4	init	83	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+5	refreshDisplay	217	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+6	driveLogic	383	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+7	__initialize_global_data	438	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc

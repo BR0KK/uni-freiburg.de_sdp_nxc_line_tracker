@@ -126,21 +126,17 @@ string sMiddle = "_M_";
        //Clear the screen....
        ClearScreen ();
 
-       while (true) {
+       //Display value of left sensor (IN_1)
+       TextOut (0, LCD_LINE1, sLeft);
+       NumOut (0, LCD_LINE2, Sensor (IN_1));
 
-             //Display value of left sensor (IN_1)
-             TextOut (0, LCD_LINE1, sLeft);
-             NumOut (0, LCD_LINE2, Sensor (IN_1));
+       //Display value of middle sensor (IN_2)
+       TextOut (40, LCD_LINE1, sMiddle);
+       NumOut (40, LCD_LINE2, Sensor (IN_2));
 
-             //Display value of middle sensor (IN_2)
-             TextOut (40, LCD_LINE1, sMiddle);
-             NumOut (40, LCD_LINE2, Sensor (IN_2));
-
-             //Display value of right sensor (IN_4)
-             TextOut (80, LCD_LINE1, sRight);
-             NumOut (80, LCD_LINE2, Sensor (IN_4));
-
-       }//endWhile1
+       //Display value of right sensor (IN_4)
+       TextOut (80, LCD_LINE1, sRight);
+       NumOut (80, LCD_LINE2, Sensor (IN_4));
 
 }//endFuncRefreshDisplay
 
@@ -152,6 +148,8 @@ void driveLogic () {
      refreshDisplay ();
 
      while (true) {
+     
+           refreshDisplay ();
 
            if ( Sensor (IN_1) >= sOnWhite ) {
           

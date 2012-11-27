@@ -3,6 +3,9 @@
 */
 #define sOnBlack 40
 #define sOnWhite 60
+#define speedState0 10
+#define speedState2 30
+#define speedState4 50
 
 
 /*
@@ -114,41 +117,64 @@ void init () {
 
 }//endFuncInit
 
+void refreshDisplay () {
+
+string sLeft = "_L_";
+string sRight = "_R_";
+string sMiddle = "_M_";
+
+       //Clear the screen....
+       ClearScreen ();
+
+       //Display value of left sensor (IN_1)
+       TextOut (0, LCD_LINE1, sLeft);
+       NumOut (0, LCD_LINE2, Sensor (IN_1));
+
+       //Display value of middle sensor (IN_2)
+       TextOut (40, LCD_LINE1, sMiddle);
+       NumOut (40, LCD_LINE2, Sensor (IN_2));
+
+       //Display value of right sensor (IN_4)
+       TextOut (80, LCD_LINE1, sRight);
+       NumOut (80, LCD_LINE2, Sensor (IN_4));
+
+}//endFuncRefreshDisplay
+
 /*
 * All the magic goes here.....
 */
 void driveLogic () {
 
-    while (true) {
+     refreshDisplay ();
 
-          if ( Sensor (IN_1) > sOnWhite ) {
+     while (true) {
+
+           if ( Sensor (IN_1) >= sOnWhite ) {
           
-             NumOut (20, LCD_LINE1, Sensor (IN_1));
-          
-             if ( Sensor (IN_4) > sOnWhite ) {
+              if ( Sensor (IN_4) >= sOnWhite ) {
 
-                NumOut (60, LCD_LINE1, Sensor (IN_4) );
+                 moveForward ();
 
-                moveForward();
-                   
-             }//endIf2
-             
-          }//endIf1
+              }//endIf2
+
+           }//endIf1
 
           else {
 
-               turnLeft ();
+               fullStop ();
 
           }//endElse1
 
-    }//endWhile1
-     
+     }//endWhile1
+    
 }//endFuncDriveLogic
 
+/*
+*Main task. Only fuction calling here!....
+*/
 task main () {
 
      init ();
-     
      driveLogic ();
 
 }//endMain
