@@ -12,7 +12,7 @@
 //___________________________________________________________________________________________________________
 //
 /*
-*Author: BR0KK
+*Author:
 *Define Thresholds here:
 */
 //Set threshhold for black
@@ -31,7 +31,7 @@
 #define waitTime 1000
 
 /*
-*Author: BR0KK,
+*Author:
 *Initialize all sensors
 */
 void init () {
@@ -48,7 +48,7 @@ void init () {
 }//endFuncInit
 
 /*
-*Author: BR0KK,
+*Author:
 *Machines to full stop!!!
 */
 void fullStop () {
@@ -59,18 +59,7 @@ void fullStop () {
 }//endFuncFullStop
 
 /*
-*Author: BR0KK,
-*Lets the motors cast out softy ....
-*/
-void softOf () {
-
-     //Lets the Motor cast out softly
-     Coast(OUT_AC);
-
-}//endFuncSoftOf
-
-/*
-*Author: BR0KK,
+*Author:
 *Move robot FWD.....
 *It's reversed because the robot build that way!
 */
@@ -82,7 +71,7 @@ void moveForward () {
 }//endFuncMoveForward ()
 
 /*
-*Author: BR0KK,
+*Author:
 *Move robot BWD.....
 *It's reversed bcause the robot build that way!
 */
@@ -94,7 +83,7 @@ void moveBackwards () {
 }//endFuncMoveBackwards()
 
 /*
-*Author: BR0KK,
+*Author:
 *Turn left ....
 */
 void turnLeft () {
@@ -108,7 +97,7 @@ void turnLeft () {
 }//endFuncTurnLeft
 
 /*
-*Author: BR0KK,
+*Author:
 *Turn rght ....
 */
 void turnRight () {
@@ -122,7 +111,7 @@ void turnRight () {
 }//endFuncTurnRight
 
 /*
-*Author: BR0KK,
+*Author:
 *Display all the Sesnsor values at the display of the NXC BRIX
 *Makes it easier to debug in live mode :)
 */
@@ -159,8 +148,8 @@ int rValue = Sensor (IN_4);
 }//endFuncRefreshDisplay
 
 /*
-*Author: BR0KK,
-*All driving the magic goes here.....
+*Author:
+*All driving magic goes here.....
 *Main part of this function should be calling the necessary function to drive the robot...
 */
 void driveLogic () {
@@ -205,7 +194,7 @@ void driveLogic () {
 }//endFuncDriveLogic
 
 /*
-*Author: BR0KK,
+*Author:
 *Main task. Only fuction calling here!....
 */
 task main () {

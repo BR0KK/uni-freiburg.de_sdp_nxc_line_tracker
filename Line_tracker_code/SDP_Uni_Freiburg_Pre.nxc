@@ -21,6 +21,15 @@
 //Set threshhold for white
 #define sOnWhite 60
 
+//Set threshold middleSafeOnBlack 1
+#define middleSafeOnBlack 1
+
+//Set threshold leftSafeOnWhite 1
+#define leftSafeOnWhite 1
+
+//Set threshold rightSafeOnWhite 1
+#define rightSafeOnWhite 1
+
 //Set forward / backward speed limit
 #define speed1 50
 
@@ -149,7 +158,7 @@ int rValue = Sensor (IN_4);
 
 /*
 *Author:
-*All driving the magic goes here.....
+*All driving magic goes here.....
 *Main part of this function should be calling the necessary function to drive the robot...
 */
 void driveLogic () {
