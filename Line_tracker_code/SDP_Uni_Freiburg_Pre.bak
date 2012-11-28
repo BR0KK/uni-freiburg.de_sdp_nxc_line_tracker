@@ -1,37 +1,55 @@
 /*
-*Define Thresholds here
+*
+*SDP_UNI_FREIBURG_NXC_LINE_FOLLOWING_BOT
+*Group:                                 10
+*Author:                                Hanno Haßelkuß (BR0KK), Martin Tetzlaf, Sinan Ötzmen, Stefan Schwaer
+*Matrikel:                              3525991,
+*GITHUB:                                https://github.com/BR0KK/uni-freiburg.de_sdp_nxc_line_tracker
+*License:                               ?
+*
 */
+//___________________________________________________________________________________________________________
+//___________________________________________________________________________________________________________
+//
+/*
+*Author: BR0KK
+*Define Thresholds here:
+*/
+//Set threshhold for black
 #define sOnBlack 40
+
+//Set threshhold for white
 #define sOnWhite 60
-#define speedState0 10
-#define speedState2 30
-#define speedState4 50
 
+//Set forward / backward speed limit
+#define speed1 50
+
+//Set turn speed limit
+#define turnSpeed 80
+
+//Set wait time for further use (I don't use it atm...)
+#define waitTime 1000
 
 /*
-* Move robot FWD.....
-*It's reversed because the robot build that way!
+*Author: BR0KK,
+*Initialize all sensors
 */
-void moveForward () {
+void init () {
 
-     // Movement with automated sync of motors
-     OnRevReg(OUT_AC, 30, OUT_REGMODE_SPEED);
+     //SET Lightsensor on port (IN_1). Left sensor
+     SetSensorLight (IN_1);
 
-}//endFuncMoveForward ()
+     //SET Color Sensor on port (IN_2). Middle sensor
+     SetSensorLight (IN_2);
 
-/*
-* Move robot BWD.....
-*It's reversed bcause the robot build that way!
-*/
-void moveBackwards () {
+     //SET Lightsensor on port (IN_4). Right sensor
+     SetSensorLight (IN_4);
 
-     // Movement with automated sync of motors
-     OnFwdReg(OUT_AC, 30, OUT_REGMODE_SPEED);
-
-}//endFuncMoveBackwards()
+}//endFuncInit
 
 /*
-* Machines to full stop!!!
+*Author: BR0KK,
+*Machines to full stop!!!
 */
 void fullStop () {
 
@@ -41,59 +59,9 @@ void fullStop () {
 }//endFuncFullStop
 
 /*
-* Turn left ....
+*Author: BR0KK,
+*Lets the motors cast out softy ....
 */
-void turnLeft () {
-
-     //Two motors (OUT_AC) offline
-     Off (OUT_AC);
-     
-     //Wait 3 seconds till
-     Wait (3000);
-     
-     //Right motor moves forward @ 30%. Left motor is offline
-     OnRev (OUT_C, 30);
-     
-     //Dooing that for 3 seconds
-     Wait (3000);
-     
-     //Set motor (OUT_C) offline
-     Off (OUT_C);
-
-     //Something needs to happen here to stop the turning!
-     //Kind of a checking where the Black line is?
-     //Or checking if sensor 1 and 4 are on white while 2 is back on black!
-     
-
-}//endFuncTurnLeft
-
-/*
-* Turn rght ....
-*/
-void turnRight () {
-
-     //Two motors (OUT_AC) offline
-     Off (OUT_AC);
-     
-     //Wait 3 seconds till
-     Wait (3000);
-     
-     //Left motor moves forward @ 30%.
-     OnRev (OUT_A, 30);
-     
-     //Dooing that for 3 seconds
-     Wait (3000);
-
-     //Set motor (OUT_A) offline
-     Off (OUT_A);
-     
-     //Something needs to happen here to stop the turning!
-     //Kind of a checking where the Black line is?
-     //Or checking if sensor 1 and 4 are on white while 2 is back on black!
-
-
-}//endFuncTurnRight
-
 void softOf () {
 
      //Lets the Motor cast out softly
@@ -102,79 +70,150 @@ void softOf () {
 }//endFuncSoftOf
 
 /*
-* Initialize all sensors
+*Author: BR0KK,
+*Move robot FWD.....
+*It's reversed because the robot build that way!
 */
-void init () {
+void moveForward () {
 
-     //Lightsensor on port 1. Left sensor
-     SetSensorLight (IN_1);
+     //Forward movement with automated sync of motors
+     OnRevReg(OUT_AC, speed1, OUT_REGMODE_SPEED);
 
-     //Lightsensor on port 2. Middle sensor
-     SetSensorLight (IN_2);
+}//endFuncMoveForward ()
+
+/*
+*Author: BR0KK,
+*Move robot BWD.....
+*It's reversed bcause the robot build that way!
+*/
+void moveBackwards () {
+
+     //Backward movement with automated sync of motors
+     OnFwdReg(OUT_AC, speed1, OUT_REGMODE_SPEED);
+
+}//endFuncMoveBackwards()
+
+/*
+*Author: BR0KK,
+*Turn left ....
+*/
+void turnLeft () {
+
+     //Left motor moves forward @ "turnSpeed" %.
+     OnRev (OUT_C, turnSpeed);
      
-     //Lightsensor on port 4. Right sensor
-     SetSensorLight (IN_4);
+     //Do That for "waitTime" seconds (See "#define...." ant the top of the program
+     Wait (waitTime);
+     
+}//endFuncTurnLeft
 
-}//endFuncInit
+/*
+*Author: BR0KK,
+*Turn rght ....
+*/
+void turnRight () {
 
-void refreshDisplay () {
+     //Left motor moves forward @ "turnSpeed" %.
+     OnRev (OUT_A, turnSpeed);
 
+     //Do That for "waitTime" seconds (See "#define...." ant the top of the program
+     Wait (waitTime);
+
+}//endFuncTurnRight
+
+/*
+*Author: BR0KK,
+*Display all the Sesnsor values at the display of the NXC BRIX
+*Makes it easier to debug in live mode :)
+*/
+void displaySensors () {
+
+//Allocate STRING values to print them on the Display.... It's esier to change them here
 string sLeft = "_L_";
 string sRight = "_R_";
 string sMiddle = "_M_";
 
-       //Clear the screen....
-       ClearScreen ();
+//Allocate INTEGER values and set them to values of the associated Sensors. It's easier to change them here
+int lValue = Sensor (IN_1);
+int mValue = Sensor (IN_2);
+int rValue = Sensor (IN_4);
 
-       //Display value of left sensor (IN_1)
+       //Display STRING "sLeft" for left sensor (IN_1) on LCD_LINE1
        TextOut (0, LCD_LINE1, sLeft);
-       NumOut (0, LCD_LINE2, Sensor (IN_1));
-
-       //Display value of middle sensor (IN_2)
+       
+       //Display INTEGER "lValue" of left sensor (IN_1) on LCD_LINE2
+       NumOut (0, LCD_LINE2, lValue);
+       
+       //Display STRING "sMiddle" for middle sensor (IN_2) on LCD_LINE1
        TextOut (40, LCD_LINE1, sMiddle);
-       NumOut (40, LCD_LINE2, Sensor (IN_2));
 
-       //Display value of right sensor (IN_4)
+       //Display INTEGER "mValue" for middle sensor (IN_1) on LCD_LINE2
+       NumOut (40, LCD_LINE2, mValue);
+
+       //Display STRING "sRight" for right sensor (IN_4) on LCD_LINE1
        TextOut (80, LCD_LINE1, sRight);
-       NumOut (80, LCD_LINE2, Sensor (IN_4));
+       
+       //Display INTEGER "rValue " for left sensor (IN_1) on LCD_LINE2
+       NumOut (80, LCD_LINE2, rValue);
 
 }//endFuncRefreshDisplay
 
 /*
-* All the magic goes here.....
+*Author: BR0KK,
+*All driving the magic goes here.....
+*Main part of this function should be calling the necessary function to drive the robot...
 */
 void driveLogic () {
 
-     refreshDisplay ();
+     //Looped forever....
+     do {
+     
+     //Print out Sensor values collected by function "displaySensors ()"
+     displaySensors ();
+     
+        //As long as Sensor (IN_1) AND (&&) Sensor (IN_4) are on White......
+        if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite) {
 
-     while (true) {
+        //Drive forward... (See function "moveForward ()" for details)
+        moveForward ();
 
-           if ( Sensor (IN_1) >= sOnWhite ) {
-          
-              if ( Sensor (IN_4) >= sOnWhite ) {
+        }//endIf1
+        
+        //If Sensor (IN_1) detects a value <= sOnBlack than....
+        if (Sensor (IN_1) <= sOnBlack ) {
 
-                 moveForward ();
+           //Stop the Machine (See function "fullStop ()" for details)
+           fullStop ();
 
-              }//endIf2
+           //Start right motor @ "turnSpeed" value (For details go to "#define...." at the top of the file
+           OnRev (OUT_C, turnSpeed);
 
-           }//endIf1
+        }//endIf2
 
-          else {
+        if (Sensor (IN_4) <= sOnBlack ) {
 
-               fullStop ();
+           //Stop the Machine (See function "fullStop ()" for details)
+           fullStop ();
 
-          }//endElse1
+           //Start left motor @ "turnSpeed" value (For details go to "#define...." at the top of the file
+           OnRev (OUT_A, turnSpeed);
 
-     }//endWhile1
-    
+        }//endIf3
+
+     } while (true)//endDoWhile1
+
 }//endFuncDriveLogic
 
 /*
+*Author: BR0KK,
 *Main task. Only fuction calling here!....
 */
 task main () {
 
+     //Innitialise all sensors (See function "init ()" for details)
      init ();
-     driveLogic ();
-
+     
+     //Start the robot action (See function "driveLogic ()" for details)
+     //driveLogic ();
+     
 }//endMain
