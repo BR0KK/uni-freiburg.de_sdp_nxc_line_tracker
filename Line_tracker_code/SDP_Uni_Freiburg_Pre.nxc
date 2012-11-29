@@ -5,7 +5,7 @@
 *Author:                                Hanno Haßelkuß (BR0KK), Martin Tetzlaf, Sinan Ötzmen, Stefan Schwaer
 *Matrikel:                              3525991,
 *GITHUB:                                https://github.com/BR0KK/uni-freiburg.de_sdp_nxc_line_tracker
-*License:                               ?
+*License:                               NXC belongs to Lego..... My code to me. Copy if you like :)
 *
 */
 //___________________________________________________________________________________________________________
@@ -33,17 +33,18 @@
 //Set forward / backward speed limit
 #define speed1 50
 
-//Set turn speed limit
+//Set turnSpeed limit
 #define turnSpeed 80
 
-//Set wait time for further use (I don't use it atm...)
+//Set waitTime (Main use in function "turnRight / left ()")
 #define waitTime 1000
 
 /*
 *Author:
 *Initialize all sensors
+*Return: no "return" value
 */
-void init () {
+void initSensors () {
 
      //SET Lightsensor on port (IN_1). Left sensor
      SetSensorLight (IN_1);
@@ -58,19 +59,21 @@ void init () {
 
 /*
 *Author:
-*Machines to full stop!!!
+*Machines to full stop
+*Return: no "return" value
 */
 void fullStop () {
 
-     //Full stop of the Robot
+     //Full stop of both motors (OUT_AC)
      Off(OUT_AC);
 
 }//endFuncFullStop
 
 /*
 *Author:
-*Move robot FWD.....
+*Move robot forward with synced Motots (OUT_AC)
 *It's reversed because the robot build that way!
+*Return: no "return" value
 */
 void moveForward () {
 
@@ -81,8 +84,9 @@ void moveForward () {
 
 /*
 *Author:
-*Move robot BWD.....
+*Move robot backwards with synced Motots (OUT_AC)
 *It's reversed bcause the robot build that way!
+*Return: no "return" value
 */
 void moveBackwards () {
 
@@ -94,13 +98,15 @@ void moveBackwards () {
 /*
 *Author:
 *Turn left ....
+*Does not work atm. If i use this in function "driveLogic ()" the Robot wont turn
+*Return: no "return" valu
 */
 void turnLeft () {
 
      //Left motor moves forward @ "turnSpeed" %.
      OnRev (OUT_C, turnSpeed);
      
-     //Do That for "waitTime" seconds (See "#define...." ant the top of the program
+     //Do That for "waitTime" seconds (See "#define...." ant the top of the program)
      Wait (waitTime);
      
 }//endFuncTurnLeft
@@ -108,21 +114,26 @@ void turnLeft () {
 /*
 *Author:
 *Turn rght ....
+*Does not work atm. If i use this in function "driveLogic ()" the Robot wont turn
+*Return: no "return" value
 */
 void turnRight () {
 
+     //Stop all motors (See function "fullStop ()" for details).
+     fullStop ();
      //Left motor moves forward @ "turnSpeed" %.
      OnRev (OUT_A, turnSpeed);
 
-     //Do That for "waitTime" seconds (See "#define...." ant the top of the program
+     //Do That for "waitTime" seconds (See "#define...." ant the top of the program)
      Wait (waitTime);
 
 }//endFuncTurnRight
 
 /*
 *Author:
-*Display all the Sesnsor values at the display of the NXC BRIX
+*Display all the Sesnsor values at the main display of the NXC BRIX
 *Makes it easier to debug in live mode :)
+*Return: no "return" value
 */
 void displaySensors () {
 
@@ -154,12 +165,21 @@ int rValue = Sensor (IN_4);
        //Display INTEGER "rValue " for left sensor (IN_1) on LCD_LINE2
        NumOut (80, LCD_LINE2, rValue);
 
-}//endFuncRefreshDisplay
+}//endFuncDisplaySensors
 
 /*
 *Author:
 *All driving magic goes here.....
 *Main part of this function should be calling the necessary function to drive the robot...
+*Atm its dooing all the sensor and driving logic. Should be seperated in different functions some day ...
+*Maybe a threated program .... IDK
+*One major Problem with that code is, when the black line is not exaclty 90° at a turning point. The Robot tends to
+*drive over it and keeps faling over the edge. Suicidal robot 0_o...
+*Goals:
+*- Seperate functions for sensor and driving
+*- Edge detection.... -> To Stop the Robot after loosing the balck line
+*- Finding the balck line again... Stop --> move backwards -> Turn to dirrection..... etc
+*Return: no "return" value
 */
 void driveLogic () {
 
@@ -183,7 +203,7 @@ void driveLogic () {
            //Stop the Machine (See function "fullStop ()" for details)
            fullStop ();
 
-           //Start right motor @ "turnSpeed" value (For details go to "#define...." at the top of the file
+           //Start right motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
            OnRev (OUT_C, turnSpeed);
 
         }//endIf2
@@ -193,7 +213,7 @@ void driveLogic () {
            //Stop the Machine (See function "fullStop ()" for details)
            fullStop ();
 
-           //Start left motor @ "turnSpeed" value (For details go to "#define...." at the top of the file
+           //Start left motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
            OnRev (OUT_A, turnSpeed);
 
         }//endIf3
@@ -205,11 +225,12 @@ void driveLogic () {
 /*
 *Author:
 *Main task. Only fuction calling here!....
+*Return: no "return" value
 */
 task main () {
 
-     //Innitialise all sensors (See function "init ()" for details)
-     init ();
+     //Innitialise all sensors (See function "initSensors ()" for details)
+     initSensors ();
      
      //Start the robot action (See function "driveLogic ()" for details)
      //driveLogic ();

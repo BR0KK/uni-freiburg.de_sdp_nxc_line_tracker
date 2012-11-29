@@ -1,182 +1,182 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0SetSensorLight_inline_init	6	1	0	4	9
-1	__DU0SetSensorLight_inline_init	5	1	4	4	6
-2	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init	1	1	8	1	6
-3	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init	1	1	9	1	6
-4	__SetSensorLight_7qG2_bActive_7qG2_000_inline_init	1	1	10	1	6
+0	__D0SetSensorLight_inline_initSensors	6	1	0	4	9
+1	__DU0SetSensorLight_inline_initSensors	5	1	4	4	6
+2	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	8	1	6
+3	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	9	1	6
+4	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	10	1	6
 5	____initialize_global_data_return	1	1	11	1	3
-6	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init	1	1	12	1	6
-7	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init	1	1	13	1	6
-8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init	1	1	14	1	3
+6	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	12	1	6
+7	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	13	1	6
+8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	14	1	3
 9	__ResetSensorTmp	1	1	15	1	2
 10	__ResetSensorPort	1	1	16	1	5
 11	__constVal1	2	0	17	1	4
 12	____ResetSensorSubroutine_return	1	1	18	1	5
-13	__SetSensorLight_7qG2_port_7qG2_000_inline_init	1	1	19	1	15
-14	__init_return	1	1	20	1	3
-15	__zfSetSensorLight_inline_init	1	1	21	1	6
+13	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	19	1	15
+14	__initSensors_return	1	1	20	1	3
+15	__zfSetSensorLight_inline_initSensors	1	1	21	1	6
 #SOURCES
 Clump	Line	PC	Source
-0	211	0	#line 211 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	212	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	211	2	#line 211 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	216	2	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	217	2		subcall init, __init_return
-0	216	4	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	217	4		exit -1, -1
+0	232	0	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	233	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	232	2	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	237	2	#line 237 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	238	2		subcall initSensors, __initSensors_return
+0	237	4	#line 237 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	238	4		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	48	0	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	49	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 0
-2	48	3	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	51	3	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
+2	49	0	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
+2	49	3	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	52	3	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	53	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	5	#line 3729 "NXCDefs.h"
-2	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	7	#line 3729 "NXCDefs.h"
 2	3729	7	#line 3729 "NXCDefs.h"
-2	3730	7		mov __DU0SetSensorLight_inline_init, __SetSensorLight_7qG2_bActive_7qG2_000_inline_init
+2	3730	7		mov __DU0SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors
 2	3729	9	#line 3729 "NXCDefs.h"
-2	3730	9		tst 5, __zfSetSensorLight_inline_init, __DU0SetSensorLight_inline_init
+2	3730	9		tst 5, __zfSetSensorLight_inline_initSensors, __DU0SetSensorLight_inline_initSensors
 2	3729	12	#line 3729 "NXCDefs.h"
-2	3730	12		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_init
+2	3730	12		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_initSensors
 2	3729	15	#line 3729 "NXCDefs.h"
-2	3730	15		set __D0SetSensorLight_inline_init, 5
+2	3730	15		set __D0SetSensorLight_inline_initSensors, 5
 2	3729	18	#line 3729 "NXCDefs.h"
 2	3730	18		jmp __001__NXC_Label_5
 2	3729	20	#line 3729 "NXCDefs.h"
-2	3730	20		set __D0SetSensorLight_inline_init, 6
+2	3730	20		set __D0SetSensorLight_inline_initSensors, 6
 2	3729	23	#line 3729 "NXCDefs.h"
-2	3730	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __D0SetSensorLight_inline_init
+2	3730	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __D0SetSensorLight_inline_initSensors
 2	3663	25	#line 3663 "NXCDefs.h"
-2	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 0
+2	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 0
 2	3663	29	#line 3663 "NXCDefs.h"
 2	3730	29	#line 3730 "NXCDefs.h"
 2	3730	29	#line 3730 "NXCDefs.h"
-2	3731	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3731	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3730	31	#line 3730 "NXCDefs.h"
 2	3730	31	#line 3730 "NXCDefs.h"
-2	3731	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, 128
+2	3731	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, 128
 2	3730	34	#line 3730 "NXCDefs.h"
 2	3676	34	#line 3676 "NXCDefs.h"
-2	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 1
+2	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 1
 2	3676	38	#line 3676 "NXCDefs.h"
 2	3731	38	#line 3731 "NXCDefs.h"
 2	3731	38	#line 3731 "NXCDefs.h"
-2	3732	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3732	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3731	40	#line 3731 "NXCDefs.h"
 2	3694	40	#line 3694 "NXCDefs.h"
 2	3695	40	#pragma macro 4
-2	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 2	6652	44	#line 6652 "NXCDefs.h"
 2	3694	44	#line 3694 "NXCDefs.h"
 2	3732	44	#line 3732 "NXCDefs.h"
-2	51	44	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	51	44	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 1
-2	51	47	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	54	47	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
+2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	53	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
+2	52	47	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	55	47	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	49	#line 3729 "NXCDefs.h"
-2	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	51	#line 3729 "NXCDefs.h"
 2	3729	51	#line 3729 "NXCDefs.h"
-2	3730	51		mov __DU0SetSensorLight_inline_init, __SetSensorLight_7qG2_bActive_7qG2_000_inline_init
+2	3730	51		mov __DU0SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors
 2	3729	53	#line 3729 "NXCDefs.h"
-2	3730	53		tst 5, __zfSetSensorLight_inline_init, __DU0SetSensorLight_inline_init
+2	3730	53		tst 5, __zfSetSensorLight_inline_initSensors, __DU0SetSensorLight_inline_initSensors
 2	3729	56	#line 3729 "NXCDefs.h"
-2	3730	56		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_init
+2	3730	56		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_initSensors
 2	3729	59	#line 3729 "NXCDefs.h"
-2	3730	59		set __D0SetSensorLight_inline_init, 5
+2	3730	59		set __D0SetSensorLight_inline_initSensors, 5
 2	3729	62	#line 3729 "NXCDefs.h"
 2	3730	62		jmp __002__NXC_Label_5
 2	3729	64	#line 3729 "NXCDefs.h"
-2	3730	64		set __D0SetSensorLight_inline_init, 6
+2	3730	64		set __D0SetSensorLight_inline_initSensors, 6
 2	3729	67	#line 3729 "NXCDefs.h"
-2	3730	67		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __D0SetSensorLight_inline_init
+2	3730	67		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __D0SetSensorLight_inline_initSensors
 2	3663	69	#line 3663 "NXCDefs.h"
-2	3664	69		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 0
+2	3664	69		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 0
 2	3663	73	#line 3663 "NXCDefs.h"
 2	3730	73	#line 3730 "NXCDefs.h"
 2	3730	73	#line 3730 "NXCDefs.h"
-2	3731	73		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3731	73		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3730	75	#line 3730 "NXCDefs.h"
 2	3730	75	#line 3730 "NXCDefs.h"
-2	3731	75		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, 128
+2	3731	75		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, 128
 2	3730	78	#line 3730 "NXCDefs.h"
 2	3676	78	#line 3676 "NXCDefs.h"
-2	3677	78		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 1
+2	3677	78		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 1
 2	3676	82	#line 3676 "NXCDefs.h"
 2	3731	82	#line 3731 "NXCDefs.h"
 2	3731	82	#line 3731 "NXCDefs.h"
-2	3732	82		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3732	82		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3731	84	#line 3731 "NXCDefs.h"
 2	3694	84	#line 3694 "NXCDefs.h"
 2	3695	84	#pragma macro 4
-2	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 2	6719	88	#line 6719 "NXCDefs.h"
 2	3694	88	#line 3694 "NXCDefs.h"
 2	3732	88	#line 3732 "NXCDefs.h"
-2	54	88	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	54	88	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_init, 3
-2	54	91	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	91	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	57	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_init, __constVal1
+2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
+2	55	91	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	57	91	#line 57 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	58	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	93	#line 3729 "NXCDefs.h"
-2	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	95	#line 3729 "NXCDefs.h"
 2	3729	95	#line 3729 "NXCDefs.h"
-2	3730	95		mov __DU0SetSensorLight_inline_init, __SetSensorLight_7qG2_bActive_7qG2_000_inline_init
+2	3730	95		mov __DU0SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors
 2	3729	97	#line 3729 "NXCDefs.h"
-2	3730	97		tst 5, __zfSetSensorLight_inline_init, __DU0SetSensorLight_inline_init
+2	3730	97		tst 5, __zfSetSensorLight_inline_initSensors, __DU0SetSensorLight_inline_initSensors
 2	3729	100	#line 3729 "NXCDefs.h"
-2	3730	100		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_init
+2	3730	100		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_initSensors
 2	3729	103	#line 3729 "NXCDefs.h"
-2	3730	103		set __D0SetSensorLight_inline_init, 5
+2	3730	103		set __D0SetSensorLight_inline_initSensors, 5
 2	3729	106	#line 3729 "NXCDefs.h"
 2	3730	106		jmp __003__NXC_Label_5
 2	3729	108	#line 3729 "NXCDefs.h"
-2	3730	108		set __D0SetSensorLight_inline_init, 6
+2	3730	108		set __D0SetSensorLight_inline_initSensors, 6
 2	3729	111	#line 3729 "NXCDefs.h"
-2	3730	111		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __D0SetSensorLight_inline_init
+2	3730	111		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __D0SetSensorLight_inline_initSensors
 2	3663	113	#line 3663 "NXCDefs.h"
-2	3664	113		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 0
+2	3664	113		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 0
 2	3663	117	#line 3663 "NXCDefs.h"
 2	3730	117	#line 3730 "NXCDefs.h"
 2	3730	117	#line 3730 "NXCDefs.h"
-2	3731	117		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3731	117		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3730	119	#line 3730 "NXCDefs.h"
 2	3730	119	#line 3730 "NXCDefs.h"
-2	3731	119		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, 128
+2	3731	119		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, 128
 2	3730	122	#line 3730 "NXCDefs.h"
 2	3676	122	#line 3676 "NXCDefs.h"
-2	3677	122		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, 1
+2	3677	122		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, 1
 2	3676	126	#line 3676 "NXCDefs.h"
 2	3731	126	#line 3731 "NXCDefs.h"
 2	3731	126	#line 3731 "NXCDefs.h"
-2	3732	126		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_init, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3732	126		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3731	128	#line 3731 "NXCDefs.h"
 2	3694	128	#line 3694 "NXCDefs.h"
 2	3695	128	#pragma macro 4
-2	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_init
+2	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	130		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
 2	6786	132	#line 6786 "NXCDefs.h"
 2	3694	132	#line 3694 "NXCDefs.h"
 2	3732	132	#line 3732 "NXCDefs.h"
-2	56	132	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	62	132	#line 62 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	63	132		subret __init_return
-3	219	0	#line 219 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	220	0		subret ____initialize_global_data_return
+2	57	132	#line 57 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	64	132	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	65	132		subret __initSensors_return
+3	240	0	#line 240 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	241	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	7	NXTDefs.h
-2	init	20	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+2	initSensors	20	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
 3	__initialize_global_data	154	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
