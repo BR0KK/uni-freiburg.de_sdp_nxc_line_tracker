@@ -1,39 +1,46 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0SetSensorLight_inline_initSensors	6	1	0	4	9
-1	__DU0SetSensorLight_inline_initSensors	5	1	4	4	6
-2	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	8	1	6
-3	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	9	1	6
-4	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	10	1	6
-5	____initialize_global_data_return	1	1	11	1	3
-6	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	12	1	6
-7	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	13	1	6
-8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	14	1	3
-9	__ResetSensorTmp	1	1	15	1	2
-10	__ResetSensorPort	1	1	16	1	5
-11	__constVal1	2	0	17	1	4
-12	____ResetSensorSubroutine_return	1	1	18	1	5
-13	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	19	1	15
-14	__initSensors_return	1	1	20	1	3
-15	__zfSetSensorLight_inline_initSensors	1	1	21	1	6
+1	__D0initSensors	6	1	4	4	16
+2	__DU0SetSensorLight_inline_initSensors	5	1	8	4	6
+3	__signed_stack_002initSensors	6	1	12	4	4
+4	__signed_stack_001initSensors	6	1	16	4	4
+5	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	20	1	15
+6	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	21	1	6
+7	____initialize_global_data_return	1	1	22	1	3
+8	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	23	1	3
+9	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	24	1	6
+10	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	25	1	6
+11	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	26	1	6
+12	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	27	1	6
+13	__initSensors_return	1	1	28	1	5
+14	__constVal3	2	0	29	1	1
+15	__ResetSensorPort	1	1	30	1	5
+16	__constVal1	2	0	31	1	5
+17	__constVal0	2	1	32	1	1
+18	__zfinitSensors	1	1	33	1	12
+19	__zfSetSensorLight_inline_initSensors	1	1	34	1	6
+20	__ResetSensorTmp	1	1	35	1	2
+21	____ResetSensorSubroutine_return	1	1	36	1	5
 #SOURCES
 Clump	Line	PC	Source
-0	232	0	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	233	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	232	2	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	237	2	#line 237 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	238	2		subcall initSensors, __initSensors_return
-0	237	4	#line 237 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	238	4		exit -1, -1
+0	250	0	#line 250 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	251	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	250	2	#line 250 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	255	2	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	256	2		subcall initSensors, __initSensors_return
+0	255	4	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	255	4	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	256	4		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	49	0	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	50	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
-2	49	3	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	3	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	53	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	42	0	#line 42 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	43	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
+2	42	3	#line 42 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	45	3	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	46	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	5	#line 3729 "NXCDefs.h"
 2	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	7	#line 3729 "NXCDefs.h"
@@ -72,15 +79,15 @@ Clump	Line	PC	Source
 2	3695	40	#pragma macro 4
 2	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6652	44	#line 6652 "NXCDefs.h"
+2	6496	44	#line 6496 "NXCDefs.h"
 2	3694	44	#line 3694 "NXCDefs.h"
 2	3732	44	#line 3732 "NXCDefs.h"
-2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	53	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
-2	52	47	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	47	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	45	44	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	45	44	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	46	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
+2	45	47	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	48	47	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	49	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	49	#line 3729 "NXCDefs.h"
 2	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	51	#line 3729 "NXCDefs.h"
@@ -119,15 +126,15 @@ Clump	Line	PC	Source
 2	3695	84	#pragma macro 4
 2	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6719	88	#line 6719 "NXCDefs.h"
+2	6563	88	#line 6563 "NXCDefs.h"
 2	3694	88	#line 3694 "NXCDefs.h"
 2	3732	88	#line 3732 "NXCDefs.h"
-2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
-2	55	91	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	57	91	#line 57 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	58	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	48	88	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	48	88	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	49	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
+2	48	91	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	91	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	93	#line 3729 "NXCDefs.h"
 2	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	95	#line 3729 "NXCDefs.h"
@@ -166,17 +173,72 @@ Clump	Line	PC	Source
 2	3695	128	#pragma macro 4
 2	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	130		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6786	132	#line 6786 "NXCDefs.h"
+2	6630	132	#line 6630 "NXCDefs.h"
 2	3694	132	#line 3694 "NXCDefs.h"
 2	3732	132	#line 3732 "NXCDefs.h"
-2	57	132	#line 57 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	64	132	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	65	132		subret __initSensors_return
-3	240	0	#line 240 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	241	0		subret ____initialize_global_data_return
+2	50	132	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	132	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	132		getin __D0initSensors, __constVal0, 4
+2	50	136	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	136		tst 5, __zfinitSensors, __D0initSensors
+2	50	139	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	139		mov __D0initSensors, __zfinitSensors
+2	50	141	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	141		brtst 4, __NXC_Label_611, __zfinitSensors
+2	50	144	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	144		mov __signed_stack_001initSensors, __D0initSensors
+2	50	146	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	146		getin __signed_stack_002initSensors, __constVal3, 4
+2	50	150	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	150	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	150		set __D0initSensors, 60
+2	50	153	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	153		cmp 3, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
+2	50	157	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	157	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	157		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
+2	50	161	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	161		tst 5, __zfinitSensors, __D0initSensors
+2	50	164	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	164		mov __D0initSensors, __zfinitSensors
+2	50	166	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	166		brtst 4, __NXC_Label_611, __zfinitSensors
+2	50	169	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	169		mov __signed_stack_001initSensors, __D0initSensors
+2	50	171	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	171		getin __signed_stack_002initSensors, __constVal1, 4
+2	50	175	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	175	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	175		set __D0initSensors, 40
+2	50	178	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	178		cmp 2, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
+2	50	182	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	182	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	51	182		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
+2	53	186	#line 53 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	54	186		tst 5, __zfinitSensors, __D0initSensors
+2	53	189	#line 53 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	54	189		brtst 4, __NXC_Label_612, __zfinitSensors
+2	55	192	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	192		set __D0initSensors, 0
+2	55	195	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	195		subret __initSensors_return
+2	55	197	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	59	197	#line 59 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	60	197		jmp __NXC_Label_615
+2	61	199	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	62	199		set __D0initSensors, 1
+2	61	202	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	62	202		subret __initSensors_return
+2	61	204	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	70	204	#line 70 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	70	204	#line 70 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	71	204		subret __initSensors_return
+3	258	0	#line 258 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	259	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	7	NXTDefs.h
 2	initSensors	20	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-3	__initialize_global_data	154	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+3	__initialize_global_data	226	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
