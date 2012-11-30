@@ -61,7 +61,7 @@ int initSensors () {
 
      }//endIf1Else1
 
-}//endFuncInit ()
+}//endFuncInit
 
 /*
 *Author:
@@ -73,7 +73,7 @@ void fullStop () {
      //Full stop of both motors (OUT_AC)
      Off(OUT_AC);
 
-}//endFuncFullStop ()
+}//endFuncFullStop
 
 /*
 *Author:
@@ -115,7 +115,7 @@ void turnLeft (int trnspd) {
      //Left motor (OUT_C) moves forward @ "trnspd" %.  Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_C, trnspd);
      
-}//endFuncTurnLeft ()
+}//endFuncTurnLeft
 
 /*
 *Author:
@@ -131,7 +131,7 @@ void turnRight (int trnspd) {
      //Right motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_A, trnspd);
 
-}//endFuncTurnRight ()
+}//endFuncTurnRight
 
 /*
 *Author:
@@ -175,7 +175,7 @@ int rY = 80;
        //Display INTEGER "rValue " for left sensor (IN_1) on LCD_LINE2
        NumOut (rY, LCD_LINE2, rValue);
 
-}//endFuncDisplaySensors ()
+}//endFuncDisplaySensors
 
 /*
 *Author:
@@ -238,7 +238,7 @@ void driveLogic () {
 
      } while (true)//endDoWhile1
 
-}//endFuncDriveLogic ()
+}//endFuncDriveLogic
 
 /*
 *Author:
@@ -253,4 +253,4 @@ task main () {
      //Start the robot action (See function "driveLogic ()" for details)
      //driveLogic ();
      
-}//endTaskMain ()
+}//endMain
