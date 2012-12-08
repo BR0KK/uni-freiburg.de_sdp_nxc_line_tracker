@@ -30,7 +30,7 @@
 #define speed1 50
 
 //Set turnSpeed limit
-#define turnSpeed 80
+#define turnSpeed 90
 
 /*
 *Author:
@@ -48,12 +48,20 @@ int initSensors () {
      //SET Lightsensor on port (IN_4). Right sensor
      SetSensorLight (IN_4);
 
+      /*
+     *Not in use atm.... I have not figured out how to use this part of the procedure.
+     *Just wrote this in case i want to build some sort of "state machine"
+     *Will figure this out later...
+     */
+     //If Sensor (IN_1 (&&) IN_4) detect a value >= sOnWhite and (&&) sensor (IN_2) detects a value <= sOnBlack....
      if (Sensor (IN_1) && Sensor (IN_4) >= sOnWhite && Sensor (IN_2) <= sOnBlack) {
 
         //Return value of "robotSafeOnTable" (See #define .... at the top of the program)
         return robotSafeOnTable;
 
      }//endIf1
+
+     //else return....
      else {
 
         //Return value of "robotNotSafeOnTable" (See #define .... at the top of the program)
@@ -104,32 +112,32 @@ void moveBackwards (int spd) {
 /*
 *Author:
 *Turn left ....
-*Does not work atm. If i use this in function "driveLogic ()" the Robot won't turn
 *Return: no "return" value
 */
-void turnLeft (int trnspd) {
+void turnLeft (int trnSpd) {
 
      //Stop all motors (See function "fullStop ()" for details).
      fullStop ();
 
-     //Left motor (OUT_C) moves forward @ "trnspd" %.  Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
-     OnRev (OUT_C, trnspd);
-     
+     //Left motor (OUT_C) moves forward @ "trnSpd" %.  Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
+     OnRev (OUT_C, trnSpd);
+     OnFwd (OUT_A, 10);
+
 }//endFuncTurnLeft ()
 
 /*
 *Author:
 *Turn rght ....
-*Does not work atm. If i use this in function "driveLogic ()" the Robot wont turn
 *Return: no "return" value
 */
-void turnRight (int trnspd) {
+void turnRight (int trnSpd) {
 
      //Stop all motors (See function "fullStop ()" for details).
      fullStop ();
-     
-     //Right motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
-     OnRev (OUT_A, trnspd);
+
+     //Right motor (OUT_A) moves forward @ "trnSpd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
+     OnRev (OUT_A, trnSpd);
+     OnFwd (OUT_C, 10);
 
 }//endFuncTurnRight ()
 
@@ -140,6 +148,12 @@ void turnRight (int trnspd) {
 *Return: no "return" value
 */
 void displaySensors () {
+
+//Allocating a STRING value for the pintout
+string single = "Single tasked";
+
+       //Display text containing string value on NXC BRIX display.
+       TextOut (0, LCD_LINE4, single);
 
 //Allocate STRING values to print them on the Display.... It's esier to change them here
 string sLeft = "_L_";
@@ -195,46 +209,45 @@ void driveLogic () {
 
      //Looped forever....
      do {
-     
+
      //Print out Sensor values collected by function "displaySensors ()"
      displaySensors ();
-     
+
         //As long as Sensor (IN_1) AND (&&) Sensor (IN_4) are on White......
-        if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite) {
+        if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite ) {
 
         //Drive forward... (See function "moveForward ()" for details)
         moveForward (speed1);
 
         }//endIf1
-        
-        //If Sensor (IN_1) detects a value <= sOnBlack than....
+
+        //If sensor (IN_1) detects a value <= sOnBlack then....
         if (Sensor (IN_1) <= sOnBlack ) {
-        
-           //Calling procedure "turnLeft (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnLeft (int trnspd)" for details)
-           //This will replace the code under it when it works!
-           //turnLeft (turnspeed);
 
-           //Stop the Machine (See function "fullStop ()" for details)
-           fullStop ();
-
-           //Start right motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
-           OnRev (OUT_C, turnSpeed);
+           //Calling procedure "turnLeft (int trnSpd)" with value "int trnspd = turnSpeed)" (See procedure "turnLeft (int trnSpd)" for details)
+           turnLeft (turnSpeed);
 
         }//endIf2
-
-        if (Sensor (IN_4) <= sOnBlack ) {
         
-           //Calling procedure "turnRight (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnRight (int trnspd)" for details)
-           //This will replace the code under it when it works!
-           //turnRight (turnspeed);
+        //If sensor (IN_4) detects a value <= sOnBlack then....
+        if (Sensor (IN_4) <= sOnBlack ) {
 
-           //Stop the Machine (See function "fullStop ()" for details)
-           fullStop ();
-
-           //Start left motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
-           OnRev (OUT_A, turnSpeed);
+           //Calling procedure "turnRight (int trnSpd)" with value "int trnspd = turnSpeed)" (See procedure "turnRight (int trnSpd)" for details)
+           turnRight (turnSpeed);
 
         }//endIf3
+        
+        /*
+        * This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
+        *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
+        */
+        //If sensor (IN_2) detects a value >= sOnWhite then....
+        if (Sensor (IN_2) >= sOnWhite ) {
+
+           //ATM the Machine stops working....
+           fullStop ();
+
+        }//endIf4
 
      } while (true)//endDoWhile1
 
@@ -249,8 +262,10 @@ task main () {
 
      //Innitialise all sensors (See function "initSensors ()" for details)
      initSensors ();
-     
+
      //Start the robot action (See function "driveLogic ()" for details)
-     //driveLogic ();
-     
+     driveLogic ();
+
 }//endTaskMain ()
+
+

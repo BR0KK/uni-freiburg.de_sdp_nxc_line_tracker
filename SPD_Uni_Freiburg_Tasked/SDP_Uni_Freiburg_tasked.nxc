@@ -28,12 +28,12 @@
 #define robotNotSafeOnTable 1
 
 //Set forward / backward speed limit
-#define speed1 50
+#define speed1 65
 
 //Set turnSpeed limit
-#define turnSpeed 80
+#define turnSpeed 50
 
-//Set mutex moveMotors for exclusive access to the motors at port (OUT_A; OUT_C)
+//Set mutex "moveMotors" for exclusive access to the motors at port (OUT_A; OUT_B (Not in use); OUT_C)
 mutex moveMotors;
 
 /*
@@ -52,17 +52,25 @@ int initSensors () {
      //SET Lightsensor on port (IN_4). Right sensor
      SetSensorLight (IN_4);
      
+      /*
+     *Not in use atm.... I have not figured out how to use this part of the procedure.
+     *Just wrote this in case i want to build some sort of "state machine"
+     *Will figure this out later...
+     */
+     //If Sensor (IN_1 (&&) IN_4) detect a value >= sOnWhite and (&&) sensor (IN_2) detects a value <= sOnBlack....
      if (Sensor (IN_1) && Sensor (IN_4) >= sOnWhite && Sensor (IN_2) <= sOnBlack) {
 
         //Return value of "robotSafeOnTable" (See #define .... at the top of the program)
         return robotSafeOnTable;
 
      }//endIf1
+     
+     //else return....
      else {
 
         //Return value of "robotNotSafeOnTable" (See #define .... at the top of the program)
         return robotNotSafeOnTable;
-          
+
      }//endIf1Else1
 
 }//endFuncInit ()
@@ -74,6 +82,10 @@ int initSensors () {
 *Return: no "return" value
 */
 void displaySensors () {
+
+string tasked = "Tasked program";
+
+       TextOut (0, LCD_LINE4, tasked);
 
 //Allocate STRING values to print them on the Display.... It's esier to change them here
 string sLeft = "_L_";
@@ -120,10 +132,10 @@ void fullStop () {
 
      //Acquire exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore
      Acquire (moveMotors);
-     
+
      //Full stop of both motors (OUT_AC)
      Off(OUT_AC);
-     
+
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore
      Release (moveMotors);
 
@@ -142,7 +154,7 @@ void moveForward (int spd) {
 
      //Forward movement with automated sync of motors. Value of "spd" will be given throu calling that procedure with an INTEGER argument.
      OnRevReg(OUT_AC, spd, OUT_REGMODE_SPEED);
-     
+
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
 
@@ -183,6 +195,7 @@ void turnLeft (int trnspd) {
 
      //Left motor (OUT_C)  moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_C, trnspd);
+     OnFwd (OUT_A, 30);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -205,6 +218,7 @@ void turnRight (int trnspd) {
 
      //Left motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_A, trnspd);
+     OnFwd (OUT_C, 30);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -220,27 +234,9 @@ task moveRobotForward () {
 
      //Looped forever....
      do {
-     
+
         //Print out Sensor values collected by procedure "displaySensors ()"
         displaySensors ();
-
-        //Drive forward... (See procedure "moveForward ()" for details)
-        moveForward (speed1);
-
-     }while (true)//endDoWhile1
-
-}//endTaskMoveRobotForward ()
-
-/*
-*Author:
-*This task should, when its ready steer the robot to get back to the black
-*Line
-*Return: no "return" value
-*/
-task checkSensors () {
-
-     //Looped forever....
-     do {
 
         //As long as Sensor (IN_1) AND (&&) Sensor (IN_4) are on White......
         if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite) {
@@ -249,47 +245,92 @@ task checkSensors () {
            moveForward (speed1);
 
         }//endIf1
+        
+     }while (true)//endDoWhile1
+
+}//endTaskMoveRobotForward ()
+
+/*
+*Author:
+*Task for checking the left sensor (IN_1)
+*Return: no "return" value
+*/
+task checkLeftSensor () {
+
+     do {
 
         //If Sensor (IN_1) detects a value <= sOnBlack than....
         if (Sensor (IN_1) <= sOnBlack ) {
-        
+
            //Calling procedure "turnLeft (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnLeft (int trnspd)" for details)
-           //This will replace the code under it when it works!
-           //turnLeft (turnspeed);
+           turnLeft (turnSpeed);
 
-           //Stop both motors imedeately (See procedure "fullStop ()" for details)
-           fullStop ();
+        }//endIf2
 
-           //Acquire exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-           Acquire (moveMotors);
+     } while (true)//endDoWhile1
 
-           //Start right motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
-           OnRev (OUT_C, turnSpeed);
-           
-           //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-           Release (moveMotors);
-           
+}//endTaskcheckLeftSensor ()
+
+/*
+*Author:
+*Task for checking the right sensor (IN_4)
+*Return: no "return" value
+*/
+task checkRightSensor () {
+
+     //Looped forever....
+     do {
+
+        if (Sensor (IN_4) <= sOnBlack ) {
+
+           //Calling procedure "turnRight (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnRight (int trnspd)" for details)
+           turnRight (turnSpeed);
+
+        }//endIf3
+
+     }while (true)//endDoWhile1
+
+}//endTaskCheckRightSensor ()
+
+/*
+*Author:
+*This task should, when its ready steer the robot to get back to the black
+*Line
+*Return: no "return" value
+*/
+task checkSensorsLRM () {
+
+     //Looped forever....
+     do {
+     
+        //If Sensor (IN_1) detects a value <= sOnBlack than....
+        if (Sensor (IN_1) <= sOnBlack ) {
+
+           //Calling procedure "turnLeft (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnLeft (int trnspd)" for details)
+
+           turnLeft (turnSpeed);
+
         }//endIf2
 
         if (Sensor (IN_4) <= sOnBlack ) {
-        
+
            //Calling procedure "turnRight (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnRight (int trnspd)" for details)
-           //This will replace the code under it when it works!
-           //turnRight (turnspeed);
+           turnRight (turnSpeed);
 
-           //Stop both motors imedeately (See procedure "fullStop ()" for details)
-           fullStop ();
-           
-           //Acquire exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-           Acquire (moveMotors);
-
-           //Start left motor @ "turnSpeed" value (For details go to "#define...." at the top of the program)
-           OnRev (OUT_A, turnSpeed);
-           
-           //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-           Release (moveMotors);
-           
         }//endIf3
+        
+        /*
+        *This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
+        *Or somehow read the code from the black line ....
+        *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
+        */
+        //If sensor (IN_2) detects a value >= sOnWhite then....
+        if (Sensor (IN_2) >= sOnWhite ) {
+
+           //ATM the Machine stops working....
+           fullStop ();
+
+        }//endIf4
 
      }while (true)//endDoWhile1
 
@@ -304,8 +345,8 @@ task main () {
 
      //Innitialise all sensors (See function "initSensors ()" for details). Returns: robotSafeOnTable or robotNotSafeOnTable
      initSensors ();
-     
-     //Purpose of the main class is to call the tasks "moveRobot" and "checkSensors"
-     Precedes (moveRobotForward, checkSensors);
-     
+
+     //Call the the tasks "moveRobot" and "checkSensorsLRM"
+     Precedes (moveRobotForward, checkSensorsLRM);
+
 }//endTaskMain ()
