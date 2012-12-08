@@ -149,16 +149,11 @@ void turnRight (int trnSpd) {
 */
 void displaySensors () {
 
-//Allocating a STRING value for the pintout
-string single = "Single tasked";
-
-       //Display text containing string value on NXC BRIX display.
-       TextOut (0, LCD_LINE4, single);
-
 //Allocate STRING values to print them on the Display.... It's esier to change them here
 string sLeft = "_L_";
 string sRight = "_R_";
 string sMiddle = "_M_";
+string single = "Single tasked";
 
 //Allocate INTEGER values and set them to values of the associated Sensors. It's easier to change them here
 int lValue = Sensor (IN_1);
@@ -170,6 +165,8 @@ int lY = 0;
 int mY = 40;
 int rY = 80;
 
+       //Display text containing STRING "single" value on NXC BRIX display (LCD_LINE4)
+       TextOut (lY, LCD_LINE4, single);
 
        //Display STRING "sLeft" for left sensor (IN_1) on LCD_LINE1
        TextOut (lY, LCD_LINE1, sLeft);
@@ -238,7 +235,7 @@ void driveLogic () {
         }//endIf3
         
         /*
-        * This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
+        *This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
         *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
         */
         //If sensor (IN_2) detects a value >= sOnWhite then....
