@@ -1,0 +1,72 @@
+      /*
+*SDP_UNI_FREIBURG_NXC_LINE_FOLLOWING_BOT_Simple
+*Group:                                 10
+*Author:                                Hanno Haßelkuß (BR0KK), Martin Tetzlaf, Sinan Ötzmen, Stefan Schwaer
+*Matrikel:                              3525991,
+*GITHUB:                                https://github.com/BR0KK/uni-freiburg.de_sdp_nxc_line_tracker
+*License:                               NXC belongs to Lego..... My code to me. Copy if you like :)
+*
+*/
+//___________________________________________________________________________________________________________
+//___________________________________________________________________________________________________________
+//
+
+/*
+*Task main. Everything happens here
+*Simplyfied program for documentation use only :)
+*/
+task main () {
+
+//Allcating INTEGER values for sensor thresholds. Its easier to change them here
+int sOnBlack = 40;
+int sOnWhite = 60;
+
+//Allocating INTEGER values for speed (spd) limit and turnSpeed limit (trnSpd)
+int spd = 50;
+int trnspd = 70;
+
+     //SET Lightsensor on port (IN_1). Left sensor
+     SetSensorLight (IN_1);
+
+     //SET Lightsensor on port (IN_4). Right sensor
+     SetSensorLight (IN_4);
+
+     //Looped forever...
+     do {
+
+     
+        //As long as Sensor (IN_1) AND (&&) Sensor (IN_4) are on White......
+        if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite) {
+        
+          //Forward movement with automated sync of motors. Value of "spd" is defined on top
+          OnRevReg(OUT_AC, spd, OUT_REGMODE_SPEED);
+
+        }//endIf1
+
+
+        //If Sensor (IN_1) detects a value <= sOnBlack then....
+        if (Sensor (IN_1) <= sOnBlack ) {
+        
+           //Right motor (OUT_C)  moves forward @ "trnspd" %. Value of "trnspd" is defined on top
+           OnRev (OUT_C, trnspd);
+           
+           //Right motor moves backward by 30%
+           OnFwd (OUT_A, 30);
+
+        }//endIf2
+
+        //If sensor (IN_4) detects a value <= sOnBlack then
+        if (Sensor (IN_4) <= sOnBlack ) {
+        
+           //Left motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" is defined on top
+           OnRev (OUT_A, trnspd);
+           
+           //Right motor moves backwards by 30%
+           OnFwd (OUT_C, 30);
+
+        }//endIf3
+
+     }while (true)//endDoWhile
+
+}//endTaskMain
+
