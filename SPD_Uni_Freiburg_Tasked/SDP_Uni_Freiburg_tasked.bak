@@ -1,5 +1,5 @@
 /*
-*SDP_UNI_FREIBURG_NXC_LINE_FOLLOWING_BOT
+*SDP_UNI_FREIBURG_NXC_LINE_FOLLOWING_BOT_Taskedighfghg
 *Group:                                 10
 *Author:                                Hanno Haﬂelkuﬂ (BR0KK), Martin Tetzlaf, Sinan ÷tzmen, Stefan Schwaer
 *Matrikel:                              3525991,
@@ -21,17 +21,17 @@
 //Set threshhold for white
 #define sOnWhite 60
 
-//Set robotSafeoOnTable is returned by initSensors if all sensors are on their color.
+//Set robotSafeoOnTable is returned by initSensors () if all sensors are on their color.
 #define robotSafeOnTable 0
 
-//Set robotNotSafeOnTable is returned by initSensors if all sensors are on their color.
+//Set robotNotSafeOnTable is returned by initSensors () if all sensors are not on their color.
 #define robotNotSafeOnTable 1
 
 //Set forward / backward speed limit
-#define speed1 65
+#define speed1 70
 
 //Set turnSpeed limit
-#define turnSpeed 50
+#define turnSpeed 90
 
 //Set mutex "moveMotors" for exclusive access to the motors at port (OUT_A; OUT_B (Not in use); OUT_C)
 mutex moveMotors;
@@ -99,7 +99,7 @@ int lY = 0;
 int mY = 40;
 int rY = 80;
 
-       //Display STRING "tasked" on LCD_LINE4
+       //Display text containing STRING "single" value on NXC BRIX display (LCD_LINE4, lY)
        TextOut (0, LCD_LINE4, tasked);
 
        //Display STRING "sLeft" for left sensor (IN_1) on LCD_LINE1
@@ -194,7 +194,7 @@ void turnLeft (int trnspd) {
 
      //Left motor (OUT_C)  moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_C, trnspd);
-     OnFwd (OUT_A, 30);
+     //OnFwd (OUT_A, 30);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -217,7 +217,7 @@ void turnRight (int trnspd) {
 
      //Left motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_A, trnspd);
-     OnFwd (OUT_C, 30);
+     //OnFwd (OUT_C, 30);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -293,11 +293,38 @@ task checkRightSensor () {
 
 /*
 *Author:
+*Check the middle sensor for a white line
+*Return: no "return" value
+*/
+task checkMiddleSensor () {
+
+     //Looped forever....
+     do {
+     
+        /*
+        *This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
+        *Or somehow read the code from the black line ....
+        *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
+        */
+        //If sensor (IN_2) detects a value >= sOnWhite then....
+        if (Sensor (IN_2) >= sOnWhite ) {
+
+           //ATM the Machine stops working....
+           fullStop ();
+
+        }//endIf4
+
+     } while (true)//endDoWhile1
+
+}//endTaskCheckMiddleSensor
+
+/*
+*Author:
 *This task should, when its ready steer the robot to get back to the black
 *Line
 *Return: no "return" value
 */
-task checkSensorsLRM () {
+task checkSensorsLR () {
 
      //Looped forever....
      do {
@@ -317,19 +344,6 @@ task checkSensorsLRM () {
            turnRight (turnSpeed);
 
         }//endIf3
-        
-        /*
-        *This part should use the middle sensor (IN_2) to prevent the robot from escaping the black line...
-        *Or somehow read the code from the black line ....
-        *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
-        */
-        //If sensor (IN_2) detects a value >= sOnWhite then....
-        if (Sensor (IN_2) >= sOnWhite ) {
-
-           //ATM the Machine stops working....
-           fullStop ();
-
-        }//endIf4
 
      }while (true)//endDoWhile1
 
@@ -346,6 +360,6 @@ task main () {
      initSensors ();
 
      //Call the the tasks "moveRobot" and "checkSensorsLRM"
-     Precedes (moveRobotForward, checkSensorsLRM);
+     Precedes ( moveRobotForward, checkSensorsLR, checkMiddleSensor );
 
 }//endTaskMain ()

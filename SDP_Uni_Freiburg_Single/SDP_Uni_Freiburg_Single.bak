@@ -165,7 +165,7 @@ int lY = 0;
 int mY = 40;
 int rY = 80;
 
-       //Display text containing STRING "single" value on NXC BRIX display.
+       //Display text containing STRING "single" value on NXC BRIX display (LCD_LINE4)
        TextOut (lY, LCD_LINE4, single);
 
        //Display STRING "sLeft" for left sensor (IN_1) on LCD_LINE1
@@ -239,12 +239,12 @@ void driveLogic () {
         *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
         */
         //If sensor (IN_2) detects a value >= sOnWhite then....
-        if (Sensor (IN_2) >= sOnWhite ) {
+        /*if (Sensor (IN_2) >= sOnWhite ) {
 
            //ATM the Machine stops working....
            fullStop ();
 
-        }//endIf4
+        }//endIf4 */
 
      } while (true)//endDoWhile1
 

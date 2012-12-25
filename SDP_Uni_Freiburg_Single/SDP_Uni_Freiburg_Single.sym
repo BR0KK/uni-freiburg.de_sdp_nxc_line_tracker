@@ -1,109 +1,110 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0turnRight	6	1	0	4	4
-1	__D0turnLeft	6	1	4	4	4
+1	__D0SetSensorLight_inline_initSensors	6	1	4	4	9
 2	__DU0SetSensorLight_inline_initSensors	5	1	8	4	6
-3	__D0SetSensorLight_inline_initSensors	6	1	12	4	9
+3	__D0turnLeft	6	1	12	4	4
 4	__D0driveLogic	6	1	16	4	19
 5	__D0initSensors	6	1	20	4	16
 6	__D0moveForward	6	1	24	4	2
-7	__D0displaySensors	6	1	28	4	7
-8	__OnRevMutex	9	0	32	4	6
-9	__signed_stack_001initSensors	6	1	36	4	4
-10	__signed_stack_001moveForward	6	1	40	4	2
-11	__signed_stack_002initSensors	6	1	44	4	4
-12	__signed_stack_001displaySensors	6	1	48	4	14
-13	__signed_stack_002displaySensors	6	1	52	4	14
-14	__signed_stack_002driveLogic	6	1	56	4	2
-15	__signed_stack_001driveLogic	6	1	60	4	8
-16	__moveForward_7qG2_spd_7qG2_000	4	1	64	2	2
-17	__displaySensors_7qG2_rValue_7qG2_000	4	1	66	2	2
+7	__signed_stack_001initSensors	6	1	28	4	4
+8	__signed_stack_002initSensors	6	1	32	4	4
+9	__signed_stack_001moveForward	6	1	36	4	2
+10	__signed_stack_002driveLogic	6	1	40	4	2
+11	__signed_stack_001displaySensors	6	1	44	4	14
+12	__signed_stack_002displaySensors	6	1	48	4	14
+13	__signed_stack_001driveLogic	6	1	52	4	8
+14	__D0displaySensors	6	1	56	4	7
+15	__OnRevMutex	9	0	60	4	6
+16	__displaySensors_7qG2_rValue_7qG2_000	4	1	64	2	2
+17	__displaySensors_7qG2_lY_7qG2_000	4	1	66	2	4
 18	__displaySensors_7qG2_mValue_7qG2_000	4	1	68	2	2
 19	__displaySensors_7qG2_lValue_7qG2_000	4	1	70	2	2
-20	__displaySensors_7qG2_rY_7qG2_000	4	1	72	2	3
-21	__displaySensors_7qG2_mY_7qG2_000	4	1	74	2	3
-22	__displaySensors_7qG2_lY_7qG2_000	4	1	76	2	4
-23	__turnRight_7qG2_trnSpd_7qG2_000	4	1	78	2	2
-24	__turnLeft_7qG2_trnSpd_7qG2_000	4	1	80	2	2
-25	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	82	1	6
-26	__constVal96	2	0	83	1	6
-27	____initialize_global_data_return	1	1	84	1	3
+20	__turnRight_7qG2_trnSpd_7qG2_000	4	1	72	2	2
+21	__moveForward_7qG2_spd_7qG2_000	4	1	74	2	2
+22	__turnLeft_7qG2_trnSpd_7qG2_000	4	1	76	2	2
+23	__displaySensors_7qG2_mY_7qG2_000	4	1	78	2	3
+24	__displaySensors_7qG2_rY_7qG2_000	4	1	80	2	3
+25	__driveLogic_return	1	1	82	1	3
+26	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	83	1	6
+27	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	84	1	6
 28	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	85	1	3
-29	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	86	1	6
+29	____initialize_global_data_return	1	1	86	1	3
 30	__fullStop_return	1	1	87	1	5
-31	__turnRight_return	1	1	88	1	3
-32	__constVal63	2	0	89	1	6
-33	__displaySensors_return	1	1	90	1	3
-34	__driveLogic_return	1	1	91	1	3
-35	__moveForward_return	1	1	92	1	3
-36	__turnLeft_return	1	1	93	1	3
-37	__OnRev_Tmp	2	1	94	1	6
-38	__constVal32	2	0	95	1	18
-39	__constVal2	2	0	96	1	2
-40	____ResetSensorSubroutine_return	1	1	97	1	5
-41	__constVal1	2	0	98	1	7
-42	__ResetSensorPort	1	1	99	1	5
-43	__ResetSensorTmp	1	1	100	1	2
-44	__constVal0	2	1	101	1	24
-45	__constVal3	2	0	102	1	9
-46	__constVal7	2	0	103	1	1
-47	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	104	1	15
+31	__constVal63	2	0	88	1	6
+32	__turnLeft_return	1	1	89	1	3
+33	__moveForward_return	1	1	90	1	3
+34	__constVal96	2	0	91	1	6
+35	__displaySensors_return	1	1	92	1	3
+36	__turnRight_return	1	1	93	1	3
+37	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	94	1	6
+38	__OnRev_Tmp	2	1	95	1	6
+39	__constVal32	2	0	96	1	18
+40	__constVal2	2	0	97	1	2
+41	____ResetSensorSubroutine_return	1	1	98	1	5
+42	__constVal1	2	0	99	1	7
+43	__ResetSensorPort	1	1	100	1	5
+44	__ResetSensorTmp	1	1	101	1	2
+45	__constVal0	2	1	102	1	24
+46	__constVal3	2	0	103	1	9
+47	__PFTmp	1	1	104	1	1
 48	__initSensors_return	1	1	105	1	5
-49	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	106	1	6
-50	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	107	1	6
+49	__zfSetSensorLight_inline_initSensors	1	1	106	1	6
+50	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	107	1	15
 51	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	108	1	6
-52	__zfdriveLogic	1	1	109	1	18
-53	__zfinitSensors	1	1	110	1	12
-54	__zfSetSensorLight_inline_initSensors	1	1	111	1	6
-55	__TextOutArgs	8	0	4	16	36
-56	__TextOutArgs.Result	2	1	112	1	36
-57	__TextOutArgs.Location	8	0	2	4	36
-58	__TextOutArgs.Location.X	4	1	116	2	36
-59	__TextOutArgs.Location.Y	4	1	118	2	36
-60	__TextOutArgs.Text	7	0	120	4	36
-61	__TextOutArgs.Text.Text_type	1	0	0	1	0
-62	__TextOutArgs.Options	5	1	124	4	36
-63	__OUT_AC	7	0	128	4	2
-64	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-65	__constStr0012	7	0	130	4	1
-66	__constStr0012.__constStr0012_type	1	1	0	1	0
-67	__constStr0009	7	0	132	4	1
-68	__constStr0009.__constStr0009_type	1	1	0	1	0
-69	__displaySensors_7qG2_sRight_7qG2_000	7	0	134	4	2
-70	__displaySensors_7qG2_sRight_7qG2_000.__displaySensors_7qG2_sRight_7qG2_000_type	1	0	0	1	0
-71	__strbufdisplaySensors	7	0	136	4	16
-72	__strbufdisplaySensors.__strbufdisplaySensors_type	1	0	0	1	0
-73	__displaySensors_7qG2_sLeft_7qG2_000	7	0	138	4	2
-74	__displaySensors_7qG2_sLeft_7qG2_000.__displaySensors_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
-75	__constStr0011	7	0	140	4	1
-76	__constStr0011.__constStr0011_type	1	1	0	1	0
-77	__displaySensors_7qG2_single_7qG2_000	7	0	142	4	2
-78	__displaySensors_7qG2_single_7qG2_000.__displaySensors_7qG2_single_7qG2_000_type	1	0	0	1	0
-79	__constStr0010	7	0	144	4	1
-80	__constStr0010.__constStr0010_type	1	1	0	1	0
-81	__displaySensors_7qG2_sMiddle_7qG2_000	7	0	146	4	2
-82	__displaySensors_7qG2_sMiddle_7qG2_000.__displaySensors_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
+52	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	109	1	6
+53	__constVal7	2	0	110	1	1
+54	__zfdriveLogic	1	1	111	1	18
+55	__zfinitSensors	1	1	112	1	12
+56	__TextOutArgs	8	0	4	16	36
+57	__TextOutArgs.Result	2	1	116	1	36
+58	__TextOutArgs.Location	8	0	2	4	36
+59	__TextOutArgs.Location.X	4	1	120	2	36
+60	__TextOutArgs.Location.Y	4	1	122	2	36
+61	__TextOutArgs.Text	7	0	124	4	36
+62	__TextOutArgs.Text.Text_type	1	0	0	1	0
+63	__TextOutArgs.Options	5	1	128	4	36
+64	__OUT_AC	7	0	132	4	2
+65	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+66	__constStr0012	7	0	134	4	1
+67	__constStr0012.__constStr0012_type	1	1	0	1	0
+68	__constStr0009	7	0	136	4	1
+69	__constStr0009.__constStr0009_type	1	1	0	1	0
+70	__displaySensors_7qG2_sRight_7qG2_000	7	0	138	4	2
+71	__displaySensors_7qG2_sRight_7qG2_000.__displaySensors_7qG2_sRight_7qG2_000_type	1	0	0	1	0
+72	__strbufdisplaySensors	7	0	140	4	16
+73	__strbufdisplaySensors.__strbufdisplaySensors_type	1	0	0	1	0
+74	__displaySensors_7qG2_sLeft_7qG2_000	7	0	142	4	2
+75	__displaySensors_7qG2_sLeft_7qG2_000.__displaySensors_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
+76	__constStr0011	7	0	144	4	1
+77	__constStr0011.__constStr0011_type	1	1	0	1	0
+78	__displaySensors_7qG2_single_7qG2_000	7	0	146	4	2
+79	__displaySensors_7qG2_single_7qG2_000.__displaySensors_7qG2_single_7qG2_000_type	1	0	0	1	0
+80	__constStr0010	7	0	148	4	1
+81	__constStr0010.__constStr0010_type	1	1	0	1	0
+82	__displaySensors_7qG2_sMiddle_7qG2_000	7	0	150	4	2
+83	__displaySensors_7qG2_sMiddle_7qG2_000.__displaySensors_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	260	0	#line 260 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	260	0	#line 260 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 0	261	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	260	2	#line 260 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	263	2	#line 263 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	260	2	#line 260 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+0	263	2	#line 263 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 0	264	2		subcall initSensors, __initSensors_return
-0	263	4	#line 263 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	263	4	#line 263 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	265	4	#line 265 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	263	4	#line 263 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+0	263	4	#line 263 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+0	265	4	#line 265 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 0	266	4		subcall driveLogic, __driveLogic_return
-0	265	6	#line 265 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	265	6	#line 265 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 0	266	6		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	42	0	#line 42 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	42	0	#line 42 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	43	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
-2	42	3	#line 42 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	45	3	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	42	3	#line 42 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	45	3	#line 45 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	46	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	5	#line 3729 "NXCDefs.h"
 2	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
@@ -143,14 +144,14 @@ Clump	Line	PC	Source
 2	3695	40	#pragma macro 4
 2	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6496	44	#line 6496 "NXCDefs.h"
+2	3945	44	#line 3945 "NXCDefs.h"
 2	3694	44	#line 3694 "NXCDefs.h"
 2	3732	44	#line 3732 "NXCDefs.h"
-2	45	44	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	45	44	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	45	44	#line 45 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	45	44	#line 45 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	46	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
-2	45	47	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	48	47	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	45	47	#line 45 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	48	47	#line 48 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	49	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	49	#line 3729 "NXCDefs.h"
 2	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
@@ -190,14 +191,14 @@ Clump	Line	PC	Source
 2	3695	84	#pragma macro 4
 2	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6563	88	#line 6563 "NXCDefs.h"
+2	4012	88	#line 4012 "NXCDefs.h"
 2	3694	88	#line 3694 "NXCDefs.h"
 2	3732	88	#line 3732 "NXCDefs.h"
-2	48	88	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	48	88	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	48	88	#line 48 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	48	88	#line 48 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	49	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
-2	48	91	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	91	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	48	91	#line 48 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	91	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	93	#line 3729 "NXCDefs.h"
 2	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
@@ -237,431 +238,431 @@ Clump	Line	PC	Source
 2	3695	128	#pragma macro 4
 2	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	130		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	6630	132	#line 6630 "NXCDefs.h"
+2	4079	132	#line 4079 "NXCDefs.h"
 2	3694	132	#line 3694 "NXCDefs.h"
 2	3732	132	#line 3732 "NXCDefs.h"
-2	56	132	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	132	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	132	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	132	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	132		getin __D0initSensors, __constVal0, 4
-2	56	136	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	136	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	136		tst 5, __zfinitSensors, __D0initSensors
-2	56	139	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	139	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	139		mov __D0initSensors, __zfinitSensors
-2	56	141	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	57	141		brtst 4, __NXC_Label_611, __zfinitSensors
-2	56	144	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	141	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	57	141		brtst 4, __NXC_Label_496, __zfinitSensors
+2	56	144	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	144		mov __signed_stack_001initSensors, __D0initSensors
-2	56	146	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	146	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	146		getin __signed_stack_002initSensors, __constVal3, 4
-2	56	150	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	150	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	150	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	150	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	150		set __D0initSensors, 60
-2	56	153	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	153	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	153		cmp 3, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
-2	56	157	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	157	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	157	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	157	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	157		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
-2	56	161	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	161	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	161		tst 5, __zfinitSensors, __D0initSensors
-2	56	164	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	164	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	164		mov __D0initSensors, __zfinitSensors
-2	56	166	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	57	166		brtst 4, __NXC_Label_611, __zfinitSensors
-2	56	169	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	166	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	57	166		brtst 4, __NXC_Label_496, __zfinitSensors
+2	56	169	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	169		mov __signed_stack_001initSensors, __D0initSensors
-2	56	171	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	171	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	171		getin __signed_stack_002initSensors, __constVal1, 4
-2	56	175	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	175	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	175	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	175	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	175		set __D0initSensors, 40
-2	56	178	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	178	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	178		cmp 2, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
-2	56	182	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	182	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	56	182	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	56	182	#line 56 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	57	182		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
-2	59	186	#line 59 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	59	186	#line 59 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	60	186		tst 5, __zfinitSensors, __D0initSensors
-2	59	189	#line 59 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	60	189		brtst 4, __NXC_Label_612, __zfinitSensors
-2	61	192	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	59	189	#line 59 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	60	189		brtst 4, __NXC_Label_497, __zfinitSensors
+2	61	192	#line 61 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	62	192		set __D0initSensors, 0
-2	61	195	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	61	195	#line 61 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	62	195		subret __initSensors_return
-2	61	197	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	197	#line 67 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	68	197		jmp __NXC_Label_615
-2	69	199	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	61	197	#line 61 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	67	197	#line 67 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	68	197		jmp __NXC_Label_500
+2	69	199	#line 69 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	70	199		set __D0initSensors, 1
-2	69	202	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	69	202	#line 69 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	70	202		subret __initSensors_return
-2	69	204	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	78	204	#line 78 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	78	204	#line 78 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	69	204	#line 69 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	78	204	#line 78 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+2	78	204	#line 78 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 2	79	204		subret __initSensors_return
-3	83	0	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	83	0	#line 83 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 3	84	0	#pragma macro 7
 3	84	0		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-3	6707	23	#line 6707 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	83	23	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	91	23	#line 91 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	4156	23	#line 4156 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+3	83	23	#line 83 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+3	91	23	#line 91 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 3	92	23		subret __fullStop_return
-4	94	0	#line 94 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	94	0	#line 94 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 4	95	0		mov __signed_stack_001moveForward, __moveForward_7qG2_spd_7qG2_000
-4	94	2	#line 94 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	94	2	#line 94 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	94	2	#line 94 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+4	94	2	#line 94 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 4	95	2		set __D0moveForward, 1
-4	96	5	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	96	5	#line 96 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 4	97	5	#pragma macro 10
 4	97	5		acquire __OnRevMutex
 4	97	6		neg __OnRev_Tmp, __signed_stack_001moveForward
 4	97	9		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0moveForward, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 4	97	32		release __OnRevMutex
-4	6729	33	#line 6729 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	96	33	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	104	33	#line 104 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	4178	33	#line 4178 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+4	96	33	#line 96 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+4	104	33	#line 104 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 4	105	33		subret __moveForward_return
-5	122	0	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	122	0	#line 122 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	123	0		subcall fullStop, __fullStop_return
-5	122	2	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	122	2	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	122	2	#line 122 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+5	122	2	#line 122 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	123	2		mov __D0turnLeft, __turnLeft_7qG2_trnSpd_7qG2_000
-5	123	4	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	123	4	#line 123 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	124	4	#pragma macro 10
 5	124	4		acquire __OnRevMutex
 5	124	5		neg __OnRev_Tmp, __D0turnLeft
 5	124	8		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 5	124	31		release __OnRevMutex
-5	6770	32	#line 6770 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	123	32	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	123	32	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	4219	32	#line 4219 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+5	123	32	#line 123 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+5	123	32	#line 123 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	124	32		set __D0turnLeft, 10
-5	125	35	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	125	35	#line 125 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	126	35	#pragma macro 7
 5	126	35		setout __constVal0, 2, __D0turnLeft, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6777	58	#line 6777 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	125	58	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	132	58	#line 132 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	4226	58	#line 4226 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+5	125	58	#line 125 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+5	132	58	#line 132 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 5	133	58		subret __turnLeft_return
-6	138	0	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	138	0	#line 138 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	139	0		subcall fullStop, __fullStop_return
-6	138	2	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-6	138	2	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	138	2	#line 138 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+6	138	2	#line 138 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	139	2		mov __D0turnRight, __turnRight_7qG2_trnSpd_7qG2_000
-6	139	4	#line 139 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	139	4	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	140	4	#pragma macro 10
 6	140	4		acquire __OnRevMutex
 6	140	5		neg __OnRev_Tmp, __D0turnRight
 6	140	8		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 6	140	31		release __OnRevMutex
-6	6796	32	#line 6796 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-6	139	32	#line 139 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-6	139	32	#line 139 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	4245	32	#line 4245 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+6	139	32	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+6	139	32	#line 139 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	140	32		set __D0turnRight, 10
-6	141	35	#line 141 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	141	35	#line 141 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	142	35	#pragma macro 7
 6	142	35		setout __constVal2, 2, __D0turnRight, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-6	6803	58	#line 6803 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-6	141	58	#line 141 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-6	149	58	#line 149 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	4252	58	#line 4252 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+6	141	58	#line 141 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+6	149	58	#line 149 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 6	150	58		subret __turnRight_return
-7	153	0	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	153	0	#line 153 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	154	0		strcat __strbufdisplaySensors, __constStr0009
-7	153	4	#line 153 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	153	4	#line 153 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	154	4		mov __displaySensors_7qG2_sLeft_7qG2_000, __strbufdisplaySensors
-7	154	6	#line 154 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	154	6	#line 154 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	155	6		strcat __strbufdisplaySensors, __constStr0010
-7	154	10	#line 154 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	154	10	#line 154 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	155	10		mov __displaySensors_7qG2_sRight_7qG2_000, __strbufdisplaySensors
-7	155	12	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	155	12	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	156	12		strcat __strbufdisplaySensors, __constStr0011
-7	155	16	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	155	16	#line 155 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	156	16		mov __displaySensors_7qG2_sMiddle_7qG2_000, __strbufdisplaySensors
-7	158	18	#line 158 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	158	18	#line 158 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	159	18		strcat __strbufdisplaySensors, __constStr0012
-7	158	22	#line 158 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	158	22	#line 158 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	159	22		mov __displaySensors_7qG2_single_7qG2_000, __strbufdisplaySensors
-7	158	24	#line 158 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	158	24	#line 158 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	159	24		getin __displaySensors_7qG2_lValue_7qG2_000, __constVal0, 4
-7	158	28	#line 158 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	159	28	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	158	28	#line 158 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	159	28	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	160	28		getin __displaySensors_7qG2_mValue_7qG2_000, __constVal1, 4
-7	159	32	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	160	32	#line 160 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	159	32	#line 159 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	160	32	#line 160 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	161	32		getin __displaySensors_7qG2_rValue_7qG2_000, __constVal3, 4
-7	160	36	#line 160 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	164	36	#line 164 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	160	36	#line 160 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	164	36	#line 164 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	165	36		set __displaySensors_7qG2_lY_7qG2_000, 0
-7	164	39	#line 164 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	165	39	#line 165 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	164	39	#line 164 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	165	39	#line 165 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	166	39		set __displaySensors_7qG2_mY_7qG2_000, 40
-7	165	42	#line 165 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	168	42	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	165	42	#line 165 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	168	42	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	169	42		set __displaySensors_7qG2_rY_7qG2_000, 80
-7	168	45	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	168	45	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	168	45	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	168	45	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	169	45		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-7	168	47	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	168	47	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	168	47	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	168	47	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	169	47		set __signed_stack_002displaySensors, 32
-7	168	50	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	168	50	#line 168 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	168	50	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	168	50	#line 168 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	169	50		strcat __strbufdisplaySensors, __displaySensors_7qG2_single_7qG2_000
-7	171	54	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	54	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	54	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	54	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	54		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	171	56	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	56	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	56		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	171	58	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	58	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	58		set __TextOutArgs.Options, 0
-7	171	61	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	61	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	61		mov __TextOutArgs.Text, __strbufdisplaySensors
-7	171	63	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	63	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	63		syscall 13, __TextOutArgs
-7	171	66	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	66	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	66	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	66	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	66	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	66	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	66	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	66	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	66		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-7	171	68	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	68	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	68	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	68	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	68		set __signed_stack_002displaySensors, 56
-7	171	71	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	171	71	#line 171 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	171	71	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	171	71	#line 171 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	172	71		strcat __strbufdisplaySensors, __displaySensors_7qG2_sLeft_7qG2_000
-7	174	75	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	75	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	75	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	75	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	75		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	174	77	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	77	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	77		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	174	79	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	79	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	79		set __TextOutArgs.Options, 0
-7	174	82	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	82	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	82		mov __TextOutArgs.Text, __strbufdisplaySensors
-7	174	84	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	84	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	84		syscall 13, __TextOutArgs
-7	174	87	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	87	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	87	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	87	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	87	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	87	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	87	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	87	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	87		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-7	174	89	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	89	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	89	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	89	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	89		set __signed_stack_002displaySensors, 48
-7	174	92	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	174	92	#line 174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	174	92	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	174	92	#line 174 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	175	92		mov __D0displaySensors, __displaySensors_7qG2_lValue_7qG2_000
-7	177	94	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	94	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	94	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	94	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	94		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	177	96	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	96	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	96		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	177	98	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	98	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	98		set __TextOutArgs.Options, 0
-7	177	101	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	101	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	101		numtostr __TextOutArgs.Text, __D0displaySensors
-7	177	104	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	104	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	104		syscall 13, __TextOutArgs
-7	177	107	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	107	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	107	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	107	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	107	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	107	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	107	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	107	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	107		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
-7	177	109	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	109	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	109	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	109	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	109		set __signed_stack_002displaySensors, 56
-7	177	112	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	177	112	#line 177 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	177	112	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	177	112	#line 177 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	178	112		strcat __strbufdisplaySensors, __displaySensors_7qG2_sMiddle_7qG2_000
-7	180	116	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	116	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	116	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	116	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	116		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	180	118	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	118	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	118		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	180	120	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	120	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	120		set __TextOutArgs.Options, 0
-7	180	123	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	123	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	123		mov __TextOutArgs.Text, __strbufdisplaySensors
-7	180	125	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	125	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	125		syscall 13, __TextOutArgs
-7	180	128	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	128	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	128	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	128	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	128	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	128	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	128	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	128	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	128		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
-7	180	130	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	130	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	130	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	130	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	130		set __signed_stack_002displaySensors, 48
-7	180	133	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	180	133	#line 180 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	133	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	180	133	#line 180 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	181	133		mov __D0displaySensors, __displaySensors_7qG2_mValue_7qG2_000
-7	183	135	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	135	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	135	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	135	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	135		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	183	137	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	137	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	137		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	183	139	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	139	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	139		set __TextOutArgs.Options, 0
-7	183	142	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	142	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	142		numtostr __TextOutArgs.Text, __D0displaySensors
-7	183	145	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	145	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	145		syscall 13, __TextOutArgs
-7	183	148	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	148	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	148	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	148	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	148	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	148	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	148	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	148	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	148		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
-7	183	150	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	150	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	150	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	150	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	150		set __signed_stack_002displaySensors, 56
-7	183	153	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	183	153	#line 183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	153	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	183	153	#line 183 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	184	153		strcat __strbufdisplaySensors, __displaySensors_7qG2_sRight_7qG2_000
-7	186	157	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	157	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	157	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	157	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	157		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	186	159	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	159	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	159		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	186	161	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	161	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	161		set __TextOutArgs.Options, 0
-7	186	164	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	164	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	164		mov __TextOutArgs.Text, __strbufdisplaySensors
-7	186	166	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	166	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	166		syscall 13, __TextOutArgs
-7	186	169	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	169	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	169	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	169	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	169	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	169	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	169	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	169	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	169		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
-7	186	171	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	171	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	171	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	171	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	171		set __signed_stack_002displaySensors, 48
-7	186	174	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	186	174	#line 186 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	186	174	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	186	174	#line 186 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	187	174		mov __D0displaySensors, __displaySensors_7qG2_rValue_7qG2_000
-7	188	176	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	188	176	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	176	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	188	176	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	176		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-7	188	178	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	178	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	178		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-7	188	180	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	180	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	180		set __TextOutArgs.Options, 0
-7	188	183	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	183	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	183		numtostr __TextOutArgs.Text, __D0displaySensors
-7	188	186	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	186	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	186		syscall 13, __TextOutArgs
-7	188	189	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	189	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	189	189		mov __D0displaySensors, __TextOutArgs.Result
-7	188	191	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	188	191	#line 188 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-7	204	191	#line 204 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	188	191	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	188	191	#line 188 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+7	204	191	#line 204 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 7	205	191		subret __displaySensors_return
-8	213	0	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	0	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	0		subcall displaySensors, __displaySensors_return
-8	213	2	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	213	2	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	2	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	213	2	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	2		getin __D0driveLogic, __constVal0, 4
-8	213	6	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	6	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	6		tst 5, __zfdriveLogic, __D0driveLogic
-8	213	9	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	9	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	9		mov __D0driveLogic, __zfdriveLogic
-8	213	11	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	214	11		brtst 4, __NXC_Label_683, __zfdriveLogic
-8	213	14	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	11	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	214	11		brtst 4, __NXC_Label_568, __zfdriveLogic
+8	213	14	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	14		mov __signed_stack_001driveLogic, __D0driveLogic
-8	213	16	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	16	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	16		getin __signed_stack_002driveLogic, __constVal3, 4
-8	213	20	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	213	20	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	20	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	213	20	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	20		set __D0driveLogic, 60
-8	213	23	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	23	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	23		cmp 3, __zfdriveLogic, __signed_stack_002driveLogic, __D0driveLogic
-8	213	27	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	213	27	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	213	27	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	213	27	#line 213 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	214	27		and __D0driveLogic, __signed_stack_001driveLogic, __zfdriveLogic
-8	216	31	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	216	31	#line 216 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	217	31		tst 5, __zfdriveLogic, __D0driveLogic
-8	216	34	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	217	34		brtst 4, __NXC_Label_684, __zfdriveLogic
-8	216	37	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	216	34	#line 216 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	217	34		brtst 4, __NXC_Label_569, __zfdriveLogic
+8	216	37	#line 216 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	217	37		set __moveForward_7qG2_spd_7qG2_000, 50
-8	216	40	#line 216 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	218	40	#line 218 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	216	40	#line 216 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	218	40	#line 218 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	219	40		subcall moveForward, __moveForward_return
-8	218	42	#line 218 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	221	42	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	221	42	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	218	42	#line 218 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	221	42	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	221	42	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	222	42		getin __signed_stack_001driveLogic, __constVal0, 4
-8	221	46	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	221	46	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	221	46	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	221	46	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	222	46		set __D0driveLogic, 40
-8	221	49	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	221	49	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	222	49		cmp 2, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
-8	221	53	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	221	53	#line 221 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	222	53		mov __D0driveLogic, __zfdriveLogic
-8	224	55	#line 224 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	225	55		brtst 4, __NXC_Label_689, __zfdriveLogic
-8	224	58	#line 224 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	224	55	#line 224 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	225	55		brtst 4, __NXC_Label_574, __zfdriveLogic
+8	224	58	#line 224 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	225	58		set __turnLeft_7qG2_trnSpd_7qG2_000, 90
-8	224	61	#line 224 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	226	61	#line 226 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	224	61	#line 224 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	226	61	#line 226 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	227	61		subcall turnLeft, __turnLeft_return
-8	226	63	#line 226 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	229	63	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	229	63	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	226	63	#line 226 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	229	63	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	229	63	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	230	63		getin __signed_stack_001driveLogic, __constVal3, 4
-8	229	67	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	229	67	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	229	67	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	229	67	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	230	67		set __D0driveLogic, 40
-8	229	70	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	229	70	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	230	70		cmp 2, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
-8	229	74	#line 229 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	229	74	#line 229 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	230	74		mov __D0driveLogic, __zfdriveLogic
-8	232	76	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	233	76		brtst 4, __NXC_Label_694, __zfdriveLogic
-8	232	79	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	232	76	#line 232 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	233	76		brtst 4, __NXC_Label_579, __zfdriveLogic
+8	232	79	#line 232 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	233	79		set __turnRight_7qG2_trnSpd_7qG2_000, 90
-8	232	82	#line 232 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	234	82	#line 234 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	232	82	#line 232 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	234	82	#line 234 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	235	82		subcall turnRight, __turnRight_return
-8	234	84	#line 234 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	241	84	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	241	84	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	234	84	#line 234 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	241	84	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	241	84	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	242	84		getin __signed_stack_001driveLogic, __constVal1, 4
-8	241	88	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	241	88	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	241	88	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	241	88	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	242	88		set __D0driveLogic, 60
-8	241	91	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	241	91	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	242	91		cmp 3, __zfdriveLogic, __signed_stack_001driveLogic, __D0driveLogic
-8	241	95	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	241	95	#line 241 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	242	95		mov __D0driveLogic, __zfdriveLogic
-8	244	97	#line 244 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	245	97		brtst 4, __NXC_Label_699, __zfdriveLogic
-8	246	100	#line 246 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	244	97	#line 244 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	245	97		brtst 4, __NXC_Label_584, __zfdriveLogic
+8	246	100	#line 246 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	247	100		subcall fullStop, __fullStop_return
-8	246	102	#line 246 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	248	102	#line 248 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	250	102	#line 250 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	246	102	#line 246 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	248	102	#line 248 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	250	102	#line 250 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	251	102		set __D0driveLogic, 1
-8	257	105	#line 257 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	257	105	#line 257 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	258	105		tst 5, __zfdriveLogic, __D0driveLogic
-8	257	108	#line 257 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	258	108		brtst 4, __NXC_Label_681, __zfdriveLogic
-8	257	111	#line 257 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	258	111		jmp __NXC_Label_680
-8	257	113	#line 257 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-8	257	113	#line 257 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	257	108	#line 257 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	258	108		brtst 4, __NXC_Label_566, __zfdriveLogic
+8	257	111	#line 257 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	258	111		jmp __NXC_Label_565
+8	257	113	#line 257 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
+8	257	113	#line 257 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 8	258	113		subret __driveLogic_return
-9	269	0	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	269	0	#line 269 "C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc"
 9	270	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
 1	__ResetSensorSubroutine	9	NXTDefs.h
-2	initSensors	22	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-3	fullStop	228	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-4	moveForward	253	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-5	turnLeft	288	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-6	turnRight	348	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-7	displaySensors	408	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-8	driveLogic	601	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-9	__initialize_global_data	716	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+2	initSensors	22	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+3	fullStop	228	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+4	moveForward	253	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+5	turnLeft	288	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+6	turnRight	348	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+7	displaySensors	408	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+8	driveLogic	601	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc
+9	__initialize_global_data	716	C:\Users\BR0KK\Documents\SDP_Uni_Freiburg_Single.nxc

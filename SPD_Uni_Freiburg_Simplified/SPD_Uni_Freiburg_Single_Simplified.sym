@@ -1,0 +1,256 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0SetSensorLight_inline_main	6	1	0	4	6
+1	__D0main	6	1	4	4	22
+2	__DU0SetSensorLight_inline_main	5	1	8	4	4
+3	__signed_stack_002main	6	1	12	4	2
+4	__signed_stack_001main	6	1	16	4	8
+5	__main_7qG2_spd_7qG2_000	4	1	20	2	2
+6	__main_7qG2_trnspd_7qG2_000	4	1	22	2	5
+7	__main_7qG2_sOnBlack_7qG2_000	4	1	24	2	3
+8	__main_7qG2_sOnWhite_7qG2_000	4	1	26	2	2
+9	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	28	1	2
+10	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	29	1	4
+11	____initialize_global_data_return	1	1	30	1	3
+12	__constVal63	2	0	31	1	5
+13	__constVal96	2	0	32	1	5
+14	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	33	1	4
+15	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	34	1	10
+16	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	35	1	4
+17	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	36	1	4
+18	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	37	1	4
+19	__constVal0	2	1	38	1	18
+20	__constVal3	2	0	39	1	6
+21	__ResetSensorPort	1	1	40	1	4
+22	__OnRev_Tmp	2	1	41	1	6
+23	__constVal32	2	0	42	1	15
+24	__constVal1	2	0	43	1	3
+25	__ResetSensorTmp	1	1	44	1	2
+26	__constVal7	2	0	45	1	1
+27	__zfmain	1	1	46	1	15
+28	__zfSetSensorLight_inline_main	1	1	47	1	4
+29	____ResetSensorSubroutine_return	1	1	48	1	4
+30	__constVal2	2	0	49	1	2
+31	__PFTmp	1	1	50	1	1
+32	__OUT_AC	7	0	52	4	1
+33	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	15	0	#line 15 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	16	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	15	2	#line 15 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	16	2	#line 16 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	17	2		set __main_7qG2_sOnBlack_7qG2_000, 40
+0	16	5	#line 16 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	19	5	#line 19 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	20	5		set __main_7qG2_sOnWhite_7qG2_000, 60
+0	19	8	#line 19 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	20	8	#line 20 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	21	8		set __main_7qG2_spd_7qG2_000, 50
+0	20	11	#line 20 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	23	11	#line 23 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	24	11		set __main_7qG2_trnspd_7qG2_000, 70
+0	23	14	#line 23 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	23	14	#line 23 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	24	14		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	23	17	#line 23 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	26	17	#line 26 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	27	17		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	19	#line 3729 "NXCDefs.h"
+0	3730	19		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	21	#line 3729 "NXCDefs.h"
+0	3729	21	#line 3729 "NXCDefs.h"
+0	3730	21		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	23	#line 3729 "NXCDefs.h"
+0	3730	23		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	26	#line 3729 "NXCDefs.h"
+0	3730	26		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	29	#line 3729 "NXCDefs.h"
+0	3730	29		set __D0SetSensorLight_inline_main, 5
+0	3729	32	#line 3729 "NXCDefs.h"
+0	3730	32		jmp __001__NXC_Label_5
+0	3729	34	#line 3729 "NXCDefs.h"
+0	3730	34		set __D0SetSensorLight_inline_main, 6
+0	3729	37	#line 3729 "NXCDefs.h"
+0	3730	37		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	39	#line 3663 "NXCDefs.h"
+0	3664	39		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	43	#line 3663 "NXCDefs.h"
+0	3730	43	#line 3730 "NXCDefs.h"
+0	3730	43	#line 3730 "NXCDefs.h"
+0	3731	43		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	45	#line 3730 "NXCDefs.h"
+0	3730	45	#line 3730 "NXCDefs.h"
+0	3731	45		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	48	#line 3730 "NXCDefs.h"
+0	3676	48	#line 3676 "NXCDefs.h"
+0	3677	48		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	52	#line 3676 "NXCDefs.h"
+0	3731	52	#line 3731 "NXCDefs.h"
+0	3731	52	#line 3731 "NXCDefs.h"
+0	3732	52		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	54	#line 3731 "NXCDefs.h"
+0	3694	54	#line 3694 "NXCDefs.h"
+0	3695	54	#pragma macro 4
+0	3695	54		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	56		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3653	58	#line 3653 "NXCDefs.h"
+0	3694	58	#line 3694 "NXCDefs.h"
+0	3732	58	#line 3732 "NXCDefs.h"
+0	26	58	#line 26 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	26	58	#line 26 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	27	58		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 3
+0	26	61	#line 26 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	29	61	#line 29 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	30	61		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	63	#line 3729 "NXCDefs.h"
+0	3730	63		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	65	#line 3729 "NXCDefs.h"
+0	3729	65	#line 3729 "NXCDefs.h"
+0	3730	65		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	67	#line 3729 "NXCDefs.h"
+0	3730	67		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	70	#line 3729 "NXCDefs.h"
+0	3730	70		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	73	#line 3729 "NXCDefs.h"
+0	3730	73		set __D0SetSensorLight_inline_main, 5
+0	3729	76	#line 3729 "NXCDefs.h"
+0	3730	76		jmp __002__NXC_Label_5
+0	3729	78	#line 3729 "NXCDefs.h"
+0	3730	78		set __D0SetSensorLight_inline_main, 6
+0	3729	81	#line 3729 "NXCDefs.h"
+0	3730	81		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	83	#line 3663 "NXCDefs.h"
+0	3664	83		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	87	#line 3663 "NXCDefs.h"
+0	3730	87	#line 3730 "NXCDefs.h"
+0	3730	87	#line 3730 "NXCDefs.h"
+0	3731	87		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	89	#line 3730 "NXCDefs.h"
+0	3730	89	#line 3730 "NXCDefs.h"
+0	3731	89		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	92	#line 3730 "NXCDefs.h"
+0	3676	92	#line 3676 "NXCDefs.h"
+0	3677	92		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	96	#line 3676 "NXCDefs.h"
+0	3731	96	#line 3731 "NXCDefs.h"
+0	3731	96	#line 3731 "NXCDefs.h"
+0	3732	96		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	98	#line 3731 "NXCDefs.h"
+0	3694	98	#line 3694 "NXCDefs.h"
+0	3695	98	#pragma macro 4
+0	3695	98		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	100		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3720	102	#line 3720 "NXCDefs.h"
+0	3694	102	#line 3694 "NXCDefs.h"
+0	3732	102	#line 3732 "NXCDefs.h"
+0	29	102	#line 29 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	32	102	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	102		getin __D0main, __constVal0, 4
+0	32	106	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	106		tst 5, __zfmain, __D0main
+0	32	109	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	109		mov __D0main, __zfmain
+0	32	111	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	111		brtst 4, __NXC_Label_504, __zfmain
+0	32	114	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	114		mov __signed_stack_001main, __D0main
+0	32	116	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	116		getin __signed_stack_002main, __constVal3, 4
+0	32	120	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	32	120	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	120		mov __D0main, __main_7qG2_sOnWhite_7qG2_000
+0	32	122	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	122		cmp 3, __zfmain, __signed_stack_002main, __D0main
+0	32	126	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	32	126	#line 32 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	33	126		and __D0main, __signed_stack_001main, __zfmain
+0	35	130	#line 35 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	36	130		tst 5, __zfmain, __D0main
+0	35	133	#line 35 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	36	133		brtst 4, __NXC_Label_505, __zfmain
+0	35	136	#line 35 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	36	136		mov __signed_stack_001main, __main_7qG2_spd_7qG2_000
+0	35	138	#line 35 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	35	138	#line 35 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	36	138		set __D0main, 1
+0	37	141	#line 37 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	38	141	#pragma macro 10
+0	38	141		neg __OnRev_Tmp, __signed_stack_001main
+0	38	144		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0main, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3764	167	#line 3764 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	37	167	#line 37 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	40	167	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	40	167	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	41	167		getin __signed_stack_001main, __constVal0, 4
+0	40	171	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	40	171	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	41	171		mov __D0main, __main_7qG2_sOnBlack_7qG2_000
+0	40	173	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	41	173		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	40	177	#line 40 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	41	177		mov __D0main, __zfmain
+0	43	179	#line 43 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	44	179		brtst 4, __NXC_Label_512, __zfmain
+0	43	182	#line 43 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	46	182	#line 46 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	47	182	#pragma macro 10
+0	47	182		neg __OnRev_Tmp, __main_7qG2_trnspd_7qG2_000
+0	47	185		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3787	208	#line 3787 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	46	208	#line 46 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	46	208	#line 46 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	47	208		set __D0main, 30
+0	48	211	#line 48 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	49	211	#pragma macro 7
+0	49	211		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3794	234	#line 3794 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	48	234	#line 48 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	51	234	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	51	234	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	52	234		getin __signed_stack_001main, __constVal3, 4
+0	51	238	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	51	238	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	52	238		mov __D0main, __main_7qG2_sOnBlack_7qG2_000
+0	51	240	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	52	240		cmp 2, __zfmain, __signed_stack_001main, __D0main
+0	51	244	#line 51 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	52	244		mov __D0main, __zfmain
+0	54	246	#line 54 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	55	246		brtst 4, __NXC_Label_519, __zfmain
+0	54	249	#line 54 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	57	249	#line 57 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	58	249	#pragma macro 10
+0	58	249		neg __OnRev_Tmp, __main_7qG2_trnspd_7qG2_000
+0	58	252		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3817	275	#line 3817 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	57	275	#line 57 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	57	275	#line 57 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	58	275		set __D0main, 30
+0	59	278	#line 59 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	60	278	#pragma macro 7
+0	60	278		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	3824	301	#line 3824 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	59	301	#line 59 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	61	301	#line 61 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	63	301	#line 63 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	64	301		set __D0main, 1
+0	65	304	#line 65 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	66	304		tst 5, __zfmain, __D0main
+0	65	307	#line 65 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	66	307		brtst 4, __NXC_Label_502, __zfmain
+0	65	310	#line 65 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	66	310		jmp __NXC_Label_501
+0	65	312	#line 65 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+0	66	312		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	66	0	#line 66 "C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc"
+2	67	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc
+1	__ResetSensorSubroutine	315	NXTDefs.h
+2	__initialize_global_data	328	C:\Users\BR0KK\Documents\SPD_Uni_Freiburg_Single_Simplified.nxc
