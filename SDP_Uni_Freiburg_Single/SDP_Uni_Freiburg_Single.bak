@@ -98,19 +98,6 @@ void moveForward (int spd) {
 
 /*
 *Author:
-*Move robot backwards with synced Motots (OUT_AC)
-*It's reversed bcause the robot build that way!
-*Return: no "return" value
-*/
-void moveBackwards (int spd) {
-
-     //Backward movement with automated sync of motors. Value of "spd" will be given throu calling that procedure with an INTEGER argument.
-     OnFwdReg(OUT_AC, spd, OUT_REGMODE_SPEED);
-
-}//endFuncMoveBackwards()
-
-/*
-*Author:
 *Turn left ....
 *Return: no "return" value
 */
@@ -239,12 +226,12 @@ void driveLogic () {
         *ATM this part only stops the robot; by calling the procedure fullStop (); if the middle sensor (IN_2) detects a value <= sOnBlack
         */
         //If sensor (IN_2) detects a value >= sOnWhite then....
-        /*if (Sensor (IN_2) >= sOnWhite ) {
+        if (Sensor (IN_2) >= sOnWhite ) {
 
            //ATM the Machine stops working....
            fullStop ();
 
-        }//endIf4 */
+        }//endIf4
 
      } while (true)//endDoWhile1
 

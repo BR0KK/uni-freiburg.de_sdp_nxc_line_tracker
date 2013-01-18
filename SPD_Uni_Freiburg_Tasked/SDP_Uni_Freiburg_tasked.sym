@@ -1,102 +1,112 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__D0initSensors	6	1	0	4	16
-1	__D0SetSensorLowspeed_inline_initSensors	6	1	4	4	3
-2	__D0displaySensors	6	1	8	4	9
-3	__DU0SetSensorLowspeed_inline_initSensors	5	1	12	4	2
-4	__D0outputSensors	6	1	16	4	2
-5	__DU0SetSensorLight_inline_initSensors	5	1	20	4	6
-6	__signed_stack_001initSensors	6	1	24	4	4
-7	__signed_stack_002initSensors	6	1	28	4	4
-8	__D0SetSensorLight_inline_initSensors	6	1	32	4	9
-9	__signed_stack_001displaySensors	6	1	36	4	18
-10	__signed_stack_002displaySensors	6	1	40	4	18
-11	__displaySensors_7qG2_lY_7qG2_000	4	1	44	2	6
-12	__displaySensors_7qG2_mY_7qG2_000	4	1	46	2	3
-13	__displaySensors_7qG2_rY_7qG2_000	4	1	48	2	3
-14	__displaySensors_7qG2_mValue_7qG2_000	4	1	50	2	2
-15	__displaySensors_7qG2_lValue_7qG2_000	4	1	52	2	2
-16	__displaySensors_7qG2_nValue_7qG2_000	4	1	54	2	2
-17	__displaySensors_7qG2_rValue_7qG2_000	4	1	56	2	2
-18	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	58	1	6
-19	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	59	1	6
-20	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors	1	1	60	1	4
-21	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	61	1	3
-22	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	62	1	2
-23	__displaySensors_return	1	1	63	1	3
-24	____initialize_global_data_return	1	1	64	1	3
-25	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	65	1	2
-26	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors	1	1	66	1	2
-27	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	67	1	2
-28	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_initSensors	1	1	68	1	2
-29	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	69	1	6
-30	__constVal0	2	1	70	1	2
-31	__constVal3	2	0	71	1	2
-32	__constVal1	2	0	72	1	7
-33	__PFTmp	1	1	73	1	1
-34	____ResetSensorSubroutine_return	1	1	74	1	6
-35	__constVal2	2	0	75	1	1
-36	__ResetSensorPort	1	1	76	1	6
-37	__ResetSensorTmp	1	1	77	1	2
-38	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	78	1	15
-39	__initSensors_return	1	1	79	1	5
-40	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	80	1	6
-41	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	81	1	6
-42	__zfoutputSensors	1	1	82	1	2
-43	__zfinitSensors	1	1	83	1	12
-44	__zfSetSensorLowspeed_inline_initSensors	1	1	84	1	2
-45	__zfSetSensorLight_inline_initSensors	1	1	85	1	6
-46	__TextOutArgs	8	0	4	16	46
-47	__TextOutArgs.Result	2	1	88	1	46
-48	__TextOutArgs.Location	8	0	2	4	46
-49	__TextOutArgs.Location.X	4	1	92	2	46
-50	__TextOutArgs.Location.Y	4	1	94	2	46
-51	__TextOutArgs.Text	7	0	96	4	46
-52	__TextOutArgs.Text.Text_type	1	0	0	1	0
-53	__TextOutArgs.Options	5	1	100	4	46
-54	__constStr0013	7	0	104	4	1
-55	__constStr0013.__constStr0013_type	1	1	0	1	0
-56	__displaySensors_7qG2_nFront_7qG2_000	7	0	106	4	2
-57	__displaySensors_7qG2_nFront_7qG2_000.__displaySensors_7qG2_nFront_7qG2_000_type	1	0	0	1	0
-58	__constStr0009	7	0	108	4	1
-59	__constStr0009.__constStr0009_type	1	1	0	1	0
-60	__displaySensors_7qG2_sRight_7qG2_000	7	0	110	4	2
-61	__displaySensors_7qG2_sRight_7qG2_000.__displaySensors_7qG2_sRight_7qG2_000_type	1	0	0	1	0
-62	__strbufdisplaySensors	7	0	112	4	20
-63	__strbufdisplaySensors.__strbufdisplaySensors_type	1	0	0	1	0
-64	__displaySensors_7qG2_sLeft_7qG2_000	7	0	114	4	2
-65	__displaySensors_7qG2_sLeft_7qG2_000.__displaySensors_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
-66	__constStr0010	7	0	116	4	1
-67	__constStr0010.__constStr0010_type	1	1	0	1	0
-68	__displaySensors_7qG2_tasked_7qG2_000	7	0	118	4	2
-69	__displaySensors_7qG2_tasked_7qG2_000.__displaySensors_7qG2_tasked_7qG2_000_type	1	0	0	1	0
-70	__constStr0012	7	0	120	4	1
-71	__constStr0012.__constStr0012_type	1	1	0	1	0
-72	__displaySensors_7qG2_sMiddle_7qG2_000	7	0	122	4	2
-73	__displaySensors_7qG2_sMiddle_7qG2_000.__displaySensors_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
-74	__constStr0011	7	0	124	4	1
-75	__constStr0011.__constStr0011_type	1	1	0	1	0
+0	__D0turnRight	6	1	0	4	4
+1	__D0turnLeft	6	1	4	4	4
+2	__DU0SetSensorLight_inline_initSensors	5	1	8	4	6
+3	__D0SetSensorLight_inline_initSensors	6	1	12	4	9
+4	__D0moveForward	6	1	16	4	2
+5	__D0displaySensors	6	1	20	4	7
+6	__D0showSensors	6	1	24	4	2
+7	__D0moveRobotForward	6	1	28	4	10
+8	__signed_stack_001moveRobotForward	6	1	32	4	2
+9	__signed_stack_001moveForward	6	1	36	4	2
+10	moveMotors	9	0	40	4	8
+11	__signed_stack_002moveRobotForward	6	1	44	4	2
+12	__signed_stack_001checkSensorsLR	6	1	48	4	4
+13	__signed_stack_001checkMiddleSensor	6	1	52	4	2
+14	__signed_stack_002displaySensors	6	1	56	4	14
+15	__signed_stack_001displaySensors	6	1	60	4	14
+16	__D0checkMiddleSensor	6	1	64	4	4
+17	__OnRevMutex	9	0	68	4	6
+18	__D0checkSensorsLR	6	1	72	4	8
+19	__displaySensors_7qG2_rY_7qG2_000	4	1	76	2	3
+20	__displaySensors_7qG2_mValue_7qG2_000	4	1	78	2	2
+21	__displaySensors_7qG2_lValue_7qG2_000	4	1	80	2	2
+22	__displaySensors_7qG2_rValue_7qG2_000	4	1	82	2	2
+23	__displaySensors_7qG2_lY_7qG2_000	4	1	84	2	4
+24	__displaySensors_7qG2_mY_7qG2_000	4	1	86	2	3
+25	__turnLeft_7qG2_trnspd_7qG2_000	4	1	88	2	2
+26	__turnRight_7qG2_trnspd_7qG2_000	4	1	90	2	2
+27	__moveForward_7qG2_spd_7qG2_000	4	1	92	2	2
+28	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	94	1	6
+29	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	95	1	6
+30	__displaySensors_return	1	1	96	1	3
+31	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	97	1	3
+32	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	98	1	6
+33	__turnLeft_return	1	1	99	1	3
+34	__turnRight_return	1	1	100	1	3
+35	____initialize_global_data_return	1	1	101	1	3
+36	__moveForward_return	1	1	102	1	3
+37	__fullStop_return	1	1	103	1	4
+38	__constVal96	2	0	104	1	6
+39	__constVal63	2	0	105	1	6
+40	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors	1	1	106	1	6
+41	__ResetSensorPort	1	1	107	1	5
+42	__zfSetSensorLight_inline_initSensors	1	1	108	1	6
+43	__ResetSensorTmp	1	1	109	1	2
+44	__constVal1	2	0	110	1	6
+45	__constVal0	2	1	111	1	23
+46	__constVal3	2	0	112	1	8
+47	____ResetSensorSubroutine_return	1	1	113	1	5
+48	__zfmoveRobotForward	1	1	114	1	9
+49	__zfcheckMiddleSensor	1	1	115	1	3
+50	__zfcheckSensorsLR	1	1	116	1	8
+51	__constVal2	2	0	117	1	2
+52	__zfshowSensors	1	1	118	1	2
+53	__constVal7	2	0	119	1	1
+54	__constVal32	2	0	120	1	18
+55	__initSensors_return	1	1	121	1	3
+56	__OnRev_Tmp	2	1	122	1	6
+57	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors	1	1	123	1	6
+58	__SetSensorLight_7qG2_port_7qG2_000_inline_initSensors	1	1	124	1	15
+59	__TextOutArgs	8	0	4	16	36
+60	__TextOutArgs.Result	2	1	128	1	36
+61	__TextOutArgs.Location	8	0	2	4	36
+62	__TextOutArgs.Location.X	4	1	132	2	36
+63	__TextOutArgs.Location.Y	4	1	134	2	36
+64	__TextOutArgs.Text	7	0	136	4	36
+65	__TextOutArgs.Text.Text_type	1	0	0	1	0
+66	__TextOutArgs.Options	5	1	140	4	36
+67	__constStr0011	7	0	144	4	1
+68	__constStr0011.__constStr0011_type	1	1	0	1	0
+69	__OUT_AC	7	0	146	4	2
+70	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+71	__displaySensors_7qG2_tasked_7qG2_000	7	0	148	4	2
+72	__displaySensors_7qG2_tasked_7qG2_000.__displaySensors_7qG2_tasked_7qG2_000_type	1	0	0	1	0
+73	__constStr0012	7	0	150	4	1
+74	__constStr0012.__constStr0012_type	1	1	0	1	0
+75	__strbufdisplaySensors	7	0	152	4	16
+76	__strbufdisplaySensors.__strbufdisplaySensors_type	1	0	0	1	0
+77	__constStr0009	7	0	154	4	1
+78	__constStr0009.__constStr0009_type	1	1	0	1	0
+79	__displaySensors_7qG2_sRight_7qG2_000	7	0	156	4	2
+80	__displaySensors_7qG2_sRight_7qG2_000.__displaySensors_7qG2_sRight_7qG2_000_type	1	0	0	1	0
+81	__constStr0010	7	0	158	4	1
+82	__constStr0010.__constStr0010_type	1	1	0	1	0
+83	__displaySensors_7qG2_sMiddle_7qG2_000	7	0	160	4	2
+84	__displaySensors_7qG2_sMiddle_7qG2_000.__displaySensors_7qG2_sMiddle_7qG2_000_type	1	0	0	1	0
+85	__displaySensors_7qG2_sLeft_7qG2_000	7	0	162	4	2
+86	__displaySensors_7qG2_sLeft_7qG2_000.__displaySensors_7qG2_sLeft_7qG2_000_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	384	0	#line 384 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	385	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	384	2	#line 384 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	387	2	#line 387 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	388	2		subcall initSensors, __initSensors_return
-0	387	4	#line 387 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	387	4	#line 387 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	389	4	#line 389 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	389	4	#line 389 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-0	390	4		exit 0, 0
+0	288	0	#line 288 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	289	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	288	2	#line 288 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	291	2	#line 291 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	292	2		subcall initSensors, __initSensors_return
+0	291	4	#line 291 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	293	4	#line 293 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	293	4	#line 293 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	294	4		exit 0, 3
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	49	0	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	50	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
+2	46	0	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	47	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 0
+2	46	3	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	49	3	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	3	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	53	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	50	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	5	#line 3729 "NXCDefs.h"
 2	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	7	#line 3729 "NXCDefs.h"
@@ -135,15 +145,15 @@ Clump	Line	PC	Source
 2	3695	40	#pragma macro 4
 2	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	4201	44	#line 4201 "NXCDefs.h"
+2	6656	44	#line 6656 "NXCDefs.h"
 2	3694	44	#line 3694 "NXCDefs.h"
 2	3732	44	#line 3732 "NXCDefs.h"
-2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	52	44	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	53	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
+2	49	44	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	49	44	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	50	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 1
+2	49	47	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
 2	52	47	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	47	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	53	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	49	#line 3729 "NXCDefs.h"
 2	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	51	#line 3729 "NXCDefs.h"
@@ -182,15 +192,15 @@ Clump	Line	PC	Source
 2	3695	84	#pragma macro 4
 2	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	4268	88	#line 4268 "NXCDefs.h"
+2	6723	88	#line 6723 "NXCDefs.h"
 2	3694	88	#line 3694 "NXCDefs.h"
 2	3732	88	#line 3732 "NXCDefs.h"
-2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	55	88	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	56	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
-2	55	91	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	58	91	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	59	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
+2	52	88	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	52	88	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	53	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors, 3
+2	52	91	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	54	91	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	55	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initSensors, __constVal1
 2	3729	93	#line 3729 "NXCDefs.h"
 2	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initSensors, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3729	95	#line 3729 "NXCDefs.h"
@@ -229,375 +239,427 @@ Clump	Line	PC	Source
 2	3695	128	#pragma macro 4
 2	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initSensors
 2	3695	130		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	4335	132	#line 4335 "NXCDefs.h"
+2	6790	132	#line 6790 "NXCDefs.h"
 2	3694	132	#line 3694 "NXCDefs.h"
 2	3732	132	#line 3732 "NXCDefs.h"
-2	58	132	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	58	132	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	59	132		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors, 2
-2	58	135	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	135	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	135		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors, __constVal1
-2	3758	137	#line 3758 "NXCDefs.h"
-2	3759	137		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors
-2	3758	139	#line 3758 "NXCDefs.h"
-2	3758	139	#line 3758 "NXCDefs.h"
-2	3759	139		mov __DU0SetSensorLowspeed_inline_initSensors, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_initSensors
-2	3758	141	#line 3758 "NXCDefs.h"
-2	3759	141		tst 5, __zfSetSensorLowspeed_inline_initSensors, __DU0SetSensorLowspeed_inline_initSensors
-2	3758	144	#line 3758 "NXCDefs.h"
-2	3759	144		brtst 4, __004__NXC_Label_36, __zfSetSensorLowspeed_inline_initSensors
-2	3758	147	#line 3758 "NXCDefs.h"
-2	3759	147		set __D0SetSensorLowspeed_inline_initSensors, 11
-2	3758	150	#line 3758 "NXCDefs.h"
-2	3759	150		jmp __004__NXC_Label_37
-2	3758	152	#line 3758 "NXCDefs.h"
-2	3759	152		set __D0SetSensorLowspeed_inline_initSensors, 10
-2	3758	155	#line 3758 "NXCDefs.h"
-2	3759	155		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __D0SetSensorLowspeed_inline_initSensors
-2	3663	157	#line 3663 "NXCDefs.h"
-2	3664	157		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, 0
-2	3663	161	#line 3663 "NXCDefs.h"
-2	3759	161	#line 3759 "NXCDefs.h"
-2	3759	161	#line 3759 "NXCDefs.h"
-2	3760	161		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors
-2	3759	163	#line 3759 "NXCDefs.h"
-2	3759	163	#line 3759 "NXCDefs.h"
-2	3760	163		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, 0
-2	3759	166	#line 3759 "NXCDefs.h"
-2	3676	166	#line 3676 "NXCDefs.h"
-2	3677	166		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_initSensors, 1
-2	3676	170	#line 3676 "NXCDefs.h"
-2	3760	170	#line 3760 "NXCDefs.h"
-2	3760	170	#line 3760 "NXCDefs.h"
-2	3760	170	#line 3760 "NXCDefs.h"
-2	3694	170	#line 3694 "NXCDefs.h"
-2	3695	170	#pragma macro 4
-2	3695	170		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_initSensors
-2	3695	172		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-2	4430	174	#line 4430 "NXCDefs.h"
-2	3694	174	#line 3694 "NXCDefs.h"
-2	3761	174	#line 3761 "NXCDefs.h"
-2	66	174	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	174	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	174		getin __D0initSensors, __constVal0, 4
-2	66	178	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	178		tst 5, __zfinitSensors, __D0initSensors
-2	66	181	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	181		mov __D0initSensors, __zfinitSensors
-2	66	183	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	183		brtst 4, __NXC_Label_498, __zfinitSensors
-2	66	186	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	186		mov __signed_stack_001initSensors, __D0initSensors
-2	66	188	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	188		getin __signed_stack_002initSensors, __constVal3, 4
-2	66	192	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	192	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	192		set __D0initSensors, 55
-2	66	195	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	195		cmp 3, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
-2	66	199	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	199	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	199		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
-2	66	203	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	203		tst 5, __zfinitSensors, __D0initSensors
-2	66	206	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	206		mov __D0initSensors, __zfinitSensors
-2	66	208	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	208		brtst 4, __NXC_Label_498, __zfinitSensors
-2	66	211	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	211		mov __signed_stack_001initSensors, __D0initSensors
-2	66	213	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	213		getin __signed_stack_002initSensors, __constVal1, 4
-2	66	217	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	217	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	217		set __D0initSensors, 40
-2	66	220	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	220		cmp 2, __zfinitSensors, __signed_stack_002initSensors, __D0initSensors
-2	66	224	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	66	224	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	67	224		and __D0initSensors, __signed_stack_001initSensors, __zfinitSensors
-2	69	228	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	70	228		tst 5, __zfinitSensors, __D0initSensors
-2	69	231	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	70	231		brtst 4, __NXC_Label_499, __zfinitSensors
-2	71	234	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	72	234		set __D0initSensors, 0
-2	71	237	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	72	237		subret __initSensors_return
-2	71	239	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	77	239	#line 77 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	78	239		jmp __NXC_Label_502
-2	79	241	#line 79 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	80	241		set __D0initSensors, 1
-2	79	244	#line 79 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	80	244		subret __initSensors_return
-2	79	246	#line 79 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	89	246	#line 89 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	89	246	#line 89 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-2	90	246		subret __initSensors_return
-3	93	0	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	94	0		strcat __strbufdisplaySensors, __constStr0009
-3	93	4	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	94	4		mov __displaySensors_7qG2_sLeft_7qG2_000, __strbufdisplaySensors
-3	94	6	#line 94 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	95	6		strcat __strbufdisplaySensors, __constStr0010
-3	94	10	#line 94 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	95	10		mov __displaySensors_7qG2_sRight_7qG2_000, __strbufdisplaySensors
-3	95	12	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	96	12		strcat __strbufdisplaySensors, __constStr0011
-3	95	16	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	96	16		mov __displaySensors_7qG2_sMiddle_7qG2_000, __strbufdisplaySensors
-3	96	18	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	97	18		strcat __strbufdisplaySensors, __constStr0012
-3	96	22	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	97	22		mov __displaySensors_7qG2_tasked_7qG2_000, __strbufdisplaySensors
-3	99	24	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	100	24		strcat __strbufdisplaySensors, __constStr0013
-3	99	28	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	100	28		mov __displaySensors_7qG2_nFront_7qG2_000, __strbufdisplaySensors
-3	99	30	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	100	30		getin __displaySensors_7qG2_lValue_7qG2_000, __constVal0, 4
-3	99	34	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	100	34	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	101	34		getin __displaySensors_7qG2_mValue_7qG2_000, __constVal1, 4
-3	100	38	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	101	38	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	102	38		getin __displaySensors_7qG2_rValue_7qG2_000, __constVal3, 4
-3	101	42	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	102	42	#line 102 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	103	42		getin __displaySensors_7qG2_nValue_7qG2_000, __constVal2, 4
-3	102	46	#line 102 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	106	46	#line 106 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	107	46		set __displaySensors_7qG2_lY_7qG2_000, 0
-3	106	49	#line 106 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	107	49	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	108	49		set __displaySensors_7qG2_mY_7qG2_000, 40
-3	107	52	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	110	52	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	111	52		set __displaySensors_7qG2_rY_7qG2_000, 80
-3	110	55	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	110	55	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	111	55		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-3	110	57	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	110	57	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	111	57		set __signed_stack_002displaySensors, 8
-3	110	60	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	110	60	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	111	60		strcat __strbufdisplaySensors, __displaySensors_7qG2_tasked_7qG2_000
-3	113	64	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	64	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	64		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	113	66	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	66		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	113	68	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	68		set __TextOutArgs.Options, 0
-3	113	71	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	71		mov __TextOutArgs.Text, __strbufdisplaySensors
-3	113	73	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	73		syscall 13, __TextOutArgs
-3	113	76	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	76	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	76	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	76	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	76		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-3	113	78	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	78	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	78		set __signed_stack_002displaySensors, 56
-3	113	81	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	113	81	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	114	81		strcat __strbufdisplaySensors, __displaySensors_7qG2_sLeft_7qG2_000
-3	116	85	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	85	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	85		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	116	87	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	87		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	116	89	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	89		set __TextOutArgs.Options, 0
-3	116	92	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	92		mov __TextOutArgs.Text, __strbufdisplaySensors
-3	116	94	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	94		syscall 13, __TextOutArgs
-3	116	97	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	97	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	97	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	97	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	97		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-3	116	99	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	99	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	99		set __signed_stack_002displaySensors, 48
-3	116	102	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	116	102	#line 116 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	117	102		mov __D0displaySensors, __displaySensors_7qG2_lValue_7qG2_000
-3	119	104	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	104	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	104		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	119	106	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	106		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	119	108	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	108		set __TextOutArgs.Options, 0
-3	119	111	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	111		numtostr __TextOutArgs.Text, __D0displaySensors
-3	119	114	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	114		syscall 13, __TextOutArgs
-3	119	117	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	117	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	117	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	117	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	117		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
-3	119	119	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	119	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	119		set __signed_stack_002displaySensors, 56
-3	119	122	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	119	122	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	120	122		strcat __strbufdisplaySensors, __displaySensors_7qG2_sMiddle_7qG2_000
-3	122	126	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	126	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	126		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	122	128	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	128		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	122	130	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	130		set __TextOutArgs.Options, 0
-3	122	133	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	133		mov __TextOutArgs.Text, __strbufdisplaySensors
-3	122	135	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	135		syscall 13, __TextOutArgs
-3	122	138	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	138	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	138	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	138	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	138		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
-3	122	140	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	140	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	140		set __signed_stack_002displaySensors, 48
-3	122	143	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	122	143	#line 122 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	123	143		mov __D0displaySensors, __displaySensors_7qG2_mValue_7qG2_000
-3	125	145	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	145	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	145		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	125	147	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	147		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	125	149	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	149		set __TextOutArgs.Options, 0
-3	125	152	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	152		numtostr __TextOutArgs.Text, __D0displaySensors
-3	125	155	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	155		syscall 13, __TextOutArgs
-3	125	158	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	158	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	158	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	158	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	158		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
-3	125	160	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	160	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	160		set __signed_stack_002displaySensors, 56
-3	125	163	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	125	163	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	126	163		strcat __strbufdisplaySensors, __displaySensors_7qG2_sRight_7qG2_000
-3	128	167	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	167	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	167		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	128	169	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	169		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	128	171	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	171		set __TextOutArgs.Options, 0
-3	128	174	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	174		mov __TextOutArgs.Text, __strbufdisplaySensors
-3	128	176	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	176		syscall 13, __TextOutArgs
-3	128	179	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	179	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	179	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	179	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	179		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
-3	128	181	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	181	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	181		set __signed_stack_002displaySensors, 48
-3	128	184	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	128	184	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	129	184		mov __D0displaySensors, __displaySensors_7qG2_rValue_7qG2_000
-3	131	186	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	186	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	186		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	131	188	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	188		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	131	190	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	190		set __TextOutArgs.Options, 0
-3	131	193	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	193		numtostr __TextOutArgs.Text, __D0displaySensors
-3	131	196	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	196		syscall 13, __TextOutArgs
-3	131	199	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	199	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	199	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	199	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	199		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-3	131	201	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	201	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	201		set __signed_stack_002displaySensors, 32
-3	131	204	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	131	204	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	132	204		strcat __strbufdisplaySensors, __displaySensors_7qG2_nFront_7qG2_000
-3	134	208	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	208	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	208		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	134	210	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	210		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	134	212	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	212		set __TextOutArgs.Options, 0
-3	134	215	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	215		mov __TextOutArgs.Text, __strbufdisplaySensors
-3	134	217	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	217		syscall 13, __TextOutArgs
-3	134	220	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	220	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	220	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	220	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	220		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
-3	134	222	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	222	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	222		set __signed_stack_002displaySensors, 24
-3	134	225	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	134	225	#line 134 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	135	225		mov __D0displaySensors, __displaySensors_7qG2_nValue_7qG2_000
-3	136	227	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	136	227	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	227		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
-3	136	229	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	229		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
-3	136	231	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	231		set __TextOutArgs.Options, 0
-3	136	234	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	234		numtostr __TextOutArgs.Text, __D0displaySensors
-3	136	237	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	237		syscall 13, __TextOutArgs
-3	136	240	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	137	240		mov __D0displaySensors, __TextOutArgs.Result
-3	136	242	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	136	242	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	143	242	#line 143 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-3	144	242		subret __displaySensors_return
-4	372	0	#line 372 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	373	0		subcall displaySensors, __displaySensors_return
-4	372	2	#line 372 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	374	2	#line 374 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	375	2		set __D0outputSensors, 1
-4	381	5	#line 381 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	382	5		tst 5, __zfoutputSensors, __D0outputSensors
-4	381	8	#line 381 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	382	8		brtst 4, __NXC_Label_624, __zfoutputSensors
-4	381	11	#line 381 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	382	11		jmp __NXC_Label_623
-4	381	13	#line 381 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-4	382	13		exit -1, -1
-5	392	0	#line 392 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
-5	393	0		subret ____initialize_global_data_return
+2	54	132	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	62	132	#line 62 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+2	63	132		subret __initSensors_return
+3	66	0	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	67	0		strcat __strbufdisplaySensors, __constStr0009
+3	66	4	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	67	4		mov __displaySensors_7qG2_sLeft_7qG2_000, __strbufdisplaySensors
+3	67	6	#line 67 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	68	6		strcat __strbufdisplaySensors, __constStr0010
+3	67	10	#line 67 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	68	10		mov __displaySensors_7qG2_sRight_7qG2_000, __strbufdisplaySensors
+3	68	12	#line 68 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	69	12		strcat __strbufdisplaySensors, __constStr0011
+3	68	16	#line 68 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	69	16		mov __displaySensors_7qG2_sMiddle_7qG2_000, __strbufdisplaySensors
+3	71	18	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	72	18		strcat __strbufdisplaySensors, __constStr0012
+3	71	22	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	72	22		mov __displaySensors_7qG2_tasked_7qG2_000, __strbufdisplaySensors
+3	71	24	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	72	24		getin __displaySensors_7qG2_lValue_7qG2_000, __constVal0, 4
+3	71	28	#line 71 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	72	28	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	73	28		getin __displaySensors_7qG2_mValue_7qG2_000, __constVal1, 4
+3	72	32	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	73	32	#line 73 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	74	32		getin __displaySensors_7qG2_rValue_7qG2_000, __constVal3, 4
+3	73	36	#line 73 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	77	36	#line 77 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	78	36		set __displaySensors_7qG2_lY_7qG2_000, 0
+3	77	39	#line 77 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	78	39	#line 78 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	79	39		set __displaySensors_7qG2_mY_7qG2_000, 40
+3	78	42	#line 78 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	81	42	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	82	42		set __displaySensors_7qG2_rY_7qG2_000, 80
+3	81	45	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	81	45	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	82	45		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
+3	81	47	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	81	47	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	82	47		set __signed_stack_002displaySensors, 32
+3	81	50	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	81	50	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	82	50		strcat __strbufdisplaySensors, __displaySensors_7qG2_tasked_7qG2_000
+3	84	54	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	54	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	54		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	84	56	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	56		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	84	58	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	58		set __TextOutArgs.Options, 0
+3	84	61	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	61		mov __TextOutArgs.Text, __strbufdisplaySensors
+3	84	63	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	63		syscall 13, __TextOutArgs
+3	84	66	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	66	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	66	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	66	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	66		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
+3	84	68	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	68	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	68		set __signed_stack_002displaySensors, 56
+3	84	71	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	84	71	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	85	71		strcat __strbufdisplaySensors, __displaySensors_7qG2_sLeft_7qG2_000
+3	87	75	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	75	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	75		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	87	77	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	77		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	87	79	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	79		set __TextOutArgs.Options, 0
+3	87	82	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	82		mov __TextOutArgs.Text, __strbufdisplaySensors
+3	87	84	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	84		syscall 13, __TextOutArgs
+3	87	87	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	87	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	87	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	87	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	87		mov __signed_stack_001displaySensors, __displaySensors_7qG2_lY_7qG2_000
+3	87	89	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	89	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	89		set __signed_stack_002displaySensors, 48
+3	87	92	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	87	92	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	88	92		mov __D0displaySensors, __displaySensors_7qG2_lValue_7qG2_000
+3	90	94	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	94	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	94		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	90	96	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	96		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	90	98	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	98		set __TextOutArgs.Options, 0
+3	90	101	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	101		numtostr __TextOutArgs.Text, __D0displaySensors
+3	90	104	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	104		syscall 13, __TextOutArgs
+3	90	107	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	107	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	107	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	107	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	107		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
+3	90	109	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	109	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	109		set __signed_stack_002displaySensors, 56
+3	90	112	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	90	112	#line 90 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	91	112		strcat __strbufdisplaySensors, __displaySensors_7qG2_sMiddle_7qG2_000
+3	93	116	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	116	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	116		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	93	118	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	118		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	93	120	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	120		set __TextOutArgs.Options, 0
+3	93	123	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	123		mov __TextOutArgs.Text, __strbufdisplaySensors
+3	93	125	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	125		syscall 13, __TextOutArgs
+3	93	128	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	128	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	128	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	128	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	128		mov __signed_stack_001displaySensors, __displaySensors_7qG2_mY_7qG2_000
+3	93	130	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	130	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	130		set __signed_stack_002displaySensors, 48
+3	93	133	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	93	133	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	94	133		mov __D0displaySensors, __displaySensors_7qG2_mValue_7qG2_000
+3	96	135	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	135	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	135		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	96	137	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	137		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	96	139	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	139		set __TextOutArgs.Options, 0
+3	96	142	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	142		numtostr __TextOutArgs.Text, __D0displaySensors
+3	96	145	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	145		syscall 13, __TextOutArgs
+3	96	148	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	148	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	148	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	148	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	148		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
+3	96	150	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	150	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	150		set __signed_stack_002displaySensors, 56
+3	96	153	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	96	153	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	97	153		strcat __strbufdisplaySensors, __displaySensors_7qG2_sRight_7qG2_000
+3	99	157	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	157	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	157		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	99	159	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	159		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	99	161	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	161		set __TextOutArgs.Options, 0
+3	99	164	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	164		mov __TextOutArgs.Text, __strbufdisplaySensors
+3	99	166	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	166		syscall 13, __TextOutArgs
+3	99	169	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	169	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	169	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	169	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	169		mov __signed_stack_001displaySensors, __displaySensors_7qG2_rY_7qG2_000
+3	99	171	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	171	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	171		set __signed_stack_002displaySensors, 48
+3	99	174	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	99	174	#line 99 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	100	174		mov __D0displaySensors, __displaySensors_7qG2_rValue_7qG2_000
+3	101	176	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	101	176	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	176		mov __TextOutArgs.Location.X, __signed_stack_001displaySensors
+3	101	178	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	178		mov __TextOutArgs.Location.Y, __signed_stack_002displaySensors
+3	101	180	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	180		set __TextOutArgs.Options, 0
+3	101	183	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	183		numtostr __TextOutArgs.Text, __D0displaySensors
+3	101	186	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	186		syscall 13, __TextOutArgs
+3	101	189	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	102	189		mov __D0displaySensors, __TextOutArgs.Result
+3	101	191	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	101	191	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	108	191	#line 108 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+3	109	191		subret __displaySensors_return
+4	114	0	#line 114 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	115	0		acquire moveMotors
+4	114	1	#line 114 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	117	1	#line 117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	118	1	#pragma macro 7
+4	118	1		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	7123	24	#line 7123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	117	24	#line 117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	119	24	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	120	24		release moveMotors
+4	119	25	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	127	25	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	128	25		subret __fullStop_return
+5	133	0	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	0		acquire moveMotors
+5	133	1	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	1	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	1		mov __signed_stack_001moveForward, __moveForward_7qG2_spd_7qG2_000
+5	133	3	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	133	3	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	134	3		set __D0moveForward, 1
+5	136	6	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	137	6	#pragma macro 10
+5	137	6		acquire __OnRevMutex
+5	137	7		neg __OnRev_Tmp, __signed_stack_001moveForward
+5	137	10		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0moveForward, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	137	33		release __OnRevMutex
+5	7151	34	#line 7151 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	136	34	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	138	34	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	139	34		release moveMotors
+5	138	35	#line 138 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	146	35	#line 146 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	147	35		subret __moveForward_return
+6	152	0	#line 152 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	153	0		subcall fullStop, __fullStop_return
+6	152	2	#line 152 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	155	2	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	2		acquire moveMotors
+6	155	3	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	155	3	#line 155 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	3		mov __D0turnLeft, __turnLeft_7qG2_trnspd_7qG2_000
+6	156	5	#line 156 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	157	5	#pragma macro 10
+6	157	5		acquire __OnRevMutex
+6	157	6		neg __OnRev_Tmp, __D0turnLeft
+6	157	9		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	157	32		release __OnRevMutex
+6	7176	33	#line 7176 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	33	#line 156 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	156	33	#line 156 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	157	33		set __D0turnLeft, 20
+6	159	36	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	160	36	#pragma macro 7
+6	160	36		setout __constVal0, 2, __D0turnLeft, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	7183	59	#line 7183 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	159	59	#line 159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	161	59	#line 161 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	162	59		release moveMotors
+6	161	60	#line 161 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	169	60	#line 169 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	170	60		subret __turnLeft_return
+7	175	0	#line 175 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	176	0		subcall fullStop, __fullStop_return
+7	175	2	#line 175 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	178	2	#line 178 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	179	2		acquire moveMotors
+7	178	3	#line 178 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	178	3	#line 178 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	179	3		mov __D0turnRight, __turnRight_7qG2_trnspd_7qG2_000
+7	179	5	#line 179 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	5	#pragma macro 10
+7	180	5		acquire __OnRevMutex
+7	180	6		neg __OnRev_Tmp, __D0turnRight
+7	180	9		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	180	32		release __OnRevMutex
+7	7208	33	#line 7208 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	179	33	#line 179 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	179	33	#line 179 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	180	33		set __D0turnRight, 20
+7	182	36	#line 182 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	183	36	#pragma macro 7
+7	183	36		setout __constVal2, 2, __D0turnRight, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	7215	59	#line 7215 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	182	59	#line 182 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	184	59	#line 184 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	185	59		release moveMotors
+7	184	60	#line 184 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	191	60	#line 191 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	192	60		subret __turnRight_return
+8	197	0	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	0		getin __D0moveRobotForward, __constVal0, 4
+8	197	4	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	4		tst 5, __zfmoveRobotForward, __D0moveRobotForward
+8	197	7	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	7		mov __D0moveRobotForward, __zfmoveRobotForward
+8	197	9	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	9		brtst 4, __NXC_Label_671, __zfmoveRobotForward
+8	197	12	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	12		mov __signed_stack_001moveRobotForward, __D0moveRobotForward
+8	197	14	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	14		getin __signed_stack_002moveRobotForward, __constVal3, 4
+8	197	18	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	197	18	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	18		set __D0moveRobotForward, 60
+8	197	21	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	21		cmp 3, __zfmoveRobotForward, __signed_stack_002moveRobotForward, __D0moveRobotForward
+8	197	25	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	197	25	#line 197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	198	25		and __D0moveRobotForward, __signed_stack_001moveRobotForward, __zfmoveRobotForward
+8	200	29	#line 200 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	201	29		tst 5, __zfmoveRobotForward, __D0moveRobotForward
+8	200	32	#line 200 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	201	32		brtst 4, __NXC_Label_672, __zfmoveRobotForward
+8	200	35	#line 200 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	201	35		set __moveForward_7qG2_spd_7qG2_000, 70
+8	200	38	#line 200 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	202	38	#line 202 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	203	38		subcall moveForward, __moveForward_return
+8	202	40	#line 202 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	204	40	#line 204 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	206	40	#line 206 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	207	40		set __D0moveRobotForward, 1
+8	213	43	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	214	43		tst 5, __zfmoveRobotForward, __D0moveRobotForward
+8	213	46	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	214	46		brtst 4, __NXC_Label_669, __zfmoveRobotForward
+8	213	49	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	214	49		jmp __NXC_Label_668
+8	213	51	#line 213 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	214	51		exit -1, -1
+9	221	0	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	222	0		subcall displaySensors, __displaySensors_return
+9	221	2	#line 221 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	223	2	#line 223 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	224	2		set __D0showSensors, 1
+9	230	5	#line 230 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	231	5		tst 5, __zfshowSensors, __D0showSensors
+9	230	8	#line 230 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	231	8		brtst 4, __NXC_Label_678, __zfshowSensors
+9	230	11	#line 230 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	231	11		jmp __NXC_Label_677
+9	230	13	#line 230 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	231	13		exit -1, -1
+10	241	0	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	242	0		getin __signed_stack_001checkMiddleSensor, __constVal1, 4
+10	241	4	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	241	4	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	242	4		set __D0checkMiddleSensor, 60
+10	241	7	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	242	7		cmp 3, __zfcheckMiddleSensor, __signed_stack_001checkMiddleSensor, __D0checkMiddleSensor
+10	241	11	#line 241 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	243	11	#line 243 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	245	11	#line 245 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	247	11	#line 247 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	248	11		set __D0checkMiddleSensor, 1
+10	255	14	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	256	14		tst 5, __zfcheckMiddleSensor, __D0checkMiddleSensor
+10	255	17	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	256	17		brtst 4, __NXC_Label_682, __zfcheckMiddleSensor
+10	255	20	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	256	20		jmp __NXC_Label_681
+10	255	22	#line 255 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+10	256	22		exit -1, -1
+11	261	0	#line 261 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	262	0		getin __signed_stack_001checkSensorsLR, __constVal0, 4
+11	261	4	#line 261 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	261	4	#line 261 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	262	4		set __D0checkSensorsLR, 40
+11	261	7	#line 261 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	262	7		cmp 2, __zfcheckSensorsLR, __signed_stack_001checkSensorsLR, __D0checkSensorsLR
+11	261	11	#line 261 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	262	11		mov __D0checkSensorsLR, __zfcheckSensorsLR
+11	265	13	#line 265 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	266	13		brtst 4, __NXC_Label_692, __zfcheckSensorsLR
+11	265	16	#line 265 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	266	16		set __turnLeft_7qG2_trnspd_7qG2_000, 90
+11	265	19	#line 265 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	267	19	#line 267 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	268	19		subcall turnLeft, __turnLeft_return
+11	267	21	#line 267 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	269	21	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	269	21	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	270	21		getin __signed_stack_001checkSensorsLR, __constVal3, 4
+11	269	25	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	269	25	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	270	25		set __D0checkSensorsLR, 40
+11	269	28	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	270	28		cmp 2, __zfcheckSensorsLR, __signed_stack_001checkSensorsLR, __D0checkSensorsLR
+11	269	32	#line 269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	270	32		mov __D0checkSensorsLR, __zfcheckSensorsLR
+11	272	34	#line 272 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	273	34		brtst 4, __NXC_Label_697, __zfcheckSensorsLR
+11	272	37	#line 272 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	273	37		set __turnRight_7qG2_trnspd_7qG2_000, 90
+11	272	40	#line 272 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	274	40	#line 274 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	275	40		subcall turnRight, __turnRight_return
+11	274	42	#line 274 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	276	42	#line 276 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	278	42	#line 278 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	279	42		set __D0checkSensorsLR, 1
+11	285	45	#line 285 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	286	45		tst 5, __zfcheckSensorsLR, __D0checkSensorsLR
+11	285	48	#line 285 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	286	48		brtst 4, __NXC_Label_689, __zfcheckSensorsLR
+11	285	51	#line 285 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	286	51		jmp __NXC_Label_688
+11	285	53	#line 285 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+11	286	53		exit -1, -1
+12	296	0	#line 296 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+12	297	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
 1	__ResetSensorSubroutine	7	NXTDefs.h
 2	initSensors	20	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-3	displaySensors	268	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-4	outputSensors	512	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
-5	__initialize_global_data	528	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+3	displaySensors	154	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+4	fullStop	347	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+5	moveForward	374	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+6	turnLeft	411	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+7	turnRight	473	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+8	moveRobotForward	535	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+9	showSensors	589	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+10	checkMiddleSensor	605	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+11	checkSensorsLR	630	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+12	__initialize_global_data	686	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc

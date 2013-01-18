@@ -100,7 +100,7 @@ int mY = 40;
 int rY = 80;
 
        //Display text containing STRING "single" value on NXC BRIX display (LCD_LINE4, lY)
-       TextOut (0, LCD_LINE4, tasked);
+       TextOut (lY, LCD_LINE4, tasked);
 
        //Display STRING "sLeft" for left sensor (IN_1) on LCD_LINE1
        TextOut (lY, LCD_LINE1, sLeft);
@@ -193,8 +193,8 @@ void turnLeft (int trnspd) {
      Acquire (moveMotors);
 
      //Left motor (OUT_C)  moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
-     OnRev (OUT_C, trnspd);
-     //OnFwd (OUT_A, 30);
+     OnRev(OUT_C, trnspd);
+     OnFwd (OUT_A, 20);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -217,7 +217,7 @@ void turnRight (int trnspd) {
 
      //Left motor (OUT_A) moves forward @ "trnspd" %. Value of "trnspd" will be given throu calling that procedure with an INTEGER argument.
      OnRev (OUT_A, trnspd);
-     //OnFwd (OUT_C, 30);
+     OnFwd (OUT_C, 20);
 
      //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
      Release (moveMotors);
@@ -308,10 +308,9 @@ task checkMiddleSensor () {
         */
         //If sensor (IN_2) detects a value >= sOnWhite then....
         if (Sensor (IN_2) >= sOnWhite ) {
+        
 
-           //ATM the Machine stops working....
-           fullStop ();
-
+        
         }//endIf4
 
      } while (true)//endDoWhile1

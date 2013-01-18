@@ -37,7 +37,7 @@
 *Initialize all sensors
 *Return: robotSafeOnTable, robotNotSafeOnTable
 */
-int initSensors () {
+void initSensors () {
 
      //SET Lightsensor on port (IN_1). Left sensor
      SetSensorLight (IN_1);
@@ -47,27 +47,6 @@ int initSensors () {
 
      //SET Lightsensor on port (IN_4). Right sensor
      SetSensorLight (IN_4);
-
-      /*
-     *Not in use atm.... I have not figured out how to use this part of the procedure.
-     *Just wrote this in case i want to build some sort of "state machine"
-     *Will figure this out later...
-     */
-     //If Sensor (IN_1 (&&) IN_4) detect a value >= sOnWhite and (&&) sensor (IN_2) detects a value <= sOnBlack....
-     if (Sensor (IN_1) && Sensor (IN_4) >= sOnWhite && Sensor (IN_2) <= sOnBlack) {
-
-        //Return value of "robotSafeOnTable" (See #define .... at the top of the program)
-        return robotSafeOnTable;
-
-     }//endIf1
-
-     //else return....
-     else {
-
-        //Return value of "robotNotSafeOnTable" (See #define .... at the top of the program)
-        return robotNotSafeOnTable;
-
-     }//endIf1Else1
 
 }//endFuncInit ()
 
@@ -95,19 +74,6 @@ void moveForward (int spd) {
      OnRevReg(OUT_AC, spd, OUT_REGMODE_SPEED);
 
 }//endFuncMoveForward ()
-
-/*
-*Author:
-*Move robot backwards with synced Motots (OUT_AC)
-*It's reversed bcause the robot build that way!
-*Return: no "return" value
-*/
-void moveBackwards (int spd) {
-
-     //Backward movement with automated sync of motors. Value of "spd" will be given throu calling that procedure with an INTEGER argument.
-     OnFwdReg(OUT_AC, spd, OUT_REGMODE_SPEED);
-
-}//endFuncMoveBackwards()
 
 /*
 *Author:

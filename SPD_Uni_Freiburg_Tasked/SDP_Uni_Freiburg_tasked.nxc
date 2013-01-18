@@ -41,7 +41,7 @@ mutex moveMotors;
 *Initialize all sensors
 *Return: robotSafeOnTable, robotNotSafeOnTable
 */
-int initSensors () {
+void initSensors () {
 
      //SET Lightsensor on port (IN_1). Left sensor
      SetSensorLight (IN_1);
@@ -51,27 +51,6 @@ int initSensors () {
 
      //SET Lightsensor on port (IN_4). Right sensor
      SetSensorLight (IN_4);
-     
-      /*
-     *Not in use atm.... I have not figured out how to use this part of the procedure.
-     *Just wrote this in case i want to build some sort of "state machine"
-     *Will figure this out later...
-     */
-     //If Sensor (IN_1 (&&) IN_4) detect a value >= sOnWhite and (&&) sensor (IN_2) detects a value <= sOnBlack....
-     if (Sensor (IN_1) && Sensor (IN_4) >= sOnWhite && Sensor (IN_2) <= sOnBlack) {
-
-        //Return value of "robotSafeOnTable" (See #define .... at the top of the program)
-        return robotSafeOnTable;
-
-     }//endIf1
-     
-     //else return....
-     else {
-
-        //Return value of "robotNotSafeOnTable" (See #define .... at the top of the program)
-        return robotNotSafeOnTable;
-
-     }//endIf1Else1
 
 }//endFuncInit ()
 
@@ -161,25 +140,6 @@ void moveForward (int spd) {
 
 /*
 *Author:
-*Move robot backwards with synced Motots (OUT_AC)
-*It's reversed bcause the robot build that way!
-*Return: no "return" value
-*/
-void moveBackwards (int spd) {
-
-     //Acquire exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-     Acquire (moveMotors);
-
-     //Forward movement with automated sync of motors. Value of "spd" will be given throu calling that procedure with an INTEGER argument.
-     OnFwdReg(OUT_AC, spd, OUT_REGMODE_SPEED);
-
-     //Release exclusive access to motors (OUT_A; OUT_C) through "mutex" seamphore (See "mutex" deffinition at top of the program)
-     Release (moveMotors);
-
-}//endFuncMoveBackwards ()
-
-/*
-*Author:
 *Turn left ....
 *Does not work atm. If i use this in task "checkSensors ()" the Robot won't turn
 *Return: no "return" value
@@ -233,10 +193,7 @@ task moveRobotForward () {
 
      //Looped forever....
      do {
-
-        //Print out Sensor values collected by procedure "displaySensors ()"
-        displaySensors ();
-
+     
         //As long as Sensor (IN_1) AND (&&) Sensor (IN_4) are on White......
         if ( Sensor (IN_1) && Sensor (IN_4) >= sOnWhite) {
 
@@ -251,45 +208,20 @@ task moveRobotForward () {
 
 /*
 *Author:
-*Task for checking the left sensor (IN_1)
+*This task will use procedure "displaySensors ()"
 *Return: no "return" value
 */
-task checkLeftSensor () {
+task showSensors() {
 
+     //Looped forever
      do {
+     
+        //Print out Sensor values collected by procedure "displaySensors ()"
+        displaySensors ();
+        
+     }while (true)//enddoWhile1
 
-        //If Sensor (IN_1) detects a value <= sOnBlack than....
-        if (Sensor (IN_1) <= sOnBlack ) {
-
-           //Calling procedure "turnLeft (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnLeft (int trnspd)" for details)
-           turnLeft (turnSpeed);
-
-        }//endIf2
-
-     } while (true)//endDoWhile1
-
-}//endTaskcheckLeftSensor ()
-
-/*
-*Author:
-*Task for checking the right sensor (IN_4)
-*Return: no "return" value
-*/
-task checkRightSensor () {
-
-     //Looped forever....
-     do {
-
-        if (Sensor (IN_4) <= sOnBlack ) {
-
-           //Calling procedure "turnRight (int trnspd)" with value "int trnspd = turnSpeed)" (See procedure "turnRight (int trnspd)" for details)
-           turnRight (turnSpeed);
-
-        }//endIf3
-
-     }while (true)//endDoWhile1
-
-}//endTaskCheckRightSensor ()
+}//endTaskDisplaySensors ()
 
 /*
 *Author:
@@ -308,8 +240,6 @@ task checkMiddleSensor () {
         */
         //If sensor (IN_2) detects a value >= sOnWhite then....
         if (Sensor (IN_2) >= sOnWhite ) {
-        
-
         
         }//endIf4
 
@@ -359,6 +289,6 @@ task main () {
      initSensors ();
 
      //Call the the tasks "moveRobot" and "checkSensorsLRM"
-     Precedes ( moveRobotForward, checkSensorsLR, checkMiddleSensor );
+     Precedes ( showSensors, moveRobotForward, checkSensorsLR, checkMiddleSensor );
 
 }//endTaskMain ()
