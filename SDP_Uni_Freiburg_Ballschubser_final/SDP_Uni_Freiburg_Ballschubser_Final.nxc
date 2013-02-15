@@ -1,0 +1,145 @@
+// OUT_A = Links (OnRev= fwd)
+// Out_C = Rechts "
+
+#define td 160
+#define ts 40
+#define linie 40
+#define tisch 60
+#define tl 43
+
+#define STATE_INIT 0
+#define STATE_LINE 1
+#define STATE_LINEL 2                            // State links abwichung von Linie
+#define STATE_LINER 3                            // State rechts abweichung von Linie
+#define STATE_CODE 4                             // State Code erkannt
+
+int state = 0;                                   // Init State beim Starten
+int columnc = 0;
+//Säulenzähler
+
+int initialize(){
+    SetSensorLight (IN_1);                       // Lichtsensor Links
+    SetSensorLight (IN_2);                       // Lichtsensor Mitte
+    SetSensorLight (IN_4);                       // Lichtsensor Rechts
+    return STATE_LINE;                           // Nach initialisieren der Sensoren stehe auf Linie
+}
+
+int drive(){                                                            // gerade auf Linie fahren
+    OnRevReg(OUT_AC,55,OUT_REGMODE_SPEED);
+    while(state == STATE_LINE){
+                if (Sensor(IN_4) < tl && Sensor(IN_2) < tl){            // Sensor rechts auf Linie & Sensor Mitte auf Linie -> Abweichung nach Likns erkannt
+                   return STATE_LINEL;
+                }
+	              if (Sensor(IN_1) < tl && Sensor(IN_2) < tl){            // Sensor links auf Linie & Sensor Mitte auf Linie -> Abweichung nach Rechts erkannt
+		               return STATE_LINER;
+               }
+                if (Sensor(IN_2) > tl && Sensor(IN_4) > tl && Sensor(IN_1) > tl){      // Alle Sensoren auf Tisch -> Code erkannt
+                   return STATE_CODE;
+                }
+
+    return STATE_LINE;
+    }
+}
+
+int driver(){                                                          // Auf Linie Korregieren nach rechts
+    OnRev(OUT_A,100);                                                   // Links schneller als rechts
+    OnRev(OUT_C,20);
+    while(state == STATE_LINEL){                                       // Wenn rechter Sensor schwarz, mittlerer Sensor Tisch -> Wahschreinlich über rechten Winkel gefahren
+                if (Sensor(IN_4) < tl && Sensor(IN_2) > tl){           // Solange keine Änderung, nur mit linkem Motor korrigieren um Linie nicht zu verlieren.
+                   while(Sensor(IN_4) < tl && Sensor(IN_2) > tl){
+                      Off(OUT_AC);
+                      OnFwd(OUT_C,60);
+                      OnRev(OUT_A,75);
+                   }
+                }
+                if (Sensor(IN_4) > tl && Sensor(IN_2) < tl){           // Rechter Sensor auf Tisch, Mittlerer Sensor auf Linie ->   genug korrigiert
+                   return STATE_LINE;                                  // wieder auf Linie
+                }
+                return STATE_LINEL;                                    // -> weiter korrigieren
+    }
+}
+
+int drivel(){                                                          // Auf Linie Korregieren nach links
+    OnRev(OUT_A,20);                                                   // Links langsamer als Rechts
+    OnRev(OUT_C,100);
+    while(state == STATE_LINER){
+                if (Sensor(IN_1) < tl && Sensor(IN_2) > tl){           // Wenn linker Sensor schwarz, mittlerer Sensor Tisch -> Wahschreinlich über rechten Winkel gefahren
+                   while (Sensor(IN_1) < tl && Sensor(IN_2) > tl){     // Solange keine Sensoränderung, nur mit rechtem Motor korrigieren um Linie nicht zu verlieren
+                         Off(OUT_AC);
+                         OnFwd(OUT_A,60);
+                         OnRev(OUT_C,75);
+                   }
+                }
+                if (Sensor(IN_1) > tl && Sensor(IN_2) < tl){           // Linker Sensor auf Tisch, Mittlerer Sensor auf Linie -> genug korrigiert
+                  return STATE_LINE;                                   // wieder auf Linie
+                }
+                return STATE_LINER;                                    // -> weiter korrigieren
+    }
+}
+
+
+
+int codestart(){
+    OnRevReg(OUT_AC,20,OUT_REGMODE_SPEED);
+    Wait(1100);
+    Off(OUT_AC);
+    Wait(500);                               //Anhalten
+    if (columnc == 0 || columnc == 2){         //Säule zuerst rechts
+       RotateMotor(OUT_A,ts,-td);                        //Drehen
+       RotateMotor(OUT_C,ts,td);
+    }
+    else {                                    //Säule andere Seite drehen
+         RotateMotor(OUT_C,ts,-td);
+         RotateMotor(OUT_A,ts,td);
+    }
+
+    OnRevReg(OUT_AC,30,OUT_REGMODE_SPEED);                         //Zur Säule Fahren
+    Wait(850);
+    OnFwdReg(OUT_AC,30,OUT_REGMODE_SPEED);                            //Von Säule zurück fahren
+    Wait(850);
+
+    if (columnc == 0 || columnc == 2){        //Wieder Richtung Linie drehen
+       while(Sensor(IN_2) > tl){
+                         OnRev(OUT_C,ts);
+                         OnFwd(OUT_A,ts);
+       }
+    }
+    else {
+         while(Sensor(IN_2) > tl){                                    //Andere Richtung auf Linie drehen
+                           OnRev(OUT_A,ts);
+                           OnFwd(OUT_C,ts);
+         }
+    }
+    columnc++;                      //Säulenzähler erhöhen
+    return STATE_LINE;                        //Wieder auf Linie
+}
+
+
+task main(){                                                           // Hauptrogramm
+     while (true){                                                     // Dauerschleife
+           if(state == STATE_INIT){                                    // Initialisieren
+           state = initialize();
+           }
+
+           if(state == STATE_LINE){                                    // Auf Linie und fahren
+			     state = drive();
+			     }
+			     
+           if(state == STATE_LINEL){                                   // Linksabweichung von Linie
+           state = driver();
+           }
+           
+           if(state == STATE_LINER){                                   // Rechtsabweichung von Linie
+           state = drivel();
+           }
+           
+           if(state == STATE_CODE){                                    // Code erkannt
+           state = codestart();
+           }
+      }
+}
+
+
+
+
+

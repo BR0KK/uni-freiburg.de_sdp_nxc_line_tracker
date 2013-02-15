@@ -1,0 +1,1179 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001drivel	6	1	0	4	14
+1	__signed_stack_002drivel	6	1	4	4	6
+2	__signed_stack_002drive	6	1	8	4	8
+3	__signed_stack_002codestart	6	1	12	4	4
+4	__signed_stack_001drive	6	1	16	4	18
+5	__signed_stack_001main	6	1	20	4	10
+6	__rotate_theAngle0	5	1	24	4	2
+7	__rotate_angle2	6	1	28	4	5
+8	__signed_stack_001driver	6	1	32	4	14
+9	__signed_stack_002driver	6	1	36	4	6
+10	__D0driver	6	1	40	4	38
+11	__rotate_theAngle2	5	1	44	4	2
+12	__D0drivel	6	1	48	4	38
+13	__D0codestart	6	1	52	4	46
+14	__D0drive	6	1	56	4	40
+15	__DU0SetSensorLight_inline_initialize	5	1	60	4	6
+16	__signed_stack_001codestart	6	1	64	4	26
+17	__D0SetSensorLight_inline_initialize	6	1	68	4	9
+18	__D0initialize	6	1	72	4	2
+19	__D0main	6	1	76	4	17
+20	__Wait_7qG2_ms_7qG2_000_inline_codestart	5	1	80	4	4
+21	__OnRevMutex	9	0	84	4	22
+22	__rotate_angle0	6	1	88	4	5
+23	__rotate_RotCount0	4	1	92	2	4
+24	state	4	1	94	2	13
+25	columnc	4	1	96	2	6
+26	__rotate_OldRotCount2	4	1	98	2	2
+27	__rotate_RotCount2	4	1	100	2	4
+28	__rotate_OldRotCount0	4	1	102	2	2
+29	__constVal7	2	0	104	1	4
+30	__zfdriver	1	1	105	1	24
+31	__constVal2	2	0	106	1	8
+32	__drivel_return	1	1	107	1	5
+33	__zfdrive	1	1	108	1	29
+34	__zfcodestart	1	1	109	1	20
+35	____initialize_global_data_return	1	1	110	1	3
+36	__codestart_return	1	1	111	1	4
+37	__zfdrivel	1	1	112	1	24
+38	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize	1	1	113	1	6
+39	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize	1	1	114	1	6
+40	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize	1	1	115	1	6
+41	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize	1	1	116	1	6
+42	__initialize_return	1	1	117	1	4
+43	__SetSensorLight_7qG2_port_7qG2_000_inline_initialize	1	1	118	1	15
+44	__SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize	1	1	119	1	6
+45	__constVal63	2	0	120	1	19
+46	__zfmain	1	1	121	1	17
+47	__driver_return	1	1	122	1	5
+48	__constVal96	2	0	123	1	23
+49	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize	1	1	124	1	3
+50	__drive_return	1	1	125	1	7
+51	__zfSetSensorLight_inline_initialize	1	1	126	1	6
+52	__rotate_rs0	1	1	127	1	2
+53	__rotate_thePower0	2	1	128	1	4
+54	__rotate_theRVD0	1	1	129	1	3
+55	__rotate_theRVP0	1	1	130	1	3
+56	__rotate_theRVI0	1	1	131	1	3
+57	__rotate_sync2	1	1	132	1	3
+58	__rotate_stop2	1	1	133	1	3
+59	__rotate_firstPort2	1	1	134	1	5
+60	__rotate_theTurnPct0	2	1	135	1	4
+61	__rotate_power2	1	1	136	1	5
+62	__rotate_sync0	1	1	137	1	3
+63	__rotate_stop0	1	1	138	1	3
+64	__rotate_firstPort0	1	1	139	1	5
+65	__OnRev_Tmp	2	1	140	1	22
+66	__rotate_power0	1	1	141	1	5
+67	__rotate_theRM0	1	1	142	1	4
+68	__rotate_theRS0	1	1	143	1	3
+69	__rotate_theOM0	1	1	144	1	7
+70	__rotate_turnpct0	2	1	145	1	4
+71	__rotate_theUF0	1	1	146	1	6
+72	__constVal1	2	0	147	1	24
+73	__constVal0	2	1	148	1	87
+74	__constVal32	2	0	149	1	67
+75	__rotate_theTurnPct2	2	1	150	1	4
+76	____RotateMotor0_return	1	1	151	1	4
+77	__ResetSensorTmp	1	1	152	1	2
+78	____ResetSensorSubroutine_return	1	1	153	1	5
+79	__ResetSensorPort	1	1	154	1	5
+80	____RotateMotor2_return	1	1	155	1	4
+81	__constVal3	2	0	156	1	20
+82	__rotate_thePower2	2	1	157	1	4
+83	__rotate_theOM2	1	1	158	1	7
+84	__rotate_theRM2	1	1	159	1	4
+85	__rotate_turnpct2	2	1	160	1	4
+86	__rotate_theUF2	1	1	161	1	6
+87	__rotate_theRS2	1	1	162	1	3
+88	__rotate_rs2	1	1	163	1	2
+89	__rotate_theRVD2	1	1	164	1	3
+90	__rotate_theRVI2	1	1	165	1	3
+91	__rotate_theRVP2	1	1	166	1	3
+92	__OUT_AC	7	0	168	4	7
+93	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+94	__rotate_ports2	7	0	170	4	7
+95	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+96	__rotate_ports0	7	0	172	4	7
+97	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	118	0	#line 118 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	119	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	118	2	#line 118 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	118	2	#line 118 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	119	2		set __D0main, 1
+0	119	5	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	5		tst 5, __zfmain, __D0main
+0	119	8	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	8		brtst 4, __NXC_Label_754, __zfmain
+0	119	11	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	11		mov __signed_stack_001main, state
+0	119	13	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	119	13	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	13		set __D0main, 0
+0	119	16	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	16		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	119	20	#line 119 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	120	20		mov __D0main, __zfmain
+0	120	22	#line 120 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	121	22		brtst 4, __NXC_Label_759, __zfmain
+0	121	25	#line 121 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	122	25		subcall initialize, __initialize_return
+0	121	27	#line 121 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	122	27		mov state, __D0initialize
+0	121	29	#line 121 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	121	29	#line 121 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	123	29	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	123	29	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	124	29		mov __signed_stack_001main, state
+0	123	31	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	123	31	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	124	31		set __D0main, 1
+0	123	34	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	124	34		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	123	38	#line 123 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	124	38		mov __D0main, __zfmain
+0	124	40	#line 124 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	125	40		brtst 4, __NXC_Label_764, __zfmain
+0	125	43	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	126	43		subcall drive, __drive_return
+0	125	45	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	126	45		mov state, __D0drive
+0	125	47	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	125	47	#line 125 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	127	47	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	127	47	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	128	47		mov __signed_stack_001main, state
+0	127	49	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	127	49	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	128	49		set __D0main, 2
+0	127	52	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	128	52		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	127	56	#line 127 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	128	56		mov __D0main, __zfmain
+0	128	58	#line 128 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	129	58		brtst 4, __NXC_Label_769, __zfmain
+0	129	61	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	130	61		subcall driver, __driver_return
+0	129	63	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	130	63		mov state, __D0driver
+0	129	65	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	129	65	#line 129 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	131	65	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	131	65	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	132	65		mov __signed_stack_001main, state
+0	131	67	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	131	67	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	132	67		set __D0main, 3
+0	131	70	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	132	70		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	131	74	#line 131 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	132	74		mov __D0main, __zfmain
+0	132	76	#line 132 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	133	76		brtst 4, __NXC_Label_774, __zfmain
+0	133	79	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	134	79		subcall drivel, __drivel_return
+0	133	81	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	134	81		mov state, __D0drivel
+0	133	83	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	133	83	#line 133 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	135	83	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	135	83	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	136	83		mov __signed_stack_001main, state
+0	135	85	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	135	85	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	136	85		set __D0main, 4
+0	135	88	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	136	88		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	135	92	#line 135 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	136	92		mov __D0main, __zfmain
+0	136	94	#line 136 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	137	94		brtst 4, __NXC_Label_779, __zfmain
+0	137	97	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	138	97		subcall codestart, __codestart_return
+0	137	99	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	138	99		mov state, __D0codestart
+0	137	101	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	137	101	#line 137 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	139	101	#line 139 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	145	101	#line 145 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	146	101		jmp __NXC_Label_753
+0	145	103	#line 145 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+0	146	103		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		sign __rotate_thePower0, __rotate_angle0
+1	4478	6		abs __rotate_theAngle0, __rotate_angle0
+1	4479	9		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	13		set __rotate_theUF0, 23
+1	4482	16		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	19		set __rotate_theOM0, 7
+1	4484	22		set __rotate_theRM0, 2
+1	4485	25		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	27		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	30		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	34		jmp __rotate_Start0
+1	4490	36		set __rotate_theOM0, 3
+1	4491	39		set __rotate_theRM0, 0
+1	4492	42		set __rotate_theTurnPct0, 0
+1	4494	45		set __rotate_theRS0, 32
+1	4495	48		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	71		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	75		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	79		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	82		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	86		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	90		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	93		set __rotate_theOM0, 7
+1	4508	96		set __rotate_theUF0, 7
+1	4509	99		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	114		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	118		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	120		wait 50
+1	4516	122		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	126		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	130		set __rotate_theOM0, 4
+1	4519	133		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	144		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	147		setout __rotate_ports0, 0, __constVal32
+1	4525	152		subret ____RotateMotor0_return
+2	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+2	4583	3		sign __rotate_thePower2, __rotate_angle2
+2	4584	6		abs __rotate_theAngle2, __rotate_angle2
+2	4585	9		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+2	4587	13		set __rotate_theUF2, 23
+2	4588	16		brtst 4, __rotate_NoSync2, __rotate_sync2
+2	4589	19		set __rotate_theOM2, 7
+2	4590	22		set __rotate_theRM2, 2
+2	4591	25		mov __rotate_theTurnPct2, __rotate_turnpct2
+2	4592	27		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+2	4593	30		add __rotate_theUF2, __rotate_theUF2, __constVal32
+2	4594	34		jmp __rotate_Start2
+2	4596	36		set __rotate_theOM2, 3
+2	4597	39		set __rotate_theRM2, 0
+2	4598	42		set __rotate_theTurnPct2, 0
+2	4600	45		set __rotate_theRS2, 32
+2	4601	48		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+2	4604	71		index __rotate_firstPort2, __rotate_ports2, 65535
+2	4606	75		getout __rotate_power2, __rotate_firstPort2, 2
+2	4607	79		brtst 4, __rotate_doneRunning2, __rotate_power2
+2	4608	82		getout __rotate_rs2, __rotate_firstPort2, 6
+2	4609	86		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+2	4611	90		brtst 4, __rotate_Reset2, __rotate_stop2
+2	4613	93		set __rotate_theOM2, 7
+2	4614	96		set __rotate_theUF2, 7
+2	4615	99		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+2	4617	114		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	4619	118		mov __rotate_OldRotCount2, __rotate_RotCount2
+2	4620	120		wait 50
+2	4622	122		getout __rotate_RotCount2, __rotate_firstPort2, 14
+2	4623	126		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+2	4624	130		set __rotate_theOM2, 4
+2	4625	133		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+2	4628	144		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+2	4629	147		setout __rotate_ports2, 0, __constVal32
+2	4631	152		subret ____RotateMotor2_return
+3	4885	0		setin __constVal1, __ResetSensorPort, 5
+3	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+3	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+3	4889	11		subret ____ResetSensorSubroutine_return
+4	20	0	#line 20 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	21	0		set __SetSensorLight_7qG2_port_7qG2_000_inline_initialize, 0
+4	20	3	#line 20 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	21	3	#line 21 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	22	3		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize, __constVal1
+4	3729	5	#line 3729 "NXCDefs.h"
+4	3730	5		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3729	7	#line 3729 "NXCDefs.h"
+4	3729	7	#line 3729 "NXCDefs.h"
+4	3730	7		mov __DU0SetSensorLight_inline_initialize, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize
+4	3729	9	#line 3729 "NXCDefs.h"
+4	3730	9		tst 5, __zfSetSensorLight_inline_initialize, __DU0SetSensorLight_inline_initialize
+4	3729	12	#line 3729 "NXCDefs.h"
+4	3730	12		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_initialize
+4	3729	15	#line 3729 "NXCDefs.h"
+4	3730	15		set __D0SetSensorLight_inline_initialize, 5
+4	3729	18	#line 3729 "NXCDefs.h"
+4	3730	18		jmp __001__NXC_Label_5
+4	3729	20	#line 3729 "NXCDefs.h"
+4	3730	20		set __D0SetSensorLight_inline_initialize, 6
+4	3729	23	#line 3729 "NXCDefs.h"
+4	3730	23		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __D0SetSensorLight_inline_initialize
+4	3663	25	#line 3663 "NXCDefs.h"
+4	3664	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 0
+4	3663	29	#line 3663 "NXCDefs.h"
+4	3730	29	#line 3730 "NXCDefs.h"
+4	3730	29	#line 3730 "NXCDefs.h"
+4	3731	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3730	31	#line 3730 "NXCDefs.h"
+4	3730	31	#line 3730 "NXCDefs.h"
+4	3731	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, 128
+4	3730	34	#line 3730 "NXCDefs.h"
+4	3676	34	#line 3676 "NXCDefs.h"
+4	3677	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 1
+4	3676	38	#line 3676 "NXCDefs.h"
+4	3731	38	#line 3731 "NXCDefs.h"
+4	3731	38	#line 3731 "NXCDefs.h"
+4	3732	38		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3731	40	#line 3731 "NXCDefs.h"
+4	3694	40	#line 3694 "NXCDefs.h"
+4	3695	40	#pragma macro 4
+4	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	6348	44	#line 6348 "NXCDefs.h"
+4	3694	44	#line 3694 "NXCDefs.h"
+4	3732	44	#line 3732 "NXCDefs.h"
+4	21	44	#line 21 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	21	44	#line 21 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	22	44		set __SetSensorLight_7qG2_port_7qG2_000_inline_initialize, 1
+4	21	47	#line 21 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	22	47	#line 22 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	23	47		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize, __constVal1
+4	3729	49	#line 3729 "NXCDefs.h"
+4	3730	49		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3729	51	#line 3729 "NXCDefs.h"
+4	3729	51	#line 3729 "NXCDefs.h"
+4	3730	51		mov __DU0SetSensorLight_inline_initialize, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize
+4	3729	53	#line 3729 "NXCDefs.h"
+4	3730	53		tst 5, __zfSetSensorLight_inline_initialize, __DU0SetSensorLight_inline_initialize
+4	3729	56	#line 3729 "NXCDefs.h"
+4	3730	56		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_initialize
+4	3729	59	#line 3729 "NXCDefs.h"
+4	3730	59		set __D0SetSensorLight_inline_initialize, 5
+4	3729	62	#line 3729 "NXCDefs.h"
+4	3730	62		jmp __002__NXC_Label_5
+4	3729	64	#line 3729 "NXCDefs.h"
+4	3730	64		set __D0SetSensorLight_inline_initialize, 6
+4	3729	67	#line 3729 "NXCDefs.h"
+4	3730	67		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __D0SetSensorLight_inline_initialize
+4	3663	69	#line 3663 "NXCDefs.h"
+4	3664	69		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 0
+4	3663	73	#line 3663 "NXCDefs.h"
+4	3730	73	#line 3730 "NXCDefs.h"
+4	3730	73	#line 3730 "NXCDefs.h"
+4	3731	73		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3730	75	#line 3730 "NXCDefs.h"
+4	3730	75	#line 3730 "NXCDefs.h"
+4	3731	75		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, 128
+4	3730	78	#line 3730 "NXCDefs.h"
+4	3676	78	#line 3676 "NXCDefs.h"
+4	3677	78		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 1
+4	3676	82	#line 3676 "NXCDefs.h"
+4	3731	82	#line 3731 "NXCDefs.h"
+4	3731	82	#line 3731 "NXCDefs.h"
+4	3732	82		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3731	84	#line 3731 "NXCDefs.h"
+4	3694	84	#line 3694 "NXCDefs.h"
+4	3695	84	#pragma macro 4
+4	3695	84		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3695	86		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	6415	88	#line 6415 "NXCDefs.h"
+4	3694	88	#line 3694 "NXCDefs.h"
+4	3732	88	#line 3732 "NXCDefs.h"
+4	22	88	#line 22 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	22	88	#line 22 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	23	88		set __SetSensorLight_7qG2_port_7qG2_000_inline_initialize, 3
+4	22	91	#line 22 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	23	91	#line 23 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	24	91		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize, __constVal1
+4	3729	93	#line 3729 "NXCDefs.h"
+4	3730	93		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3729	95	#line 3729 "NXCDefs.h"
+4	3729	95	#line 3729 "NXCDefs.h"
+4	3730	95		mov __DU0SetSensorLight_inline_initialize, __SetSensorLight_7qG2_bActive_7qG2_000_inline_initialize
+4	3729	97	#line 3729 "NXCDefs.h"
+4	3730	97		tst 5, __zfSetSensorLight_inline_initialize, __DU0SetSensorLight_inline_initialize
+4	3729	100	#line 3729 "NXCDefs.h"
+4	3730	100		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_initialize
+4	3729	103	#line 3729 "NXCDefs.h"
+4	3730	103		set __D0SetSensorLight_inline_initialize, 5
+4	3729	106	#line 3729 "NXCDefs.h"
+4	3730	106		jmp __003__NXC_Label_5
+4	3729	108	#line 3729 "NXCDefs.h"
+4	3730	108		set __D0SetSensorLight_inline_initialize, 6
+4	3729	111	#line 3729 "NXCDefs.h"
+4	3730	111		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __D0SetSensorLight_inline_initialize
+4	3663	113	#line 3663 "NXCDefs.h"
+4	3664	113		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 0
+4	3663	117	#line 3663 "NXCDefs.h"
+4	3730	117	#line 3730 "NXCDefs.h"
+4	3730	117	#line 3730 "NXCDefs.h"
+4	3731	117		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3730	119	#line 3730 "NXCDefs.h"
+4	3730	119	#line 3730 "NXCDefs.h"
+4	3731	119		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, 128
+4	3730	122	#line 3730 "NXCDefs.h"
+4	3676	122	#line 3676 "NXCDefs.h"
+4	3677	122		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, 1
+4	3676	126	#line 3676 "NXCDefs.h"
+4	3731	126	#line 3731 "NXCDefs.h"
+4	3731	126	#line 3731 "NXCDefs.h"
+4	3732	126		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_initialize, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3731	128	#line 3731 "NXCDefs.h"
+4	3694	128	#line 3694 "NXCDefs.h"
+4	3695	128	#pragma macro 4
+4	3695	128		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_initialize
+4	3695	130		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+4	6482	132	#line 6482 "NXCDefs.h"
+4	3694	132	#line 3694 "NXCDefs.h"
+4	3732	132	#line 3732 "NXCDefs.h"
+4	23	132	#line 23 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	24	132	#line 24 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	25	132		set __D0initialize, 1
+4	24	135	#line 24 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	25	135		subret __initialize_return
+4	24	137	#line 24 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	26	137	#line 26 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+4	27	137		subret __initialize_return
+5	27	0	#line 27 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	28	0		set __signed_stack_001drive, 55
+5	27	3	#line 27 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	27	3	#line 27 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	28	3		set __D0drive, 1
+5	28	6	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	6	#pragma macro 10
+5	29	6		acquire __OnRevMutex
+5	29	7		neg __OnRev_Tmp, __signed_stack_001drive
+5	29	10		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0drive, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	29	33		release __OnRevMutex
+5	6509	34	#line 6509 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	28	34	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	28	34	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	34		mov __signed_stack_001drive, state
+5	28	36	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	28	36	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	36		set __D0drive, 1
+5	28	39	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	39		cmp 4, __zfdrive, __signed_stack_001drive, __D0drive
+5	28	43	#line 28 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	43		mov __D0drive, __zfdrive
+5	29	45	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	45		brtst 4, __NXC_Label_617, __zfdrive
+5	29	48	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	48		getin __signed_stack_001drive, __constVal3, 4
+5	29	52	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	52	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	52		set __D0drive, 43
+5	29	55	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	55		cmp 0, __zfdrive, __signed_stack_001drive, __D0drive
+5	29	59	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	59		mov __D0drive, __zfdrive
+5	29	61	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	61		brtst 4, __NXC_Label_621, __zfdrive
+5	29	64	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	64		mov __signed_stack_001drive, __D0drive
+5	29	66	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	66		getin __signed_stack_002drive, __constVal1, 4
+5	29	70	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	70	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	70		set __D0drive, 43
+5	29	73	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	73		cmp 0, __zfdrive, __signed_stack_002drive, __D0drive
+5	29	77	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	29	77	#line 29 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	30	77		and __D0drive, __signed_stack_001drive, __zfdrive
+5	30	81	#line 30 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	31	81		tst 5, __zfdrive, __D0drive
+5	30	84	#line 30 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	31	84		brtst 4, __NXC_Label_622, __zfdrive
+5	31	87	#line 31 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	87		set __D0drive, 2
+5	31	90	#line 31 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	90		subret __drive_return
+5	31	92	#line 31 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	92	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	92	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	92		getin __signed_stack_001drive, __constVal0, 4
+5	32	96	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	96	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	96		set __D0drive, 43
+5	32	99	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	99		cmp 0, __zfdrive, __signed_stack_001drive, __D0drive
+5	32	103	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	103		mov __D0drive, __zfdrive
+5	32	105	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	105		brtst 4, __NXC_Label_626, __zfdrive
+5	32	108	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	108		mov __signed_stack_001drive, __D0drive
+5	32	110	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	110		getin __signed_stack_002drive, __constVal1, 4
+5	32	114	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	114	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	114		set __D0drive, 43
+5	32	117	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	117		cmp 0, __zfdrive, __signed_stack_002drive, __D0drive
+5	32	121	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	32	121	#line 32 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	33	121		and __D0drive, __signed_stack_001drive, __zfdrive
+5	33	125	#line 33 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	34	125		tst 5, __zfdrive, __D0drive
+5	33	128	#line 33 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	34	128		brtst 4, __NXC_Label_627, __zfdrive
+5	34	131	#line 34 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	131		set __D0drive, 3
+5	34	134	#line 34 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	134		subret __drive_return
+5	34	136	#line 34 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	136	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	136	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	136		getin __signed_stack_001drive, __constVal1, 4
+5	35	140	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	140	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	140		set __D0drive, 43
+5	35	143	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	143		cmp 1, __zfdrive, __signed_stack_001drive, __D0drive
+5	35	147	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	147		mov __D0drive, __zfdrive
+5	35	149	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	149		brtst 4, __NXC_Label_631, __zfdrive
+5	35	152	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	152		mov __signed_stack_001drive, __D0drive
+5	35	154	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	154		getin __signed_stack_002drive, __constVal3, 4
+5	35	158	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	158	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	158		set __D0drive, 43
+5	35	161	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	161		cmp 1, __zfdrive, __signed_stack_002drive, __D0drive
+5	35	165	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	165	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	165		and __D0drive, __signed_stack_001drive, __zfdrive
+5	35	169	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	169		tst 5, __zfdrive, __D0drive
+5	35	172	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	172		mov __D0drive, __zfdrive
+5	35	174	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	174		brtst 4, __NXC_Label_631, __zfdrive
+5	35	177	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	177		mov __signed_stack_001drive, __D0drive
+5	35	179	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	179		getin __signed_stack_002drive, __constVal0, 4
+5	35	183	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	183	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	183		set __D0drive, 43
+5	35	186	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	186		cmp 1, __zfdrive, __signed_stack_002drive, __D0drive
+5	35	190	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	35	190	#line 35 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	36	190		and __D0drive, __signed_stack_001drive, __zfdrive
+5	36	194	#line 36 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	37	194		tst 5, __zfdrive, __D0drive
+5	36	197	#line 36 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	37	197		brtst 4, __NXC_Label_632, __zfdrive
+5	37	200	#line 37 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	38	200		set __D0drive, 4
+5	37	203	#line 37 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	38	203		subret __drive_return
+5	37	205	#line 37 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	39	205	#line 39 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	40	205	#line 40 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	41	205		set __D0drive, 1
+5	40	208	#line 40 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	41	208		subret __drive_return
+5	40	210	#line 40 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	43	210	#line 43 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	44	210		jmp __NXC_Label_616
+5	43	212	#line 43 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	43	212	#line 43 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+5	44	212		subret __drive_return
+6	44	0	#line 44 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	45	0		set __D0driver, 100
+6	45	3	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	46	3	#pragma macro 10
+6	46	3		acquire __OnRevMutex
+6	46	4		neg __OnRev_Tmp, __D0driver
+6	46	7		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	46	30		release __OnRevMutex
+6	6690	31	#line 6690 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	45	31	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	45	31	#line 45 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	46	31		set __D0driver, 20
+6	46	34	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	34	#pragma macro 10
+6	47	34		acquire __OnRevMutex
+6	47	35		neg __OnRev_Tmp, __D0driver
+6	47	38		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	47	61		release __OnRevMutex
+6	6697	62	#line 6697 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	46	62	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	46	62	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	62		mov __signed_stack_001driver, state
+6	46	64	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	46	64	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	64		set __D0driver, 2
+6	46	67	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	67		cmp 4, __zfdriver, __signed_stack_001driver, __D0driver
+6	46	71	#line 46 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	71		mov __D0driver, __zfdriver
+6	47	73	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	73		brtst 4, __NXC_Label_642, __zfdriver
+6	47	76	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	76		getin __signed_stack_001driver, __constVal3, 4
+6	47	80	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	80	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	80		set __D0driver, 43
+6	47	83	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	83		cmp 0, __zfdriver, __signed_stack_001driver, __D0driver
+6	47	87	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	87		mov __D0driver, __zfdriver
+6	47	89	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	89		brtst 4, __NXC_Label_646, __zfdriver
+6	47	92	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	92		mov __signed_stack_001driver, __D0driver
+6	47	94	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	94		getin __signed_stack_002driver, __constVal1, 4
+6	47	98	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	98	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	98		set __D0driver, 43
+6	47	101	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	101		cmp 1, __zfdriver, __signed_stack_002driver, __D0driver
+6	47	105	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	47	105	#line 47 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	105		and __D0driver, __signed_stack_001driver, __zfdriver
+6	48	109	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	109		tst 5, __zfdriver, __D0driver
+6	48	112	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	112		brtst 4, __NXC_Label_647, __zfdriver
+6	48	115	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	115		getin __signed_stack_001driver, __constVal3, 4
+6	48	119	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	119	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	119		set __D0driver, 43
+6	48	122	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	122		cmp 0, __zfdriver, __signed_stack_001driver, __D0driver
+6	48	126	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	126		mov __D0driver, __zfdriver
+6	48	128	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	128		brtst 4, __NXC_Label_651, __zfdriver
+6	48	131	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	131		mov __signed_stack_001driver, __D0driver
+6	48	133	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	133		getin __signed_stack_002driver, __constVal1, 4
+6	48	137	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	137	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	137		set __D0driver, 43
+6	48	140	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	140		cmp 1, __zfdriver, __signed_stack_002driver, __D0driver
+6	48	144	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	48	144	#line 48 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	49	144		and __D0driver, __signed_stack_001driver, __zfdriver
+6	49	148	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	50	148		tst 5, __zfdriver, __D0driver
+6	49	151	#line 49 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	50	151		brtst 4, __NXC_Label_649, __zfdriver
+6	50	154	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	51	154	#pragma macro 7
+6	51	154		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6780	177	#line 6780 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	50	177	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	50	177	#line 50 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	51	177		set __D0driver, 60
+6	51	180	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	52	180	#pragma macro 7
+6	52	180		setout __constVal2, 2, __D0driver, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	6787	203	#line 6787 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	51	203	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	51	203	#line 51 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	52	203		set __D0driver, 75
+6	52	206	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	53	206	#pragma macro 10
+6	53	206		acquire __OnRevMutex
+6	53	207		neg __OnRev_Tmp, __D0driver
+6	53	210		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+6	53	233		release __OnRevMutex
+6	6794	234	#line 6794 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	52	234	#line 52 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	234	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	234		jmp __NXC_Label_648
+6	54	236	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	236	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	236	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	236		getin __signed_stack_001driver, __constVal3, 4
+6	54	240	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	240	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	240		set __D0driver, 43
+6	54	243	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	243		cmp 1, __zfdriver, __signed_stack_001driver, __D0driver
+6	54	247	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	247		mov __D0driver, __zfdriver
+6	54	249	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	249		brtst 4, __NXC_Label_657, __zfdriver
+6	54	252	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	252		mov __signed_stack_001driver, __D0driver
+6	54	254	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	254		getin __signed_stack_002driver, __constVal1, 4
+6	54	258	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	258	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	258		set __D0driver, 43
+6	54	261	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	261		cmp 0, __zfdriver, __signed_stack_002driver, __D0driver
+6	54	265	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	54	265	#line 54 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	55	265		and __D0driver, __signed_stack_001driver, __zfdriver
+6	55	269	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	56	269		tst 5, __zfdriver, __D0driver
+6	55	272	#line 55 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	56	272		brtst 4, __NXC_Label_658, __zfdriver
+6	56	275	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	57	275		set __D0driver, 1
+6	56	278	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	57	278		subret __driver_return
+6	56	280	#line 56 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	57	280	#line 57 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	58	280	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	59	280		set __D0driver, 2
+6	58	283	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	59	283		subret __driver_return
+6	58	285	#line 58 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	61	285	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	62	285		jmp __NXC_Label_641
+6	61	287	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	61	287	#line 61 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+6	62	287		subret __driver_return
+7	62	0	#line 62 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	63	0		set __D0drivel, 20
+7	63	3	#line 63 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	64	3	#pragma macro 10
+7	64	3		acquire __OnRevMutex
+7	64	4		neg __OnRev_Tmp, __D0drivel
+7	64	7		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	64	30		release __OnRevMutex
+7	6864	31	#line 6864 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	63	31	#line 63 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	63	31	#line 63 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	64	31		set __D0drivel, 100
+7	64	34	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	34	#pragma macro 10
+7	65	34		acquire __OnRevMutex
+7	65	35		neg __OnRev_Tmp, __D0drivel
+7	65	38		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	65	61		release __OnRevMutex
+7	6871	62	#line 6871 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	64	62	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	64	62	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	62		mov __signed_stack_001drivel, state
+7	64	64	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	64	64	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	64		set __D0drivel, 3
+7	64	67	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	67		cmp 4, __zfdrivel, __signed_stack_001drivel, __D0drivel
+7	64	71	#line 64 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	71		mov __D0drivel, __zfdrivel
+7	65	73	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	73		brtst 4, __NXC_Label_668, __zfdrivel
+7	65	76	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	76		getin __signed_stack_001drivel, __constVal0, 4
+7	65	80	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	80	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	80		set __D0drivel, 43
+7	65	83	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	83		cmp 0, __zfdrivel, __signed_stack_001drivel, __D0drivel
+7	65	87	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	87		mov __D0drivel, __zfdrivel
+7	65	89	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	89		brtst 4, __NXC_Label_672, __zfdrivel
+7	65	92	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	92		mov __signed_stack_001drivel, __D0drivel
+7	65	94	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	94		getin __signed_stack_002drivel, __constVal1, 4
+7	65	98	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	98	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	98		set __D0drivel, 43
+7	65	101	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	101		cmp 1, __zfdrivel, __signed_stack_002drivel, __D0drivel
+7	65	105	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	65	105	#line 65 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	105		and __D0drivel, __signed_stack_001drivel, __zfdrivel
+7	66	109	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	109		tst 5, __zfdrivel, __D0drivel
+7	66	112	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	112		brtst 4, __NXC_Label_673, __zfdrivel
+7	66	115	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	115		getin __signed_stack_001drivel, __constVal0, 4
+7	66	119	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	119	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	119		set __D0drivel, 43
+7	66	122	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	122		cmp 0, __zfdrivel, __signed_stack_001drivel, __D0drivel
+7	66	126	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	126		mov __D0drivel, __zfdrivel
+7	66	128	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	128		brtst 4, __NXC_Label_677, __zfdrivel
+7	66	131	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	131		mov __signed_stack_001drivel, __D0drivel
+7	66	133	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	133		getin __signed_stack_002drivel, __constVal1, 4
+7	66	137	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	137	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	137		set __D0drivel, 43
+7	66	140	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	140		cmp 1, __zfdrivel, __signed_stack_002drivel, __D0drivel
+7	66	144	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	66	144	#line 66 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	67	144		and __D0drivel, __signed_stack_001drivel, __zfdrivel
+7	67	148	#line 67 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	68	148		tst 5, __zfdrivel, __D0drivel
+7	67	151	#line 67 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	68	151		brtst 4, __NXC_Label_675, __zfdrivel
+7	68	154	#line 68 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	69	154	#pragma macro 7
+7	69	154		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	6954	177	#line 6954 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	68	177	#line 68 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	68	177	#line 68 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	69	177		set __D0drivel, 60
+7	69	180	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	70	180	#pragma macro 7
+7	70	180		setout __constVal0, 2, __D0drivel, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	6961	203	#line 6961 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	69	203	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	69	203	#line 69 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	70	203		set __D0drivel, 75
+7	70	206	#line 70 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	71	206	#pragma macro 10
+7	71	206		acquire __OnRevMutex
+7	71	207		neg __OnRev_Tmp, __D0drivel
+7	71	210		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+7	71	233		release __OnRevMutex
+7	6968	234	#line 6968 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	70	234	#line 70 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	234	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	234		jmp __NXC_Label_674
+7	72	236	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	236	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	236	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	236		getin __signed_stack_001drivel, __constVal0, 4
+7	72	240	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	240	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	240		set __D0drivel, 43
+7	72	243	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	243		cmp 1, __zfdrivel, __signed_stack_001drivel, __D0drivel
+7	72	247	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	247		mov __D0drivel, __zfdrivel
+7	72	249	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	249		brtst 4, __NXC_Label_683, __zfdrivel
+7	72	252	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	252		mov __signed_stack_001drivel, __D0drivel
+7	72	254	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	254		getin __signed_stack_002drivel, __constVal1, 4
+7	72	258	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	258	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	258		set __D0drivel, 43
+7	72	261	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	261		cmp 0, __zfdrivel, __signed_stack_002drivel, __D0drivel
+7	72	265	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	72	265	#line 72 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	73	265		and __D0drivel, __signed_stack_001drivel, __zfdrivel
+7	73	269	#line 73 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	74	269		tst 5, __zfdrivel, __D0drivel
+7	73	272	#line 73 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	74	272		brtst 4, __NXC_Label_684, __zfdrivel
+7	74	275	#line 74 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	75	275		set __D0drivel, 1
+7	74	278	#line 74 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	75	278		subret __drivel_return
+7	74	280	#line 74 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	75	280	#line 75 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	76	280	#line 76 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	77	280		set __D0drivel, 3
+7	76	283	#line 76 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	77	283		subret __drivel_return
+7	76	285	#line 76 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	81	285	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	82	285		jmp __NXC_Label_667
+7	81	287	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	81	287	#line 81 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+7	82	287		subret __drivel_return
+8	82	0	#line 82 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	83	0		set __signed_stack_001codestart, 20
+8	82	3	#line 82 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	82	3	#line 82 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	83	3		set __D0codestart, 1
+8	83	6	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	84	6	#pragma macro 10
+8	84	6		acquire __OnRevMutex
+8	84	7		neg __OnRev_Tmp, __signed_stack_001codestart
+8	84	10		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0codestart, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	84	33		release __OnRevMutex
+8	7044	34	#line 7044 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	83	34	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	83	34	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	84	34		set __Wait_7qG2_ms_7qG2_000_inline_codestart, 1100
+8	83	37	#line 83 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	7921	37	#line 7921 "NXCDefs.h"
+8	7922	37		wait 1100
+8	7921	39	#line 7921 "NXCDefs.h"
+8	84	39	#line 84 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	85	39	#line 85 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	39	#pragma macro 7
+8	86	39		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7061	62	#line 7061 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	85	62	#line 85 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	85	62	#line 85 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	62		set __Wait_7qG2_ms_7qG2_000_inline_codestart, 500
+8	85	65	#line 85 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	7921	65	#line 7921 "NXCDefs.h"
+8	7922	65		wait 500
+8	7921	67	#line 7921 "NXCDefs.h"
+8	86	67	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	67	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	67		mov __signed_stack_001codestart, columnc
+8	86	69	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	69	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	69		set __D0codestart, 0
+8	86	72	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	72		cmp 4, __zfcodestart, __signed_stack_001codestart, __D0codestart
+8	86	76	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	76		mov __D0codestart, __zfcodestart
+8	86	78	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	78		brtst 5, __NXC_Label_697, __zfcodestart
+8	86	81	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	81		mov __signed_stack_001codestart, __D0codestart
+8	86	83	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	83		mov __signed_stack_002codestart, columnc
+8	86	85	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	85	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	85		set __D0codestart, 2
+8	86	88	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	88		cmp 4, __zfcodestart, __signed_stack_002codestart, __D0codestart
+8	86	92	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	86	92	#line 86 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	92		or __D0codestart, __signed_stack_001codestart, __zfcodestart
+8	87	96	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	96		tst 5, __zfcodestart, __D0codestart
+8	87	99	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	99		brtst 4, __NXC_Label_700, __zfcodestart
+8	87	102	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	102		set __signed_stack_001codestart, 40
+8	87	105	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	87	105	#line 87 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	105		set __D0codestart, -160
+8	88	108	#line 88 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	89	108	#pragma macro 33
+8	89	108		arrbuild __rotate_ports0, __constVal0
+8	89	112		mov __rotate_power0, __signed_stack_001codestart
+8	89	114		mov __rotate_angle0, __D0codestart
+8	89	116		mov __rotate_turnpct0, __constVal0
+8	89	118		mov __rotate_sync0, __constVal0
+8	89	120		mov __rotate_stop0, __constVal1
+8	89	122		mov __rotate_theRVP0, __constVal32
+8	89	124		mov __rotate_theRVI0, __constVal0
+8	89	126		mov __rotate_theRVD0, __constVal96
+8	89	128		subcall __RotateMotor0, ____RotateMotor0_return
+8	7117	130	#line 7117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	130	#line 88 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	130	#line 88 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	89	130		set __signed_stack_001codestart, 40
+8	88	133	#line 88 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	88	133	#line 88 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	89	133		set __D0codestart, 160
+8	89	136	#line 89 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	90	136	#pragma macro 33
+8	90	136		arrbuild __rotate_ports2, __constVal2
+8	90	140		mov __rotate_power2, __signed_stack_001codestart
+8	90	142		mov __rotate_angle2, __D0codestart
+8	90	144		mov __rotate_turnpct2, __constVal0
+8	90	146		mov __rotate_sync2, __constVal0
+8	90	148		mov __rotate_stop2, __constVal1
+8	90	150		mov __rotate_theRVP2, __constVal32
+8	90	152		mov __rotate_theRVI2, __constVal0
+8	90	154		mov __rotate_theRVD2, __constVal96
+8	90	156		subcall __RotateMotor2, ____RotateMotor2_return
+8	7130	158	#line 7130 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	89	158	#line 89 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	91	158	#line 91 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	158		jmp __NXC_Label_709
+8	91	160	#line 91 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	160		set __signed_stack_001codestart, 40
+8	91	163	#line 91 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	91	163	#line 91 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	163		set __D0codestart, -160
+8	92	166	#line 92 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	93	166	#pragma macro 33
+8	93	166		arrbuild __rotate_ports2, __constVal2
+8	93	170		mov __rotate_power2, __signed_stack_001codestart
+8	93	172		mov __rotate_angle2, __D0codestart
+8	93	174		mov __rotate_turnpct2, __constVal0
+8	93	176		mov __rotate_sync2, __constVal0
+8	93	178		mov __rotate_stop2, __constVal1
+8	93	180		mov __rotate_theRVP2, __constVal32
+8	93	182		mov __rotate_theRVI2, __constVal0
+8	93	184		mov __rotate_theRVD2, __constVal96
+8	93	186		subcall __RotateMotor2, ____RotateMotor2_return
+8	7146	188	#line 7146 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	188	#line 92 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	188	#line 92 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	93	188		set __signed_stack_001codestart, 40
+8	92	191	#line 92 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	92	191	#line 92 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	93	191		set __D0codestart, 160
+8	93	194	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	94	194	#pragma macro 33
+8	94	194		arrbuild __rotate_ports0, __constVal0
+8	94	198		mov __rotate_power0, __signed_stack_001codestart
+8	94	200		mov __rotate_angle0, __D0codestart
+8	94	202		mov __rotate_turnpct0, __constVal0
+8	94	204		mov __rotate_sync0, __constVal0
+8	94	206		mov __rotate_stop0, __constVal1
+8	94	208		mov __rotate_theRVP0, __constVal32
+8	94	210		mov __rotate_theRVI0, __constVal0
+8	94	212		mov __rotate_theRVD0, __constVal96
+8	94	214		subcall __RotateMotor0, ____RotateMotor0_return
+8	7159	216	#line 7159 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	93	216	#line 93 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	95	216	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	95	216	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	96	216		set __signed_stack_001codestart, 30
+8	95	219	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	95	219	#line 95 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	96	219		set __D0codestart, 1
+8	96	222	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	97	222	#pragma macro 10
+8	97	222		acquire __OnRevMutex
+8	97	223		neg __OnRev_Tmp, __signed_stack_001codestart
+8	97	226		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal7, 8, __D0codestart, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	97	249		release __OnRevMutex
+8	7174	250	#line 7174 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	96	250	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	96	250	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	97	250		set __Wait_7qG2_ms_7qG2_000_inline_codestart, 850
+8	96	253	#line 96 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	7921	253	#line 7921 "NXCDefs.h"
+8	7922	253		wait 850
+8	7921	255	#line 7921 "NXCDefs.h"
+8	97	255	#line 97 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	97	255	#line 97 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	98	255		set __signed_stack_001codestart, 30
+8	97	258	#line 97 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	97	258	#line 97 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	98	258		set __D0codestart, 1
+8	98	261	#line 98 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	99	261	#pragma macro 7
+8	99	261		setout __OUT_AC, 2, __signed_stack_001codestart, 1, __constVal7, 8, __D0codestart, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7197	284	#line 7197 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	98	284	#line 98 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	98	284	#line 98 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	99	284		set __Wait_7qG2_ms_7qG2_000_inline_codestart, 850
+8	98	287	#line 98 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	7921	287	#line 7921 "NXCDefs.h"
+8	7922	287		wait 850
+8	7921	289	#line 7921 "NXCDefs.h"
+8	100	289	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	100	289	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	289		mov __signed_stack_001codestart, columnc
+8	100	291	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	100	291	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	291		set __D0codestart, 0
+8	100	294	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	294		cmp 4, __zfcodestart, __signed_stack_001codestart, __D0codestart
+8	100	298	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	298		mov __D0codestart, __zfcodestart
+8	100	300	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	300		brtst 5, __NXC_Label_730, __zfcodestart
+8	100	303	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	303		mov __signed_stack_001codestart, __D0codestart
+8	100	305	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	305		mov __signed_stack_002codestart, columnc
+8	100	307	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	100	307	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	307		set __D0codestart, 2
+8	100	310	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	310		cmp 4, __zfcodestart, __signed_stack_002codestart, __D0codestart
+8	100	314	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	100	314	#line 100 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	314		or __D0codestart, __signed_stack_001codestart, __zfcodestart
+8	101	318	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	318		tst 5, __zfcodestart, __D0codestart
+8	101	321	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	321		brtst 4, __NXC_Label_733, __zfcodestart
+8	101	324	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	324		getin __signed_stack_001codestart, __constVal1, 4
+8	101	328	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	101	328	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	328		set __D0codestart, 43
+8	101	331	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	331		cmp 1, __zfcodestart, __signed_stack_001codestart, __D0codestart
+8	101	335	#line 101 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	102	335		mov __D0codestart, __zfcodestart
+8	102	337	#line 102 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	103	337		brtst 4, __NXC_Label_735, __zfcodestart
+8	102	340	#line 102 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	103	340		set __D0codestart, 40
+8	103	343	#line 103 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	104	343	#pragma macro 10
+8	104	343		acquire __OnRevMutex
+8	104	344		neg __OnRev_Tmp, __D0codestart
+8	104	347		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	104	370		release __OnRevMutex
+8	7262	371	#line 7262 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	103	371	#line 103 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	103	371	#line 103 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	104	371		set __D0codestart, 40
+8	104	374	#line 104 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	105	374	#pragma macro 7
+8	105	374		setout __constVal0, 2, __D0codestart, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7269	397	#line 7269 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	104	397	#line 104 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	106	397	#line 106 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	107	397		jmp __NXC_Label_734
+8	106	399	#line 106 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	107	399	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	108	399		jmp __NXC_Label_742
+8	107	401	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	108	401		getin __signed_stack_001codestart, __constVal1, 4
+8	107	405	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	107	405	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	108	405		set __D0codestart, 43
+8	107	408	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	108	408		cmp 1, __zfcodestart, __signed_stack_001codestart, __D0codestart
+8	107	412	#line 107 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	108	412		mov __D0codestart, __zfcodestart
+8	108	414	#line 108 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	109	414		brtst 4, __NXC_Label_744, __zfcodestart
+8	108	417	#line 108 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	109	417		set __D0codestart, 40
+8	109	420	#line 109 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	110	420	#pragma macro 10
+8	110	420		acquire __OnRevMutex
+8	110	421		neg __OnRev_Tmp, __D0codestart
+8	110	424		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	110	447		release __OnRevMutex
+8	7298	448	#line 7298 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	109	448	#line 109 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	109	448	#line 109 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	110	448		set __D0codestart, 40
+8	110	451	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	111	451	#pragma macro 7
+8	111	451		setout __constVal2, 2, __D0codestart, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+8	7305	474	#line 7305 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	110	474	#line 110 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	112	474	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	113	474		jmp __NXC_Label_743
+8	112	476	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	112	476	#line 112 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	113	476	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	114	476		add columnc, columnc, __constVal1
+8	113	480	#line 113 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	114	480	#line 114 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	115	480		set __D0codestart, 1
+8	114	483	#line 114 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	115	483		subret __codestart_return
+8	114	485	#line 114 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	117	485	#line 117 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+8	118	485		subret __codestart_return
+9	146	0	#line 146 "C:\Users\BR0KK\AppData\Local\Temp\temp.nxc"
+9	147	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+1	__RotateMotor0	106	NXTDefs.h
+2	__RotateMotor2	260	NXTDefs.h
+3	__ResetSensorSubroutine	414	NXTDefs.h
+4	initialize	427	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+5	drive	566	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+6	driver	780	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+7	drivel	1069	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+8	codestart	1358	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
+9	__initialize_global_data	1845	C:\Users\BR0KK\AppData\Local\Temp\temp.nxc
